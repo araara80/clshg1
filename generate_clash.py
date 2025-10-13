@@ -2,35 +2,46 @@ import requests
 import base64
 import re
 import json
+import copy
 
+# لینک کانفیگ‌ها
 RAW_URL = "https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/grpc.txt"
 
+# مسیر فایل قالب
+TEMPLATE_FILE = "template.json"
+# خروجی نهایی
+OUTPUT_FILE = "clash.json"
 
-def fetch_raw():
+
+def fetch_raw_text(url):
     """دریافت محتوای لینک و تلاش برای decode در صورت Base64 بودن"""
-    resp = requests.get(RAW_URL, timeout=10)
+    print(f"📥 در حال دریافت کانفیگ‌ها از {url} ...")
+    resp = requests.get(url, timeout=15)
     resp.raise_for_status()
-    text = resp.text.strip()
+    data = resp.text.strip()
+
+    # اگر متن Base64 بود decode کن
     try:
-        decoded = base64.b64decode(text).decode("utf-8", errors="ignore")
+        decoded = base64.b64decode(data).decode("utf-8", errors="ignore")
         return decoded
     except Exception:
-        return text
+        return data
 
 
 def parse_vless_lines(raw_text):
     """فقط خطوط vless:// که type=grpc دارند"""
     lines = raw_text.splitlines()
-    return [
+    vless_list = [
         line.strip()
         for line in lines
         if line.lower().startswith("vless://") and "type=grpc" in line.lower()
     ]
+    print(f"✅ {len(vless_list)} کانفیگ gRPC پیدا شد.")
+    return vless_list
 
 
 def extract_params(vless_url):
-    """استخراج فیلدهای داخل لینک VLESS"""
-    # ساختار: vless://UUID@host:port?key=value&key=value#TAG
+    """استخراج اطلاعات از لینک VLESS"""
     parts = re.split(r"\?", vless_url, maxsplit=1)
     head = parts[0]
     query = parts[1] if len(parts) > 1 else ""
@@ -48,36 +59,35 @@ def extract_params(vless_url):
             k, v = kv.split("=", 1)
             params[k.lower()] = v
 
-    # ساخت دیکشنری با مقدار خالی در صورت نبود پارامتر
     return {
         "uuid": uuid,
         "server": server,
         "port": port,
         "type": "vless",
         "network": params.get("type", "grpc"),
-        "tls": params.get("security", "").lower() in ("tls", "reality"),
-        "servername": params.get("sni", ""),
+        "security": params.get("security", ""),
+        "sni": params.get("sni", ""),
         "flow": params.get("flow", ""),
-        "service_name": params.get("serviceName", ""),
-        "grpc_mode": params.get("mode", ""),
+        "service_name": params.get("servicename", ""),
+        "grpc_mode": params.get("mode", "")
     }
 
 
-def build_proxy_object(entry, index):
-    """ساخت یک شیء پروکسی کامل با مقادیر خالی در صورت نبود داده"""
+def build_proxy(entry, index):
+    """ساختن شیء پروکسی Clash با مقادیر واقعی یا خالی"""
     return {
         "name": f"ALRZ☃️-{index}",
-        "type": entry.get("type", "vless"),
+        "type": "vless",
         "server": entry.get("server", ""),
         "port": entry.get("port", 0),
         "uuid": entry.get("uuid", ""),
         "network": entry.get("network", "grpc"),
-        "tls": entry.get("tls", False),
+        "tls": entry.get("security", "").lower() in ("tls", "reality"),
         "udp": True,
         "skip-cert-verify": False,
         "tcp-fast-open": True,
         "fast-open": True,
-        "servername": entry.get("servername", ""),
+        "servername": entry.get("sni", ""),
         "flow": entry.get("flow", ""),
         "client-fingerprint": "",
         "packet-encoding": "",
@@ -90,33 +100,37 @@ def build_proxy_object(entry, index):
 
 
 def main():
-    raw_text = fetch_raw()
-    vless_list = parse_vless_lines(raw_text)
+    # دریافت داده‌ها
+    raw_text = fetch_raw_text(RAW_URL)
+    vless_lines = parse_vless_lines(raw_text)
 
+    # استخراج پارامترها
     proxies = []
-    for i, vless in enumerate(vless_list, 1):
-        entry = extract_params(vless)
-        if not entry:
-            continue
-        proxy = build_proxy_object(entry, i)
-        proxies.append(proxy)
+    for i, vless in enumerate(vless_lines, 1):
+        info = extract_params(vless)
+        if info:
+            proxies.append(build_proxy(info, i))
 
-    result = {
-        "port": 7890,
-        "socks-port": 7891,
-        "mixed-port": 7893,
-        "mode": "rule",
-        "log-level": "info",
-        "dns": {},  # برای سادگی خالی نگه می‌داریم
-        "proxies": proxies,
-        "proxy-groups": [],
-        "rules": []
-    }
+    print(f"⚙️ در حال بارگذاری template.json ...")
+    with open(TEMPLATE_FILE, "r", encoding="utf-8") as f:
+        template = json.load(f)
 
-    with open("clash.json", "w", encoding="utf-8") as f:
-        json.dump(result, f, indent=2, ensure_ascii=False)
+    # پر کردن لیست proxies
+    template["proxies"] = proxies
 
-    print(f"✅ {len(proxies)} کانفیگ استخراج و در clash.json ذخیره شد.")
+    # افزودن نام پروکسی‌ها به گروه‌ها
+    proxy_names = [p["name"] for p in proxies]
+    for group in template["proxy-groups"]:
+        if "proxies" in group:
+            # فقط اضافه می‌کنیم اگر گروه نوعی مثل Auto یا Fallback باشد
+            if group["name"] in ["Auto", "Fallback", "Load Balance"]:
+                group["proxies"] = proxy_names
+
+    # نوشتن خروجی clash.json
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(template, f, indent=2, ensure_ascii=False)
+
+    print(f"✅ فایل نهایی '{OUTPUT_FILE}' با {len(proxies)} پروکسی ساخته شد.")
 
 
 if __name__ == "__main__":
