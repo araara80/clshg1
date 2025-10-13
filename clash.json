@@ -42,7 +42,7 @@
   },
   "proxies": [
     {
-      "name": "ALRZ☃️-1",
+      "name": "ARISTA🔥-1",
       "type": "vless",
       "server": "45.120.178.9",
       "port": 8880,
@@ -53,20 +53,23 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "45.120.178.9",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "45.120.178.9",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-2",
+      "name": "ARISTA🔥-2",
       "type": "vless",
-      "server": "94.131.14.193",
+      "server": "94.131.14.195",
       "port": 8880,
       "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
       "network": "grpc",
@@ -75,40 +78,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "94.131.14.195",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
-        "grpc-mode": ""
-      }
-    },
-    {
-      "name": "ALRZ☃️-3",
-      "type": "vless",
-      "server": "638936664855921747.amsterdam-prx-dnraacl.info",
-      "port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
-      "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "94.131.14.195",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-4",
+      "name": "ARISTA🔥-3",
       "type": "vless",
       "server": "141.227.180.39",
       "port": 22294,
@@ -119,18 +103,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "141.227.180.39",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
         "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-5",
+      "name": "ARISTA🔥-4",
       "type": "vless",
       "server": "86.104.74.155",
       "port": 8880,
@@ -141,18 +128,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "86.104.74.155",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "86.104.74.155",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-6",
+      "name": "ARISTA🔥-5",
       "type": "vless",
       "server": "185.234.66.104",
       "port": 8880,
@@ -163,62 +153,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "185.234.66.104",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
-        "grpc-mode": ""
-      }
-    },
-    {
-      "name": "ALRZ☃️-7",
-      "type": "vless",
-      "server": "194.4.49.16",
-      "port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
-      "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "185.234.66.104",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-8",
-      "type": "vless",
-      "server": "94.131.13.164",
-      "port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
-      "grpc-opts": {
-        "grpc-service-name": "",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-9",
+      "name": "ARISTA🔥-6",
       "type": "vless",
       "server": "209.38.222.192",
       "port": 2096,
@@ -229,18 +178,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "209.38.222.192",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "209.38.222.192",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-10",
+      "name": "ARISTA🔥-7",
       "type": "vless",
       "server": "54.36.115.88",
       "port": 15299,
@@ -251,18 +203,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "54.36.115.88",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
         "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-11",
+      "name": "ARISTA🔥-8",
       "type": "vless",
       "server": "141.227.180.39",
       "port": 22295,
@@ -273,18 +228,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "141.227.180.39",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
         "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-12",
+      "name": "ARISTA🔥-9",
       "type": "vless",
       "server": "141.227.162.18",
       "port": 59995,
@@ -295,40 +253,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "141.227.162.18",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
         "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-13",
-      "type": "vless",
-      "server": "185.236.232.100",
-      "port": 80,
-      "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
-      "grpc-opts": {
-        "grpc-service-name": "",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-14",
+      "name": "ARISTA🔥-10",
       "type": "vless",
       "server": "185.236.232.101",
       "port": 80,
@@ -339,40 +278,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "185.236.232.101",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "185.236.232.101",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-15",
-      "type": "vless",
-      "server": "195.42.233.94",
-      "port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
-      "grpc-opts": {
-        "grpc-service-name": "",
-        "grpc-mode": ""
-      }
-    },
-    {
-      "name": "ALRZ☃️-16",
+      "name": "ARISTA🔥-11",
       "type": "vless",
       "server": "195.42.233.89",
       "port": 8880,
@@ -383,18 +303,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "195.42.233.89",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
-        "grpc-mode": ""
+        "grpc-service-name": "195.42.233.89",
+        "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-17",
+      "name": "ARISTA🔥-12",
       "type": "vless",
       "server": "638955452903725333.malayer-drc-tusaas.info",
       "port": 8880,
@@ -405,20 +328,23 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "638955452903725333.malayer-drc-tusaas.info",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "638955452903725333.malayer-drc-tusaas.info",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-18",
+      "name": "ARISTA🔥-13",
       "type": "vless",
-      "server": "185.234.64.155",
+      "server": "638955452903725333.malayer-drc-tusaas.info",
       "port": 8880,
       "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
       "network": "grpc",
@@ -427,18 +353,46 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "638955452903725333.malayer-drc-tusaas.info",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "638955452903725333.malayer-drc-tusaas.info",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-19",
+      "name": "ARISTA🔥-14",
+      "type": "vless",
+      "server": "185.234.66.92",
+      "port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "185.234.66.92",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
+      "grpc-opts": {
+        "grpc-service-name": "185.234.66.92",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ARISTA🔥-15",
       "type": "vless",
       "server": "141.227.140.55",
       "port": 51079,
@@ -449,18 +403,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "141.227.140.55",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
         "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-20",
+      "name": "ARISTA🔥-16",
       "type": "vless",
       "server": "94.131.13.164",
       "port": 8880,
@@ -471,18 +428,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "94.131.13.164",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
-        "grpc-mode": ""
+        "grpc-service-name": "94.131.13.164",
+        "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-21",
+      "name": "ARISTA🔥-17",
       "type": "vless",
       "server": "638929114454179379.warsaw-drc-tusabq.info",
       "port": 8880,
@@ -493,18 +453,71 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "638929114454179379.warsaw-drc-tusabq.info",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "638929114454179379.warsaw-drc-tusabq.info",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-22",
+      "name": "ARISTA🔥-18",
+      "type": "vless",
+      "server": "91.98.175.72",
+      "port": 57276,
+      "uuid": "1f464d44-ec04-411b-b91b-65ae93225b80",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "91.98.175.72",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
+      "grpc-opts": {
+        "grpc-service-name": "t.me/entryNETANNEL-TEL--FAST78_CHANNEL-JOIN-FAST78_CHANNEL-TEL-FAST78_CHANNEL-TEL--FAST78_CHANNEL-JOIN-FAST78_CHANNEL-TEL--FAST78_CHANNEL",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ARISTA🔥-19",
+      "type": "vless",
+      "server": "85.209.195.133",
+      "port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "85.209.195.133",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
+      "grpc-opts": {
+        "grpc-service-name": "85.209.195.133",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ARISTA🔥-20",
       "type": "vless",
       "server": "51.89.176.242",
       "port": 3479,
@@ -515,18 +528,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "51.89.176.242",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
         "grpc-service-name": "----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-23",
+      "name": "ARISTA🔥-21",
       "type": "vless",
       "server": "51.89.176.242",
       "port": 3478,
@@ -537,18 +553,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "51.89.176.242",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
         "grpc-service-name": "@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-24",
+      "name": "ARISTA🔥-22",
       "type": "vless",
       "server": "638955452903725333.malayer-drc-tusaas.info",
       "port": 8880,
@@ -559,40 +578,71 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "638955452903725333.malayer-drc-tusaas.info",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "638955452903725333.malayer-drc-tusaas.info",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-25",
+      "name": "ARISTA🔥-23",
       "type": "vless",
-      "server": "173.245.49.66",
-      "port": 2087,
-      "uuid": "6babb657-1524-43bb-b421-11bda27bc9de",
+      "server": "45.12.133.235",
+      "port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
       "network": "grpc",
-      "tls": true,
+      "tls": false,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "smart.titimoji-f6.fun",
+      "servername": "45.12.133.235",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
-        "grpc-mode": ""
+        "grpc-service-name": "45.12.133.235",
+        "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-26",
+      "name": "ARISTA🔥-24",
+      "type": "vless",
+      "server": "195.42.233.47",
+      "port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "195.42.233.47",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
+      "grpc-opts": {
+        "grpc-service-name": "195.42.233.47",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ARISTA🔥-25",
       "type": "vless",
       "server": "5.161.130.236",
       "port": 5454,
@@ -605,16 +655,23 @@
       "fast-open": true,
       "servername": "journalofbigdata.springeropen.com",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
         "grpc-service-name": "mgrpcm",
         "grpc-mode": "gun"
+      },
+      "reality-opts": {
+        "public-key": "mBt5gNbf3cM_3n6OmSvszdLz-q4Kj2A1CF7XFgvggig",
+        "short-id": "ab892f807f3ecc26"
       }
     },
     {
-      "name": "ALRZ☃️-27",
+      "name": "ARISTA🔥-26",
       "type": "vless",
       "server": "Alman2.netblocksir.ir",
       "port": 5454,
@@ -627,38 +684,73 @@
       "fast-open": true,
       "servername": "journalofbigdata.springeropen.com",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
         "grpc-service-name": "mgrpcm",
         "grpc-mode": "gun"
+      },
+      "reality-opts": {
+        "public-key": "mBt5gNbf3cM_3n6OmSvszdLz-q4Kj2A1CF7XFgvggig",
+        "short-id": "ab892f807f3ecc26"
       }
     },
     {
-      "name": "ALRZ☃️-28",
+      "name": "ARISTA🔥-27",
       "type": "vless",
-      "server": "141.227.162.18",
-      "port": 59995,
-      "uuid": "7467739e-fe86-43a4-93ae-1669886e80d5",
+      "server": "638959783653647289.lahijan-blkaft-aaao.info",
+      "port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
       "network": "grpc",
       "tls": false,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "638959783653647289.lahijan-blkaft-aaao.info",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+        "grpc-service-name": "638959783653647289.lahijan-blkaft-aaao.info",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-29",
+      "name": "ARISTA🔥-28",
+      "type": "vless",
+      "server": "94.131.14.193",
+      "port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "94.131.14.193",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
+      "grpc-opts": {
+        "grpc-service-name": "94.131.14.193",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ARISTA🔥-29",
       "type": "vless",
       "server": "95.164.37.43",
       "port": 8880,
@@ -669,18 +761,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "95.164.37.43",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "95.164.37.43",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-30",
+      "name": "ARISTA🔥-30",
       "type": "vless",
       "server": "638938755008244100.vienna-drc-tusacaf.info",
       "port": 8880,
@@ -691,18 +786,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "638938755008244100.vienna-drc-tusacaf.info",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "638938755008244100.vienna-drc-tusacaf.info",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-31",
+      "name": "ARISTA🔥-31",
       "type": "vless",
       "server": "638938755008244100.vienna-drc-tusacaf.info",
       "port": 8880,
@@ -713,18 +811,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "638938755008244100.vienna-drc-tusacaf.info",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "638938755008244100.vienna-drc-tusacaf.info",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-32",
+      "name": "ARISTA🔥-32",
       "type": "vless",
       "server": "45.82.251.114",
       "port": 8880,
@@ -735,18 +836,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "45.82.251.114",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
-        "grpc-mode": ""
+        "grpc-service-name": "45.82.251.114",
+        "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-33",
+      "name": "ARISTA🔥-33",
       "type": "vless",
       "server": "80.92.206.19",
       "port": 8880,
@@ -757,18 +861,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "80.92.206.19",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
-        "grpc-mode": ""
+        "grpc-service-name": "80.92.206.19",
+        "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-34",
+      "name": "ARISTA🔥-34",
       "type": "vless",
       "server": "104.248.168.91",
       "port": 8443,
@@ -779,84 +886,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "104.248.168.91",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "104.248.168.91",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-35",
-      "type": "vless",
-      "server": "tito.floorshoping22.com",
-      "port": 2087,
-      "uuid": "7310ccbb-3940-4264-88cc-b3da92877395",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "tito.floorshoping22.com",
-      "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
-      "grpc-opts": {
-        "grpc-service-name": "",
-        "grpc-mode": ""
-      }
-    },
-    {
-      "name": "ALRZ☃️-36",
-      "type": "vless",
-      "server": "54.36.115.88",
-      "port": 15298,
-      "uuid": "9c42231c-c24e-4cbd-8491-29a29e171ff0",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
-      "grpc-opts": {
-        "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-37",
-      "type": "vless",
-      "server": "141.227.180.39",
-      "port": 22294,
-      "uuid": "296b5322-3f50-4ad3-b504-6e1e370dc544",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
-      "grpc-opts": {
-        "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-38",
+      "name": "ARISTA🔥-35",
       "type": "vless",
       "server": "638930359207602168.dublin-drc-dcrabj.info",
       "port": 8880,
@@ -867,18 +911,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "638930359207602168.dublin-drc-dcrabj.info",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "638930359207602168.dublin-drc-dcrabj.info",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-39",
+      "name": "ARISTA🔥-36",
       "type": "vless",
       "server": "103.231.75.74",
       "port": 8880,
@@ -889,18 +936,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "103.231.75.74",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "103.231.75.74",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-40",
+      "name": "ARISTA🔥-37",
       "type": "vless",
       "server": "54.36.117.130",
       "port": 25369,
@@ -911,18 +961,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "54.36.117.130",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
         "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-41",
+      "name": "ARISTA🔥-38",
       "type": "vless",
       "server": "141.227.136.92",
       "port": 31706,
@@ -933,18 +986,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "141.227.136.92",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
         "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-42",
+      "name": "ARISTA🔥-39",
       "type": "vless",
       "server": "638936664855921747.amsterdam-prx-dnraacl.info",
       "port": 8880,
@@ -955,18 +1011,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "638936664855921747.amsterdam-prx-dnraacl.info",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
-        "grpc-mode": ""
+        "grpc-service-name": "638936664855921747.amsterdam-prx-dnraacl.info",
+        "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-43",
+      "name": "ARISTA🔥-40",
       "type": "vless",
       "server": "638946986851068158.hamedan-drc-tusabl.info",
       "port": 8880,
@@ -977,18 +1036,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "638946986851068158.hamedan-drc-tusabl.info",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
-        "grpc-mode": ""
+        "grpc-service-name": "638946986851068158.hamedan-drc-tusabl.info",
+        "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-44",
+      "name": "ARISTA🔥-41",
       "type": "vless",
       "server": "195.42.233.91",
       "port": 8880,
@@ -999,18 +1061,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "195.42.233.91",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "195.42.233.91",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-45",
+      "name": "ARISTA🔥-42",
       "type": "vless",
       "server": "95.164.37.43",
       "port": 8880,
@@ -1021,18 +1086,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "95.164.37.43",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "95.164.37.43",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-46",
+      "name": "ARISTA🔥-43",
       "type": "vless",
       "server": "[2a01",
       "port": 4,
@@ -1045,16 +1113,23 @@
       "fast-open": true,
       "servername": "maps.google.com",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
         "grpc-service-name": "telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE",
         "grpc-mode": "gun"
+      },
+      "reality-opts": {
+        "public-key": "IdoNhSKjM-84dS3UxZpWu4h6LDIO0Mi3oRxyU3WUakQ",
+        "short-id": "45"
       }
     },
     {
-      "name": "ALRZ☃️-47",
+      "name": "ARISTA🔥-44",
       "type": "vless",
       "server": "157.180.29.19",
       "port": 8880,
@@ -1065,18 +1140,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "157.180.29.19",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "157.180.29.19",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-48",
+      "name": "ARISTA🔥-45",
       "type": "vless",
       "server": "45.120.178.9",
       "port": 8880,
@@ -1087,18 +1165,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "45.120.178.9",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "45.120.178.9",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-49",
+      "name": "ARISTA🔥-46",
       "type": "vless",
       "server": "57.129.92.155",
       "port": 36626,
@@ -1109,18 +1190,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "57.129.92.155",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
         "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-50",
+      "name": "ARISTA🔥-47",
       "type": "vless",
       "server": "194.4.49.4",
       "port": 8880,
@@ -1131,18 +1215,46 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "194.4.49.4",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "194.4.49.4",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-51",
+      "name": "ARISTA🔥-48",
+      "type": "vless",
+      "server": "185.234.66.92",
+      "port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "185.234.66.92",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
+      "grpc-opts": {
+        "grpc-service-name": "185.234.66.92",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ARISTA🔥-49",
       "type": "vless",
       "server": "638950280434434528.neyshabur-drc-tusacaf.info",
       "port": 8880,
@@ -1153,18 +1265,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "638950280434434528.neyshabur-drc-tusacaf.info",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "638950280434434528.neyshabur-drc-tusacaf.info",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-52",
+      "name": "ARISTA🔥-50",
       "type": "vless",
       "server": "146.19.230.248",
       "port": 8880,
@@ -1175,18 +1290,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "146.19.230.248",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "146.19.230.248",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-53",
+      "name": "ARISTA🔥-51",
       "type": "vless",
       "server": "194.4.49.16",
       "port": 8880,
@@ -1197,18 +1315,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "194.4.49.16",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "194.4.49.16",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-54",
+      "name": "ARISTA🔥-52",
       "type": "vless",
       "server": "86.104.74.155",
       "port": 8880,
@@ -1219,18 +1340,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "86.104.74.155",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "86.104.74.155",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-55",
+      "name": "ARISTA🔥-53",
       "type": "vless",
       "server": "49.12.119.56",
       "port": 2083,
@@ -1243,16 +1367,23 @@
       "fast-open": true,
       "servername": "khamenei.ir",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
         "grpc-service-name": "melov2ray",
         "grpc-mode": "gun"
+      },
+      "reality-opts": {
+        "public-key": "mDWXgatiJqUc4fmeDQqGusEBIhjFVrQ85y_ZUfNpFV8",
+        "short-id": "54602915a7"
       }
     },
     {
-      "name": "ALRZ☃️-57",
+      "name": "ARISTA🔥-55",
       "type": "vless",
       "server": "vip3.seniorrnet.info",
       "port": 34568,
@@ -1263,18 +1394,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "vip3.seniorrnet.info",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
         "grpc-service-name": "@SEVEN_PING@SEVEN_PING@SEVEN_PING@SEVEN_PING@SEVEN_PING@SEVEN_PING@SEVEN_PING@SEVEN_PING",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-58",
+      "name": "ARISTA🔥-56",
       "type": "vless",
       "server": "94.131.118.98",
       "port": 8880,
@@ -1285,18 +1419,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "94.131.118.98",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "94.131.118.98",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-59",
+      "name": "ARISTA🔥-57",
       "type": "vless",
       "server": "88.99.87.227",
       "port": 2090,
@@ -1309,16 +1446,23 @@
       "fast-open": true,
       "servername": "journalofbigdata.springeropen.com",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
         "grpc-service-name": "32135vless",
-        "grpc-mode": ""
+        "grpc-mode": "gun"
+      },
+      "reality-opts": {
+        "public-key": "MqY81IaljluV2NXyLqPzt7PL12knwUuBiX0ru_KSLCM",
+        "short-id": "aa0dd5ba"
       }
     },
     {
-      "name": "ALRZ☃️-60",
+      "name": "ARISTA🔥-58",
       "type": "vless",
       "server": "54.36.115.88",
       "port": 15296,
@@ -1329,18 +1473,71 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "54.36.115.88",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
         "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-61",
+      "name": "ARISTA🔥-59",
+      "type": "vless",
+      "server": "185.234.64.94",
+      "port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "185.234.64.94",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
+      "grpc-opts": {
+        "grpc-service-name": "185.234.64.94",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ARISTA🔥-60",
+      "type": "vless",
+      "server": "146.19.230.248",
+      "port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "146.19.230.248",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
+      "grpc-opts": {
+        "grpc-service-name": "146.19.230.248",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ARISTA🔥-61",
       "type": "vless",
       "server": "80.92.206.172",
       "port": 8880,
@@ -1351,18 +1548,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "80.92.206.172",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "80.92.206.172",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-62",
+      "name": "ARISTA🔥-62",
       "type": "vless",
       "server": "194.4.49.16",
       "port": 8880,
@@ -1373,18 +1573,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "194.4.49.16",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "194.4.49.16",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-63",
+      "name": "ARISTA🔥-63",
       "type": "vless",
       "server": "pqh28v5.waipdirect.shop",
       "port": 8880,
@@ -1395,18 +1598,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "pqh28v5.waipdirect.shop",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "pqh28v5.waipdirect.shop",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-64",
+      "name": "ARISTA🔥-64",
       "type": "vless",
       "server": "638931272656134408.malayer-drc-tusabu.info",
       "port": 8880,
@@ -1417,18 +1623,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "638931272656134408.malayer-drc-tusabu.info",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "638931272656134408.malayer-drc-tusabu.info",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-65",
+      "name": "ARISTA🔥-65",
       "type": "vless",
       "server": "V2RAXX-channel.cataba.ir",
       "port": 6666,
@@ -1439,18 +1648,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "V2RAXX-channel.cataba.ir",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
         "grpc-service-name": "/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-66",
+      "name": "ARISTA🔥-66",
       "type": "vless",
       "server": "95.164.37.43",
       "port": 8880,
@@ -1461,18 +1673,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "95.164.37.43",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "95.164.37.43",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-67",
+      "name": "ARISTA🔥-67",
       "type": "vless",
       "server": "638930359207602168.dublin-drc-dcrabj.info",
       "port": 8880,
@@ -1483,18 +1698,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "638930359207602168.dublin-drc-dcrabj.info",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "638930359207602168.dublin-drc-dcrabj.info",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-68",
+      "name": "ARISTA🔥-68",
       "type": "vless",
       "server": "103.160.204.145",
       "port": 443,
@@ -1507,16 +1725,18 @@
       "fast-open": true,
       "servername": "pqh23v4.hiddendom.shop",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
-        "grpc-mode": ""
+        "grpc-service-name": "pqh23v4.hiddendom.shop",
+        "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-69",
+      "name": "ARISTA🔥-69",
       "type": "vless",
       "server": "45.82.251.58",
       "port": 8880,
@@ -1527,18 +1747,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "45.82.251.58",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
-        "grpc-mode": ""
+        "grpc-service-name": "45.82.251.58",
+        "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-70",
+      "name": "ARISTA🔥-70",
       "type": "vless",
       "server": "91.98.140.5",
       "port": 443,
@@ -1551,16 +1774,23 @@
       "fast-open": true,
       "servername": "miro.com",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
         "grpc-service-name": "Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy",
-        "grpc-mode": ""
+        "grpc-mode": "gun"
+      },
+      "reality-opts": {
+        "public-key": "wdfqRiy3Etjhq9fSLzNNQ7txP9sDp5Ft_dOXNk5LNhM",
+        "short-id": "59c6"
       }
     },
     {
-      "name": "ALRZ☃️-71",
+      "name": "ARISTA🔥-71",
       "type": "vless",
       "server": "86.104.74.155",
       "port": 8880,
@@ -1571,18 +1801,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "86.104.74.155",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "86.104.74.155",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-72",
+      "name": "ARISTA🔥-72",
       "type": "vless",
       "server": "miniproxy.net",
       "port": 2096,
@@ -1595,16 +1828,19 @@
       "fast-open": true,
       "servername": "hydra.miniproxy.sbs",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
         "grpc-service-name": "hydra.miniproxy.sbs",
         "grpc-mode": "multi"
       }
     },
     {
-      "name": "ALRZ☃️-73",
+      "name": "ARISTA🔥-73",
       "type": "vless",
       "server": "85.209.153.82",
       "port": 8880,
@@ -1615,62 +1851,50 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "85.209.153.82",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
-        "grpc-mode": ""
+        "grpc-service-name": "85.209.153.82",
+        "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-74",
+      "name": "ARISTA🔥-74",
       "type": "vless",
-      "server": "85.208.110.41",
-      "port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "server": "bebe1wfmee07.dxdx5.com",
+      "port": 2083,
+      "uuid": "b70eccf5-3624-4145-9ed1-ef7f422b5ec6",
       "network": "grpc",
-      "tls": false,
+      "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "tgju.org",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
-        "grpc-mode": ""
+        "grpc-service-name": "Tel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAY",
+        "grpc-mode": "gun"
+      },
+      "reality-opts": {
+        "public-key": "qlO2u5XFcovPRx2OYUzPo5apnzKOyoaJo2kQSikkpnQ",
+        "short-id": "0e33"
       }
     },
     {
-      "name": "ALRZ☃️-75",
-      "type": "vless",
-      "server": "94.131.14.193",
-      "port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
-      "grpc-opts": {
-        "grpc-service-name": "",
-        "grpc-mode": ""
-      }
-    },
-    {
-      "name": "ALRZ☃️-76",
+      "name": "ARISTA🔥-75",
       "type": "vless",
       "server": "638936664855921747.amsterdam-prx-dnraacl.info",
       "port": 8880,
@@ -1681,18 +1905,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "638936664855921747.amsterdam-prx-dnraacl.info",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "638936664855921747.amsterdam-prx-dnraacl.info",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-77",
+      "name": "ARISTA🔥-76",
       "type": "vless",
       "server": "638936664855921747.amsterdam-prx-dnraacl.info",
       "port": 8880,
@@ -1703,18 +1930,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "638936664855921747.amsterdam-prx-dnraacl.info",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "638936664855921747.amsterdam-prx-dnraacl.info",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-78",
+      "name": "ARISTA🔥-77",
       "type": "vless",
       "server": "86.104.74.155",
       "port": 8880,
@@ -1725,18 +1955,50 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "86.104.74.155",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "86.104.74.155",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-79",
+      "name": "ARISTA🔥-78",
+      "type": "vless",
+      "server": "62.60.247.164",
+      "port": 443,
+      "uuid": "aa7adca4-fdc7-4a6f-a9ad-26ea33be09ff",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "tgju.org",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
+      "grpc-opts": {
+        "grpc-service-name": "/@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec",
+        "grpc-mode": "gun"
+      },
+      "reality-opts": {
+        "public-key": "Q5wQ-CFit2wmpY4ACfqdZI8CClmPn4sfLXXdpW73PS0",
+        "short-id": "d5c5c558ee0132"
+      }
+    },
+    {
+      "name": "ARISTA🔥-79",
       "type": "vless",
       "server": "638943819862861158.oslo-prx-dnraacp.info",
       "port": 8880,
@@ -1747,18 +2009,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "638943819862861158.oslo-prx-dnraacp.info",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "638943819862861158.oslo-prx-dnraacp.info",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-80",
+      "name": "ARISTA🔥-80",
       "type": "vless",
       "server": "104.17.147.22",
       "port": 8080,
@@ -1769,18 +2034,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "104.17.147.22",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
-        "grpc-mode": ""
+        "grpc-service-name": "104.17.147.22",
+        "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-81",
+      "name": "ARISTA🔥-81",
       "type": "vless",
       "server": "104.17.147.22",
       "port": 8080,
@@ -1791,18 +2059,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "104.17.147.22",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
-        "grpc-mode": ""
+        "grpc-service-name": "104.17.147.22",
+        "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-82",
+      "name": "ARISTA🔥-82",
       "type": "vless",
       "server": "638927678654211750.rasht-drc-tusabn.info",
       "port": 8880,
@@ -1813,18 +2084,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "638927678654211750.rasht-drc-tusabn.info",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "638927678654211750.rasht-drc-tusabn.info",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-83",
+      "name": "ARISTA🔥-83",
       "type": "vless",
       "server": "45.12.133.235",
       "port": 8880,
@@ -1835,18 +2109,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "45.12.133.235",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "45.12.133.235",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-84",
+      "name": "ARISTA🔥-84",
       "type": "vless",
       "server": "45.12.133.235",
       "port": 8880,
@@ -1857,18 +2134,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "45.12.133.235",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "45.12.133.235",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-85",
+      "name": "ARISTA🔥-85",
       "type": "vless",
       "server": "638952778316595016.hamedan-drc-tusaas.info",
       "port": 8880,
@@ -1879,18 +2159,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "638952778316595016.hamedan-drc-tusaas.info",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "638952778316595016.hamedan-drc-tusaas.info",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-86",
+      "name": "ARISTA🔥-86",
       "type": "vless",
       "server": "638950280434430524.neyshabur-drc-tusacaf.info",
       "port": 8880,
@@ -1901,18 +2184,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "638950280434430524.neyshabur-drc-tusacaf.info",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "638950280434430524.neyshabur-drc-tusacaf.info",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-87",
+      "name": "ARISTA🔥-87",
       "type": "vless",
       "server": "638930382260455538.ahvaz-drc-tusabt.info",
       "port": 8880,
@@ -1923,20 +2209,23 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "638930382260455538.ahvaz-drc-tusabt.info",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "638930382260455538.ahvaz-drc-tusabt.info",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-88",
+      "name": "ARISTA🔥-88",
       "type": "vless",
-      "server": "194.4.49.226",
+      "server": "94.131.118.98",
       "port": 8880,
       "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
       "network": "grpc",
@@ -1945,20 +2234,23 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "94.131.118.98",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "94.131.118.98",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-89",
+      "name": "ARISTA🔥-89",
       "type": "vless",
-      "server": "638947655065548930.bandar-prx-dnraacq.info",
+      "server": "185.234.66.92",
       "port": 8880,
       "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
       "network": "grpc",
@@ -1967,20 +2259,23 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "185.234.66.92",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "185.234.66.92",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-90",
+      "name": "ARISTA🔥-90",
       "type": "vless",
-      "server": "185.234.64.94",
+      "server": "185.234.64.155",
       "port": 8880,
       "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
       "network": "grpc",
@@ -1989,18 +2284,46 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "185.234.64.155",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "185.234.64.155",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-91",
+      "name": "ARISTA🔥-91",
+      "type": "vless",
+      "server": "94.131.13.163",
+      "port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "94.131.13.163",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
+      "grpc-opts": {
+        "grpc-service-name": "94.131.13.163",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ARISTA🔥-92",
       "type": "vless",
       "server": "86.104.74.155",
       "port": 8880,
@@ -2011,18 +2334,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "86.104.74.155",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "86.104.74.155",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-92",
+      "name": "ARISTA🔥-93",
       "type": "vless",
       "server": "185.231.205.234",
       "port": 8880,
@@ -2033,18 +2359,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "185.231.205.234",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "185.231.205.234",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-93",
+      "name": "ARISTA🔥-94",
       "type": "vless",
       "server": "103.35.189.146",
       "port": 8880,
@@ -2055,18 +2384,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "103.35.189.146",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "103.35.189.146",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-94",
+      "name": "ARISTA🔥-95",
       "type": "vless",
       "server": "meli_proxyy.vip-plan.org",
       "port": 50452,
@@ -2079,16 +2411,23 @@
       "fast-open": true,
       "servername": "yahoo.com",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
-        "grpc-mode": ""
+        "grpc-service-name": "yahoo.com",
+        "grpc-mode": "gun"
+      },
+      "reality-opts": {
+        "public-key": "44l4QJ3IgqePj0rrHHiFBcCa1cwubF6JwE5grbtY33A",
+        "short-id": "10"
       }
     },
     {
-      "name": "ALRZ☃️-95",
+      "name": "ARISTA🔥-96",
       "type": "vless",
       "server": "185.242.87.160",
       "port": 8880,
@@ -2099,18 +2438,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "185.242.87.160",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
-        "grpc-mode": ""
+        "grpc-service-name": "185.242.87.160",
+        "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-96",
+      "name": "ARISTA🔥-97",
       "type": "vless",
       "server": "91.107.179.99",
       "port": 443,
@@ -2123,16 +2465,23 @@
       "fast-open": true,
       "servername": "greenpepper.ir",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "greenpepper.ir",
         "grpc-mode": "gun"
+      },
+      "reality-opts": {
+        "public-key": "R3MMDRlsQpis_5qP60bKS7NKBmheziLeqSboauBbKnU",
+        "short-id": "a62fe261"
       }
     },
     {
-      "name": "ALRZ☃️-97",
+      "name": "ARISTA🔥-98",
       "type": "vless",
       "server": "91.107.179.99",
       "port": 443,
@@ -2145,16 +2494,23 @@
       "fast-open": true,
       "servername": "greenpepper.ir",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "greenpepper.ir",
         "grpc-mode": "gun"
+      },
+      "reality-opts": {
+        "public-key": "R3MMDRlsQpis_5qP60bKS7NKBmheziLeqSboauBbKnU",
+        "short-id": "a62fe261"
       }
     },
     {
-      "name": "ALRZ☃️-98",
+      "name": "ARISTA🔥-99",
       "type": "vless",
       "server": "sublink.kharejishop.sbs",
       "port": 443,
@@ -2167,16 +2523,22 @@
       "fast-open": true,
       "servername": "refersion.com",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2"
+      ],
       "grpc-opts": {
         "grpc-service-name": "W7lsFNbKqr3KudvIdn0xHgBq2t",
         "grpc-mode": "gun"
+      },
+      "reality-opts": {
+        "public-key": "BKCXk7rOuoL_V29FXRuOY0D9n0SvNIrU_RSQ2U0mLTo",
+        "short-id": "1a71da57"
       }
     },
     {
-      "name": "ALRZ☃️-99",
+      "name": "ARISTA🔥-100",
       "type": "vless",
       "server": "91.99.148.251",
       "port": 3184,
@@ -2189,16 +2551,23 @@
       "fast-open": true,
       "servername": "www.chess.com",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
         "grpc-service-name": "chessgame",
         "grpc-mode": "gun"
+      },
+      "reality-opts": {
+        "public-key": "hLNxB1vjLv1XhgKvh99s9_0f6qHw50Mrf8B109Hd21I",
+        "short-id": ""
       }
     },
     {
-      "name": "ALRZ☃️-100",
+      "name": "ARISTA🔥-101",
       "type": "vless",
       "server": "141.227.160.91",
       "port": 58361,
@@ -2209,18 +2578,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "141.227.160.91",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
         "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-101",
+      "name": "ARISTA🔥-102",
       "type": "vless",
       "server": "94.131.118.98",
       "port": 8880,
@@ -2231,18 +2603,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "94.131.118.98",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "94.131.118.98",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-102",
+      "name": "ARISTA🔥-103",
       "type": "vless",
       "server": "54.36.117.130",
       "port": 25369,
@@ -2253,18 +2628,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "54.36.117.130",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
         "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-103",
+      "name": "ARISTA🔥-104",
       "type": "vless",
       "server": "141.227.180.211",
       "port": 25365,
@@ -2275,18 +2653,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "141.227.180.211",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
         "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-104",
+      "name": "ARISTA🔥-105",
       "type": "vless",
       "server": "45.12.133.235",
       "port": 8880,
@@ -2297,18 +2678,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "45.12.133.235",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "45.12.133.235",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-105",
+      "name": "ARISTA🔥-106",
       "type": "vless",
       "server": "static.50.146.62.46.clients.your-server.de",
       "port": 443,
@@ -2321,16 +2705,72 @@
       "fast-open": true,
       "servername": "www.speedtest.net",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2"
+      ],
       "grpc-opts": {
         "grpc-service-name": "0VTuTCdLL8WUYSwaz2OnC5y",
+        "grpc-mode": "gun"
+      },
+      "reality-opts": {
+        "public-key": "L4ja73hdU_P-euK_ikOs623oM4u3PpDS5IwzXOrCjnE",
+        "short-id": "15cf0914947a4379"
+      }
+    },
+    {
+      "name": "ARISTA🔥-107",
+      "type": "vless",
+      "server": "185.242.87.160",
+      "port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "185.242.87.160",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
+      "grpc-opts": {
+        "grpc-service-name": "185.242.87.160",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-106",
+      "name": "ARISTA🔥-108",
+      "type": "vless",
+      "server": "638945271259127439.yasuj-prx-dnraacp.info",
+      "port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "638945271259127439.yasuj-prx-dnraacp.info",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
+      "grpc-opts": {
+        "grpc-service-name": "638945271259127439.yasuj-prx-dnraacp.info",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ARISTA🔥-109",
       "type": "vless",
       "server": "94.131.14.200",
       "port": 8880,
@@ -2341,18 +2781,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "94.131.14.200",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "94.131.14.200",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-107",
+      "name": "ARISTA🔥-110",
       "type": "vless",
       "server": "638938755008244100.vienna-drc-tusacaf.info",
       "port": 8880,
@@ -2363,20 +2806,23 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "638938755008244100.vienna-drc-tusacaf.info",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "638938755008244100.vienna-drc-tusacaf.info",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-108",
+      "name": "ARISTA🔥-111",
       "type": "vless",
-      "server": "195.42.233.124",
+      "server": "94.131.118.98",
       "port": 8880,
       "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
       "network": "grpc",
@@ -2385,18 +2831,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "94.131.118.98",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "94.131.118.98",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-109",
+      "name": "ARISTA🔥-112",
       "type": "vless",
       "server": "185.234.64.155",
       "port": 8880,
@@ -2407,18 +2856,21 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "185.234.64.155",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "185.234.64.155",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-110",
+      "name": "ARISTA🔥-113",
       "type": "vless",
       "server": "65.109.210.33",
       "port": 2083,
@@ -2431,12 +2883,19 @@
       "fast-open": true,
       "servername": "tgju.org",
       "flow": "",
-      "client-fingerprint": "",
-      "packet-encoding": "",
-      "alpn": [],
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ],
       "grpc-opts": {
         "grpc-service-name": "Tel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAY",
         "grpc-mode": "gun"
+      },
+      "reality-opts": {
+        "public-key": "qlO2u5XFcovPRx2OYUzPo5apnzKOyoaJo2kQSikkpnQ",
+        "short-id": "0e33"
       }
     }
   ],
@@ -2455,115 +2914,118 @@
       "name": "Auto",
       "type": "url-test",
       "proxies": [
-        "ALRZ☃️-1",
-        "ALRZ☃️-2",
-        "ALRZ☃️-3",
-        "ALRZ☃️-4",
-        "ALRZ☃️-5",
-        "ALRZ☃️-6",
-        "ALRZ☃️-7",
-        "ALRZ☃️-8",
-        "ALRZ☃️-9",
-        "ALRZ☃️-10",
-        "ALRZ☃️-11",
-        "ALRZ☃️-12",
-        "ALRZ☃️-13",
-        "ALRZ☃️-14",
-        "ALRZ☃️-15",
-        "ALRZ☃️-16",
-        "ALRZ☃️-17",
-        "ALRZ☃️-18",
-        "ALRZ☃️-19",
-        "ALRZ☃️-20",
-        "ALRZ☃️-21",
-        "ALRZ☃️-22",
-        "ALRZ☃️-23",
-        "ALRZ☃️-24",
-        "ALRZ☃️-25",
-        "ALRZ☃️-26",
-        "ALRZ☃️-27",
-        "ALRZ☃️-28",
-        "ALRZ☃️-29",
-        "ALRZ☃️-30",
-        "ALRZ☃️-31",
-        "ALRZ☃️-32",
-        "ALRZ☃️-33",
-        "ALRZ☃️-34",
-        "ALRZ☃️-35",
-        "ALRZ☃️-36",
-        "ALRZ☃️-37",
-        "ALRZ☃️-38",
-        "ALRZ☃️-39",
-        "ALRZ☃️-40",
-        "ALRZ☃️-41",
-        "ALRZ☃️-42",
-        "ALRZ☃️-43",
-        "ALRZ☃️-44",
-        "ALRZ☃️-45",
-        "ALRZ☃️-46",
-        "ALRZ☃️-47",
-        "ALRZ☃️-48",
-        "ALRZ☃️-49",
-        "ALRZ☃️-50",
-        "ALRZ☃️-51",
-        "ALRZ☃️-52",
-        "ALRZ☃️-53",
-        "ALRZ☃️-54",
-        "ALRZ☃️-55",
-        "ALRZ☃️-57",
-        "ALRZ☃️-58",
-        "ALRZ☃️-59",
-        "ALRZ☃️-60",
-        "ALRZ☃️-61",
-        "ALRZ☃️-62",
-        "ALRZ☃️-63",
-        "ALRZ☃️-64",
-        "ALRZ☃️-65",
-        "ALRZ☃️-66",
-        "ALRZ☃️-67",
-        "ALRZ☃️-68",
-        "ALRZ☃️-69",
-        "ALRZ☃️-70",
-        "ALRZ☃️-71",
-        "ALRZ☃️-72",
-        "ALRZ☃️-73",
-        "ALRZ☃️-74",
-        "ALRZ☃️-75",
-        "ALRZ☃️-76",
-        "ALRZ☃️-77",
-        "ALRZ☃️-78",
-        "ALRZ☃️-79",
-        "ALRZ☃️-80",
-        "ALRZ☃️-81",
-        "ALRZ☃️-82",
-        "ALRZ☃️-83",
-        "ALRZ☃️-84",
-        "ALRZ☃️-85",
-        "ALRZ☃️-86",
-        "ALRZ☃️-87",
-        "ALRZ☃️-88",
-        "ALRZ☃️-89",
-        "ALRZ☃️-90",
-        "ALRZ☃️-91",
-        "ALRZ☃️-92",
-        "ALRZ☃️-93",
-        "ALRZ☃️-94",
-        "ALRZ☃️-95",
-        "ALRZ☃️-96",
-        "ALRZ☃️-97",
-        "ALRZ☃️-98",
-        "ALRZ☃️-99",
-        "ALRZ☃️-100",
-        "ALRZ☃️-101",
-        "ALRZ☃️-102",
-        "ALRZ☃️-103",
-        "ALRZ☃️-104",
-        "ALRZ☃️-105",
-        "ALRZ☃️-106",
-        "ALRZ☃️-107",
-        "ALRZ☃️-108",
-        "ALRZ☃️-109",
-        "ALRZ☃️-110"
+        "ARISTA🔥-1",
+        "ARISTA🔥-2",
+        "ARISTA🔥-3",
+        "ARISTA🔥-4",
+        "ARISTA🔥-5",
+        "ARISTA🔥-6",
+        "ARISTA🔥-7",
+        "ARISTA🔥-8",
+        "ARISTA🔥-9",
+        "ARISTA🔥-10",
+        "ARISTA🔥-11",
+        "ARISTA🔥-12",
+        "ARISTA🔥-13",
+        "ARISTA🔥-14",
+        "ARISTA🔥-15",
+        "ARISTA🔥-16",
+        "ARISTA🔥-17",
+        "ARISTA🔥-18",
+        "ARISTA🔥-19",
+        "ARISTA🔥-20",
+        "ARISTA🔥-21",
+        "ARISTA🔥-22",
+        "ARISTA🔥-23",
+        "ARISTA🔥-24",
+        "ARISTA🔥-25",
+        "ARISTA🔥-26",
+        "ARISTA🔥-27",
+        "ARISTA🔥-28",
+        "ARISTA🔥-29",
+        "ARISTA🔥-30",
+        "ARISTA🔥-31",
+        "ARISTA🔥-32",
+        "ARISTA🔥-33",
+        "ARISTA🔥-34",
+        "ARISTA🔥-35",
+        "ARISTA🔥-36",
+        "ARISTA🔥-37",
+        "ARISTA🔥-38",
+        "ARISTA🔥-39",
+        "ARISTA🔥-40",
+        "ARISTA🔥-41",
+        "ARISTA🔥-42",
+        "ARISTA🔥-43",
+        "ARISTA🔥-44",
+        "ARISTA🔥-45",
+        "ARISTA🔥-46",
+        "ARISTA🔥-47",
+        "ARISTA🔥-48",
+        "ARISTA🔥-49",
+        "ARISTA🔥-50",
+        "ARISTA🔥-51",
+        "ARISTA🔥-52",
+        "ARISTA🔥-53",
+        "ARISTA🔥-55",
+        "ARISTA🔥-56",
+        "ARISTA🔥-57",
+        "ARISTA🔥-58",
+        "ARISTA🔥-59",
+        "ARISTA🔥-60",
+        "ARISTA🔥-61",
+        "ARISTA🔥-62",
+        "ARISTA🔥-63",
+        "ARISTA🔥-64",
+        "ARISTA🔥-65",
+        "ARISTA🔥-66",
+        "ARISTA🔥-67",
+        "ARISTA🔥-68",
+        "ARISTA🔥-69",
+        "ARISTA🔥-70",
+        "ARISTA🔥-71",
+        "ARISTA🔥-72",
+        "ARISTA🔥-73",
+        "ARISTA🔥-74",
+        "ARISTA🔥-75",
+        "ARISTA🔥-76",
+        "ARISTA🔥-77",
+        "ARISTA🔥-78",
+        "ARISTA🔥-79",
+        "ARISTA🔥-80",
+        "ARISTA🔥-81",
+        "ARISTA🔥-82",
+        "ARISTA🔥-83",
+        "ARISTA🔥-84",
+        "ARISTA🔥-85",
+        "ARISTA🔥-86",
+        "ARISTA🔥-87",
+        "ARISTA🔥-88",
+        "ARISTA🔥-89",
+        "ARISTA🔥-90",
+        "ARISTA🔥-91",
+        "ARISTA🔥-92",
+        "ARISTA🔥-93",
+        "ARISTA🔥-94",
+        "ARISTA🔥-95",
+        "ARISTA🔥-96",
+        "ARISTA🔥-97",
+        "ARISTA🔥-98",
+        "ARISTA🔥-99",
+        "ARISTA🔥-100",
+        "ARISTA🔥-101",
+        "ARISTA🔥-102",
+        "ARISTA🔥-103",
+        "ARISTA🔥-104",
+        "ARISTA🔥-105",
+        "ARISTA🔥-106",
+        "ARISTA🔥-107",
+        "ARISTA🔥-108",
+        "ARISTA🔥-109",
+        "ARISTA🔥-110",
+        "ARISTA🔥-111",
+        "ARISTA🔥-112",
+        "ARISTA🔥-113"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -2575,115 +3037,118 @@
       "name": "Fallback",
       "type": "fallback",
       "proxies": [
-        "ALRZ☃️-1",
-        "ALRZ☃️-2",
-        "ALRZ☃️-3",
-        "ALRZ☃️-4",
-        "ALRZ☃️-5",
-        "ALRZ☃️-6",
-        "ALRZ☃️-7",
-        "ALRZ☃️-8",
-        "ALRZ☃️-9",
-        "ALRZ☃️-10",
-        "ALRZ☃️-11",
-        "ALRZ☃️-12",
-        "ALRZ☃️-13",
-        "ALRZ☃️-14",
-        "ALRZ☃️-15",
-        "ALRZ☃️-16",
-        "ALRZ☃️-17",
-        "ALRZ☃️-18",
-        "ALRZ☃️-19",
-        "ALRZ☃️-20",
-        "ALRZ☃️-21",
-        "ALRZ☃️-22",
-        "ALRZ☃️-23",
-        "ALRZ☃️-24",
-        "ALRZ☃️-25",
-        "ALRZ☃️-26",
-        "ALRZ☃️-27",
-        "ALRZ☃️-28",
-        "ALRZ☃️-29",
-        "ALRZ☃️-30",
-        "ALRZ☃️-31",
-        "ALRZ☃️-32",
-        "ALRZ☃️-33",
-        "ALRZ☃️-34",
-        "ALRZ☃️-35",
-        "ALRZ☃️-36",
-        "ALRZ☃️-37",
-        "ALRZ☃️-38",
-        "ALRZ☃️-39",
-        "ALRZ☃️-40",
-        "ALRZ☃️-41",
-        "ALRZ☃️-42",
-        "ALRZ☃️-43",
-        "ALRZ☃️-44",
-        "ALRZ☃️-45",
-        "ALRZ☃️-46",
-        "ALRZ☃️-47",
-        "ALRZ☃️-48",
-        "ALRZ☃️-49",
-        "ALRZ☃️-50",
-        "ALRZ☃️-51",
-        "ALRZ☃️-52",
-        "ALRZ☃️-53",
-        "ALRZ☃️-54",
-        "ALRZ☃️-55",
-        "ALRZ☃️-57",
-        "ALRZ☃️-58",
-        "ALRZ☃️-59",
-        "ALRZ☃️-60",
-        "ALRZ☃️-61",
-        "ALRZ☃️-62",
-        "ALRZ☃️-63",
-        "ALRZ☃️-64",
-        "ALRZ☃️-65",
-        "ALRZ☃️-66",
-        "ALRZ☃️-67",
-        "ALRZ☃️-68",
-        "ALRZ☃️-69",
-        "ALRZ☃️-70",
-        "ALRZ☃️-71",
-        "ALRZ☃️-72",
-        "ALRZ☃️-73",
-        "ALRZ☃️-74",
-        "ALRZ☃️-75",
-        "ALRZ☃️-76",
-        "ALRZ☃️-77",
-        "ALRZ☃️-78",
-        "ALRZ☃️-79",
-        "ALRZ☃️-80",
-        "ALRZ☃️-81",
-        "ALRZ☃️-82",
-        "ALRZ☃️-83",
-        "ALRZ☃️-84",
-        "ALRZ☃️-85",
-        "ALRZ☃️-86",
-        "ALRZ☃️-87",
-        "ALRZ☃️-88",
-        "ALRZ☃️-89",
-        "ALRZ☃️-90",
-        "ALRZ☃️-91",
-        "ALRZ☃️-92",
-        "ALRZ☃️-93",
-        "ALRZ☃️-94",
-        "ALRZ☃️-95",
-        "ALRZ☃️-96",
-        "ALRZ☃️-97",
-        "ALRZ☃️-98",
-        "ALRZ☃️-99",
-        "ALRZ☃️-100",
-        "ALRZ☃️-101",
-        "ALRZ☃️-102",
-        "ALRZ☃️-103",
-        "ALRZ☃️-104",
-        "ALRZ☃️-105",
-        "ALRZ☃️-106",
-        "ALRZ☃️-107",
-        "ALRZ☃️-108",
-        "ALRZ☃️-109",
-        "ALRZ☃️-110"
+        "ARISTA🔥-1",
+        "ARISTA🔥-2",
+        "ARISTA🔥-3",
+        "ARISTA🔥-4",
+        "ARISTA🔥-5",
+        "ARISTA🔥-6",
+        "ARISTA🔥-7",
+        "ARISTA🔥-8",
+        "ARISTA🔥-9",
+        "ARISTA🔥-10",
+        "ARISTA🔥-11",
+        "ARISTA🔥-12",
+        "ARISTA🔥-13",
+        "ARISTA🔥-14",
+        "ARISTA🔥-15",
+        "ARISTA🔥-16",
+        "ARISTA🔥-17",
+        "ARISTA🔥-18",
+        "ARISTA🔥-19",
+        "ARISTA🔥-20",
+        "ARISTA🔥-21",
+        "ARISTA🔥-22",
+        "ARISTA🔥-23",
+        "ARISTA🔥-24",
+        "ARISTA🔥-25",
+        "ARISTA🔥-26",
+        "ARISTA🔥-27",
+        "ARISTA🔥-28",
+        "ARISTA🔥-29",
+        "ARISTA🔥-30",
+        "ARISTA🔥-31",
+        "ARISTA🔥-32",
+        "ARISTA🔥-33",
+        "ARISTA🔥-34",
+        "ARISTA🔥-35",
+        "ARISTA🔥-36",
+        "ARISTA🔥-37",
+        "ARISTA🔥-38",
+        "ARISTA🔥-39",
+        "ARISTA🔥-40",
+        "ARISTA🔥-41",
+        "ARISTA🔥-42",
+        "ARISTA🔥-43",
+        "ARISTA🔥-44",
+        "ARISTA🔥-45",
+        "ARISTA🔥-46",
+        "ARISTA🔥-47",
+        "ARISTA🔥-48",
+        "ARISTA🔥-49",
+        "ARISTA🔥-50",
+        "ARISTA🔥-51",
+        "ARISTA🔥-52",
+        "ARISTA🔥-53",
+        "ARISTA🔥-55",
+        "ARISTA🔥-56",
+        "ARISTA🔥-57",
+        "ARISTA🔥-58",
+        "ARISTA🔥-59",
+        "ARISTA🔥-60",
+        "ARISTA🔥-61",
+        "ARISTA🔥-62",
+        "ARISTA🔥-63",
+        "ARISTA🔥-64",
+        "ARISTA🔥-65",
+        "ARISTA🔥-66",
+        "ARISTA🔥-67",
+        "ARISTA🔥-68",
+        "ARISTA🔥-69",
+        "ARISTA🔥-70",
+        "ARISTA🔥-71",
+        "ARISTA🔥-72",
+        "ARISTA🔥-73",
+        "ARISTA🔥-74",
+        "ARISTA🔥-75",
+        "ARISTA🔥-76",
+        "ARISTA🔥-77",
+        "ARISTA🔥-78",
+        "ARISTA🔥-79",
+        "ARISTA🔥-80",
+        "ARISTA🔥-81",
+        "ARISTA🔥-82",
+        "ARISTA🔥-83",
+        "ARISTA🔥-84",
+        "ARISTA🔥-85",
+        "ARISTA🔥-86",
+        "ARISTA🔥-87",
+        "ARISTA🔥-88",
+        "ARISTA🔥-89",
+        "ARISTA🔥-90",
+        "ARISTA🔥-91",
+        "ARISTA🔥-92",
+        "ARISTA🔥-93",
+        "ARISTA🔥-94",
+        "ARISTA🔥-95",
+        "ARISTA🔥-96",
+        "ARISTA🔥-97",
+        "ARISTA🔥-98",
+        "ARISTA🔥-99",
+        "ARISTA🔥-100",
+        "ARISTA🔥-101",
+        "ARISTA🔥-102",
+        "ARISTA🔥-103",
+        "ARISTA🔥-104",
+        "ARISTA🔥-105",
+        "ARISTA🔥-106",
+        "ARISTA🔥-107",
+        "ARISTA🔥-108",
+        "ARISTA🔥-109",
+        "ARISTA🔥-110",
+        "ARISTA🔥-111",
+        "ARISTA🔥-112",
+        "ARISTA🔥-113"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -2694,115 +3159,118 @@
       "name": "Load Balance",
       "type": "load-balance",
       "proxies": [
-        "ALRZ☃️-1",
-        "ALRZ☃️-2",
-        "ALRZ☃️-3",
-        "ALRZ☃️-4",
-        "ALRZ☃️-5",
-        "ALRZ☃️-6",
-        "ALRZ☃️-7",
-        "ALRZ☃️-8",
-        "ALRZ☃️-9",
-        "ALRZ☃️-10",
-        "ALRZ☃️-11",
-        "ALRZ☃️-12",
-        "ALRZ☃️-13",
-        "ALRZ☃️-14",
-        "ALRZ☃️-15",
-        "ALRZ☃️-16",
-        "ALRZ☃️-17",
-        "ALRZ☃️-18",
-        "ALRZ☃️-19",
-        "ALRZ☃️-20",
-        "ALRZ☃️-21",
-        "ALRZ☃️-22",
-        "ALRZ☃️-23",
-        "ALRZ☃️-24",
-        "ALRZ☃️-25",
-        "ALRZ☃️-26",
-        "ALRZ☃️-27",
-        "ALRZ☃️-28",
-        "ALRZ☃️-29",
-        "ALRZ☃️-30",
-        "ALRZ☃️-31",
-        "ALRZ☃️-32",
-        "ALRZ☃️-33",
-        "ALRZ☃️-34",
-        "ALRZ☃️-35",
-        "ALRZ☃️-36",
-        "ALRZ☃️-37",
-        "ALRZ☃️-38",
-        "ALRZ☃️-39",
-        "ALRZ☃️-40",
-        "ALRZ☃️-41",
-        "ALRZ☃️-42",
-        "ALRZ☃️-43",
-        "ALRZ☃️-44",
-        "ALRZ☃️-45",
-        "ALRZ☃️-46",
-        "ALRZ☃️-47",
-        "ALRZ☃️-48",
-        "ALRZ☃️-49",
-        "ALRZ☃️-50",
-        "ALRZ☃️-51",
-        "ALRZ☃️-52",
-        "ALRZ☃️-53",
-        "ALRZ☃️-54",
-        "ALRZ☃️-55",
-        "ALRZ☃️-57",
-        "ALRZ☃️-58",
-        "ALRZ☃️-59",
-        "ALRZ☃️-60",
-        "ALRZ☃️-61",
-        "ALRZ☃️-62",
-        "ALRZ☃️-63",
-        "ALRZ☃️-64",
-        "ALRZ☃️-65",
-        "ALRZ☃️-66",
-        "ALRZ☃️-67",
-        "ALRZ☃️-68",
-        "ALRZ☃️-69",
-        "ALRZ☃️-70",
-        "ALRZ☃️-71",
-        "ALRZ☃️-72",
-        "ALRZ☃️-73",
-        "ALRZ☃️-74",
-        "ALRZ☃️-75",
-        "ALRZ☃️-76",
-        "ALRZ☃️-77",
-        "ALRZ☃️-78",
-        "ALRZ☃️-79",
-        "ALRZ☃️-80",
-        "ALRZ☃️-81",
-        "ALRZ☃️-82",
-        "ALRZ☃️-83",
-        "ALRZ☃️-84",
-        "ALRZ☃️-85",
-        "ALRZ☃️-86",
-        "ALRZ☃️-87",
-        "ALRZ☃️-88",
-        "ALRZ☃️-89",
-        "ALRZ☃️-90",
-        "ALRZ☃️-91",
-        "ALRZ☃️-92",
-        "ALRZ☃️-93",
-        "ALRZ☃️-94",
-        "ALRZ☃️-95",
-        "ALRZ☃️-96",
-        "ALRZ☃️-97",
-        "ALRZ☃️-98",
-        "ALRZ☃️-99",
-        "ALRZ☃️-100",
-        "ALRZ☃️-101",
-        "ALRZ☃️-102",
-        "ALRZ☃️-103",
-        "ALRZ☃️-104",
-        "ALRZ☃️-105",
-        "ALRZ☃️-106",
-        "ALRZ☃️-107",
-        "ALRZ☃️-108",
-        "ALRZ☃️-109",
-        "ALRZ☃️-110"
+        "ARISTA🔥-1",
+        "ARISTA🔥-2",
+        "ARISTA🔥-3",
+        "ARISTA🔥-4",
+        "ARISTA🔥-5",
+        "ARISTA🔥-6",
+        "ARISTA🔥-7",
+        "ARISTA🔥-8",
+        "ARISTA🔥-9",
+        "ARISTA🔥-10",
+        "ARISTA🔥-11",
+        "ARISTA🔥-12",
+        "ARISTA🔥-13",
+        "ARISTA🔥-14",
+        "ARISTA🔥-15",
+        "ARISTA🔥-16",
+        "ARISTA🔥-17",
+        "ARISTA🔥-18",
+        "ARISTA🔥-19",
+        "ARISTA🔥-20",
+        "ARISTA🔥-21",
+        "ARISTA🔥-22",
+        "ARISTA🔥-23",
+        "ARISTA🔥-24",
+        "ARISTA🔥-25",
+        "ARISTA🔥-26",
+        "ARISTA🔥-27",
+        "ARISTA🔥-28",
+        "ARISTA🔥-29",
+        "ARISTA🔥-30",
+        "ARISTA🔥-31",
+        "ARISTA🔥-32",
+        "ARISTA🔥-33",
+        "ARISTA🔥-34",
+        "ARISTA🔥-35",
+        "ARISTA🔥-36",
+        "ARISTA🔥-37",
+        "ARISTA🔥-38",
+        "ARISTA🔥-39",
+        "ARISTA🔥-40",
+        "ARISTA🔥-41",
+        "ARISTA🔥-42",
+        "ARISTA🔥-43",
+        "ARISTA🔥-44",
+        "ARISTA🔥-45",
+        "ARISTA🔥-46",
+        "ARISTA🔥-47",
+        "ARISTA🔥-48",
+        "ARISTA🔥-49",
+        "ARISTA🔥-50",
+        "ARISTA🔥-51",
+        "ARISTA🔥-52",
+        "ARISTA🔥-53",
+        "ARISTA🔥-55",
+        "ARISTA🔥-56",
+        "ARISTA🔥-57",
+        "ARISTA🔥-58",
+        "ARISTA🔥-59",
+        "ARISTA🔥-60",
+        "ARISTA🔥-61",
+        "ARISTA🔥-62",
+        "ARISTA🔥-63",
+        "ARISTA🔥-64",
+        "ARISTA🔥-65",
+        "ARISTA🔥-66",
+        "ARISTA🔥-67",
+        "ARISTA🔥-68",
+        "ARISTA🔥-69",
+        "ARISTA🔥-70",
+        "ARISTA🔥-71",
+        "ARISTA🔥-72",
+        "ARISTA🔥-73",
+        "ARISTA🔥-74",
+        "ARISTA🔥-75",
+        "ARISTA🔥-76",
+        "ARISTA🔥-77",
+        "ARISTA🔥-78",
+        "ARISTA🔥-79",
+        "ARISTA🔥-80",
+        "ARISTA🔥-81",
+        "ARISTA🔥-82",
+        "ARISTA🔥-83",
+        "ARISTA🔥-84",
+        "ARISTA🔥-85",
+        "ARISTA🔥-86",
+        "ARISTA🔥-87",
+        "ARISTA🔥-88",
+        "ARISTA🔥-89",
+        "ARISTA🔥-90",
+        "ARISTA🔥-91",
+        "ARISTA🔥-92",
+        "ARISTA🔥-93",
+        "ARISTA🔥-94",
+        "ARISTA🔥-95",
+        "ARISTA🔥-96",
+        "ARISTA🔥-97",
+        "ARISTA🔥-98",
+        "ARISTA🔥-99",
+        "ARISTA🔥-100",
+        "ARISTA🔥-101",
+        "ARISTA🔥-102",
+        "ARISTA🔥-103",
+        "ARISTA🔥-104",
+        "ARISTA🔥-105",
+        "ARISTA🔥-106",
+        "ARISTA🔥-107",
+        "ARISTA🔥-108",
+        "ARISTA🔥-109",
+        "ARISTA🔥-110",
+        "ARISTA🔥-111",
+        "ARISTA🔥-112",
+        "ARISTA🔥-113"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
