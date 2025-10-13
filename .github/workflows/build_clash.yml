@@ -1,0 +1,36 @@
+name: Build Clash Config
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"  # هر 6 ساعت
+  workflow_dispatch:       # قابلیت اجرای دستی
+
+permissions:
+  contents: write  # اجازه‌ی push کردن به مخزن
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run Clash generator
+        run: python generate_clash.py
+
+      - name: Commit and push clash.json
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add clash.json
+          git commit -m "Auto-update Clash config" || echo "No changes"
+          git push
