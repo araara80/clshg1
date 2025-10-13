@@ -648,7 +648,7 @@
       "port": 5454,
       "uuid": "96f391f6-0762-4895-a57c-433360967ca8",
       "network": "grpc",
-      "tls": true,
+      "tls": false,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
@@ -664,10 +664,6 @@
       "grpc-opts": {
         "grpc-service-name": "mgrpcm",
         "grpc-mode": "gun"
-      },
-      "reality-opts": {
-        "public-key": "mBt5gNbf3cM_3n6OmSvszdLz-q4Kj2A1CF7XFgvggig",
-        "short-id": "ab892f807f3ecc26"
       }
     },
     {
@@ -677,7 +673,7 @@
       "port": 5454,
       "uuid": "96f391f6-0762-4895-a57c-433360967ca8",
       "network": "grpc",
-      "tls": true,
+      "tls": false,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
@@ -693,10 +689,6 @@
       "grpc-opts": {
         "grpc-service-name": "mgrpcm",
         "grpc-mode": "gun"
-      },
-      "reality-opts": {
-        "public-key": "mBt5gNbf3cM_3n6OmSvszdLz-q4Kj2A1CF7XFgvggig",
-        "short-id": "ab892f807f3ecc26"
       }
     },
     {
@@ -1106,7 +1098,7 @@
       "port": 4,
       "uuid": "601f29e1-b1ec-4be7-95fa-c1c0f2dbb165",
       "network": "grpc",
-      "tls": true,
+      "tls": false,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
@@ -1122,10 +1114,6 @@
       "grpc-opts": {
         "grpc-service-name": "telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE",
         "grpc-mode": "gun"
-      },
-      "reality-opts": {
-        "public-key": "IdoNhSKjM-84dS3UxZpWu4h6LDIO0Mi3oRxyU3WUakQ",
-        "short-id": "45"
       }
     },
     {
@@ -1360,7 +1348,7 @@
       "port": 2083,
       "uuid": "aeb5ac1e-4353-4c59-9bb2-d17f6e62f84f",
       "network": "grpc",
-      "tls": true,
+      "tls": false,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
@@ -1376,10 +1364,6 @@
       "grpc-opts": {
         "grpc-service-name": "melov2ray",
         "grpc-mode": "gun"
-      },
-      "reality-opts": {
-        "public-key": "mDWXgatiJqUc4fmeDQqGusEBIhjFVrQ85y_ZUfNpFV8",
-        "short-id": "54602915a7"
       }
     },
     {
@@ -1439,7 +1423,7 @@
       "port": 2090,
       "uuid": "Telegram--SRCVPN-",
       "network": "grpc",
-      "tls": true,
+      "tls": false,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
@@ -1455,10 +1439,6 @@
       "grpc-opts": {
         "grpc-service-name": "32135vless",
         "grpc-mode": "gun"
-      },
-      "reality-opts": {
-        "public-key": "MqY81IaljluV2NXyLqPzt7PL12knwUuBiX0ru_KSLCM",
-        "short-id": "aa0dd5ba"
       }
     },
     {
@@ -1767,7 +1747,7 @@
       "port": 443,
       "uuid": "7beaf757-0426-4c11-bf15-36dc25a64286",
       "network": "grpc",
-      "tls": true,
+      "tls": false,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
@@ -1783,10 +1763,6 @@
       "grpc-opts": {
         "grpc-service-name": "Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy",
         "grpc-mode": "gun"
-      },
-      "reality-opts": {
-        "public-key": "wdfqRiy3Etjhq9fSLzNNQ7txP9sDp5Ft_dOXNk5LNhM",
-        "short-id": "59c6"
       }
     },
     {
@@ -1871,7 +1847,7 @@
       "port": 2083,
       "uuid": "b70eccf5-3624-4145-9ed1-ef7f422b5ec6",
       "network": "grpc",
-      "tls": true,
+      "tls": false,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
@@ -1887,10 +1863,6 @@
       "grpc-opts": {
         "grpc-service-name": "Tel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAY",
         "grpc-mode": "gun"
-      },
-      "reality-opts": {
-        "public-key": "qlO2u5XFcovPRx2OYUzPo5apnzKOyoaJo2kQSikkpnQ",
-        "short-id": "0e33"
       }
     },
     {
@@ -1975,7 +1947,7 @@
       "port": 443,
       "uuid": "aa7adca4-fdc7-4a6f-a9ad-26ea33be09ff",
       "network": "grpc",
-      "tls": true,
+      "tls": false,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
@@ -1991,10 +1963,6 @@
       "grpc-opts": {
         "grpc-service-name": "/@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec",
         "grpc-mode": "gun"
-      },
-      "reality-opts": {
-        "public-key": "Q5wQ-CFit2wmpY4ACfqdZI8CClmPn4sfLXXdpW73PS0",
-        "short-id": "d5c5c558ee0132"
       }
     },
     {
@@ -2404,7 +2372,7 @@
       "port": 50452,
       "uuid": "2751d4fd-f5de-46fd-bc98-44a0b43a274a",
       "network": "grpc",
-      "tls": true,
+      "tls": false,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
@@ -2420,10 +2388,6 @@
       "grpc-opts": {
         "grpc-service-name": "yahoo.com",
         "grpc-mode": "gun"
-      },
-      "reality-opts": {
-        "public-key": "44l4QJ3IgqePj0rrHHiFBcCa1cwubF6JwE5grbtY33A",
-        "short-id": "10"
       }
     },
     {
@@ -2458,7 +2422,7 @@
       "port": 443,
       "uuid": "97899a35-53a2-42b0-bc47-587d220772a1",
       "network": "grpc",
-      "tls": true,
+      "tls": false,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
@@ -2474,10 +2438,6 @@
       "grpc-opts": {
         "grpc-service-name": "greenpepper.ir",
         "grpc-mode": "gun"
-      },
-      "reality-opts": {
-        "public-key": "R3MMDRlsQpis_5qP60bKS7NKBmheziLeqSboauBbKnU",
-        "short-id": "a62fe261"
       }
     },
     {
@@ -2487,7 +2447,7 @@
       "port": 443,
       "uuid": "97899a35-53a2-42b0-bc47-587d220772a1",
       "network": "grpc",
-      "tls": true,
+      "tls": false,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
@@ -2503,10 +2463,6 @@
       "grpc-opts": {
         "grpc-service-name": "greenpepper.ir",
         "grpc-mode": "gun"
-      },
-      "reality-opts": {
-        "public-key": "R3MMDRlsQpis_5qP60bKS7NKBmheziLeqSboauBbKnU",
-        "short-id": "a62fe261"
       }
     },
     {
@@ -2516,7 +2472,7 @@
       "port": 443,
       "uuid": "e5f689a0-16c9-490e-8276-c1535964efc2",
       "network": "grpc",
-      "tls": true,
+      "tls": false,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
@@ -2531,10 +2487,6 @@
       "grpc-opts": {
         "grpc-service-name": "W7lsFNbKqr3KudvIdn0xHgBq2t",
         "grpc-mode": "gun"
-      },
-      "reality-opts": {
-        "public-key": "BKCXk7rOuoL_V29FXRuOY0D9n0SvNIrU_RSQ2U0mLTo",
-        "short-id": "1a71da57"
       }
     },
     {
@@ -2544,7 +2496,7 @@
       "port": 3184,
       "uuid": "2e655095-7f4e-428d-9c7e-eb2278e153a8",
       "network": "grpc",
-      "tls": true,
+      "tls": false,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
@@ -2560,10 +2512,6 @@
       "grpc-opts": {
         "grpc-service-name": "chessgame",
         "grpc-mode": "gun"
-      },
-      "reality-opts": {
-        "public-key": "hLNxB1vjLv1XhgKvh99s9_0f6qHw50Mrf8B109Hd21I",
-        "short-id": ""
       }
     },
     {
@@ -2698,7 +2646,7 @@
       "port": 443,
       "uuid": "95b0f8b6-8373-4398-893f-782af287e2fe",
       "network": "grpc",
-      "tls": true,
+      "tls": false,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
@@ -2713,10 +2661,6 @@
       "grpc-opts": {
         "grpc-service-name": "0VTuTCdLL8WUYSwaz2OnC5y",
         "grpc-mode": "gun"
-      },
-      "reality-opts": {
-        "public-key": "L4ja73hdU_P-euK_ikOs623oM4u3PpDS5IwzXOrCjnE",
-        "short-id": "15cf0914947a4379"
       }
     },
     {
@@ -2876,7 +2820,7 @@
       "port": 2083,
       "uuid": "df637e12-9381-4270-aeaa-42e5cfcbb0c2",
       "network": "grpc",
-      "tls": true,
+      "tls": false,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
@@ -2892,10 +2836,6 @@
       "grpc-opts": {
         "grpc-service-name": "Tel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAY",
         "grpc-mode": "gun"
-      },
-      "reality-opts": {
-        "public-key": "qlO2u5XFcovPRx2OYUzPo5apnzKOyoaJo2kQSikkpnQ",
-        "short-id": "0e33"
       }
     }
   ],
@@ -2904,9 +2844,118 @@
       "name": "Select",
       "type": "select",
       "proxies": [
-        "Auto",
-        "Fallback",
-        "Load Balance"
+        "ARISTA🔥-1",
+        "ARISTA🔥-2",
+        "ARISTA🔥-3",
+        "ARISTA🔥-4",
+        "ARISTA🔥-5",
+        "ARISTA🔥-6",
+        "ARISTA🔥-7",
+        "ARISTA🔥-8",
+        "ARISTA🔥-9",
+        "ARISTA🔥-10",
+        "ARISTA🔥-11",
+        "ARISTA🔥-12",
+        "ARISTA🔥-13",
+        "ARISTA🔥-14",
+        "ARISTA🔥-15",
+        "ARISTA🔥-16",
+        "ARISTA🔥-17",
+        "ARISTA🔥-18",
+        "ARISTA🔥-19",
+        "ARISTA🔥-20",
+        "ARISTA🔥-21",
+        "ARISTA🔥-22",
+        "ARISTA🔥-23",
+        "ARISTA🔥-24",
+        "ARISTA🔥-25",
+        "ARISTA🔥-26",
+        "ARISTA🔥-27",
+        "ARISTA🔥-28",
+        "ARISTA🔥-29",
+        "ARISTA🔥-30",
+        "ARISTA🔥-31",
+        "ARISTA🔥-32",
+        "ARISTA🔥-33",
+        "ARISTA🔥-34",
+        "ARISTA🔥-35",
+        "ARISTA🔥-36",
+        "ARISTA🔥-37",
+        "ARISTA🔥-38",
+        "ARISTA🔥-39",
+        "ARISTA🔥-40",
+        "ARISTA🔥-41",
+        "ARISTA🔥-42",
+        "ARISTA🔥-43",
+        "ARISTA🔥-44",
+        "ARISTA🔥-45",
+        "ARISTA🔥-46",
+        "ARISTA🔥-47",
+        "ARISTA🔥-48",
+        "ARISTA🔥-49",
+        "ARISTA🔥-50",
+        "ARISTA🔥-51",
+        "ARISTA🔥-52",
+        "ARISTA🔥-53",
+        "ARISTA🔥-55",
+        "ARISTA🔥-56",
+        "ARISTA🔥-57",
+        "ARISTA🔥-58",
+        "ARISTA🔥-59",
+        "ARISTA🔥-60",
+        "ARISTA🔥-61",
+        "ARISTA🔥-62",
+        "ARISTA🔥-63",
+        "ARISTA🔥-64",
+        "ARISTA🔥-65",
+        "ARISTA🔥-66",
+        "ARISTA🔥-67",
+        "ARISTA🔥-68",
+        "ARISTA🔥-69",
+        "ARISTA🔥-70",
+        "ARISTA🔥-71",
+        "ARISTA🔥-72",
+        "ARISTA🔥-73",
+        "ARISTA🔥-74",
+        "ARISTA🔥-75",
+        "ARISTA🔥-76",
+        "ARISTA🔥-77",
+        "ARISTA🔥-78",
+        "ARISTA🔥-79",
+        "ARISTA🔥-80",
+        "ARISTA🔥-81",
+        "ARISTA🔥-82",
+        "ARISTA🔥-83",
+        "ARISTA🔥-84",
+        "ARISTA🔥-85",
+        "ARISTA🔥-86",
+        "ARISTA🔥-87",
+        "ARISTA🔥-88",
+        "ARISTA🔥-89",
+        "ARISTA🔥-90",
+        "ARISTA🔥-91",
+        "ARISTA🔥-92",
+        "ARISTA🔥-93",
+        "ARISTA🔥-94",
+        "ARISTA🔥-95",
+        "ARISTA🔥-96",
+        "ARISTA🔥-97",
+        "ARISTA🔥-98",
+        "ARISTA🔥-99",
+        "ARISTA🔥-100",
+        "ARISTA🔥-101",
+        "ARISTA🔥-102",
+        "ARISTA🔥-103",
+        "ARISTA🔥-104",
+        "ARISTA🔥-105",
+        "ARISTA🔥-106",
+        "ARISTA🔥-107",
+        "ARISTA🔥-108",
+        "ARISTA🔥-109",
+        "ARISTA🔥-110",
+        "ARISTA🔥-111",
+        "ARISTA🔥-112",
+        "ARISTA🔥-113"
       ],
       "disable-udp": false
     },
