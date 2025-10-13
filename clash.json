@@ -4,42 +4,7 @@
   "mixed-port": 7893,
   "mode": "rule",
   "log-level": "info",
-  "dns": {
-    "enable": true,
-    "listen": ":53",
-    "enhanced-mode": "fake-ip",
-    "fake-ip-range": "198.18.0.1/16",
-    "fake-ip-filter": [
-      "*.lan",
-      "*.local",
-      "*.localhost",
-      "*.ir",
-      "*.test"
-    ],
-    "nameserver": [
-      "78.157.42.100",
-      "78.157.42.101",
-      "10.202.10.10",
-      "8.8.8.8",
-      "1.1.1.1"
-    ],
-    "fallback": [
-      "10.202.10.11",
-      "78.157.42.100",
-      "8.8.4.4"
-    ],
-    "fallback-filter": {
-      "geoip": true,
-      "geoip-code": "IR",
-      "ipcidr": [
-        "0.0.0.0/8",
-        "127.0.0.0/8",
-        "10.0.0.0/8",
-        "172.16.0.0/12",
-        "192.168.0.0/16"
-      ]
-    }
-  },
+  "dns": {},
   "proxies": [
     {
       "name": "ALRZ☃️-1",
@@ -53,14 +18,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "45.120.178.9",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -78,17 +40,14 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "94.131.14.193",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
-        "grpc-mode": "gun"
+        "grpc-mode": ""
       }
     },
     {
@@ -103,14 +62,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "638936664855921747.amsterdam-prx-dnraacl.info",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -128,14 +84,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "141.227.180.39",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -153,14 +106,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "86.104.74.155",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -178,17 +128,14 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "185.234.66.104",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
-        "grpc-mode": "gun"
+        "grpc-mode": ""
       }
     },
     {
@@ -203,14 +150,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "194.4.49.16",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -228,14 +172,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "94.131.13.164",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -253,14 +194,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "209.38.222.192",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -278,14 +216,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "54.36.115.88",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -303,14 +238,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "141.227.180.39",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -328,14 +260,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "141.227.162.18",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -353,14 +282,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "185.236.232.100",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -378,14 +304,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "185.236.232.101",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -403,17 +326,14 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "195.42.233.94",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
-        "grpc-mode": "gun"
+        "grpc-mode": ""
       }
     },
     {
@@ -428,17 +348,14 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "195.42.233.89",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
-        "grpc-mode": "gun"
+        "grpc-mode": ""
       }
     },
     {
@@ -453,14 +370,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "638955452903725333.malayer-drc-tusaas.info",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -478,14 +392,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "185.234.64.155",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -503,14 +414,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "141.227.140.55",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -528,17 +436,14 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "94.131.13.164",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
-        "grpc-mode": "gun"
+        "grpc-mode": ""
       }
     },
     {
@@ -553,14 +458,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "638929114454179379.warsaw-drc-tusabq.info",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -578,14 +480,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "51.89.176.242",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -603,14 +502,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "51.89.176.242",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -628,14 +524,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "638955452903725333.malayer-drc-tusaas.info",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -648,22 +541,19 @@
       "port": 2087,
       "uuid": "6babb657-1524-43bb-b421-11bda27bc9de",
       "network": "grpc",
-      "tls": false,
+      "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
       "servername": "smart.titimoji-f6.fun",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
-        "grpc-mode": "gun"
+        "grpc-mode": ""
       }
     },
     {
@@ -673,19 +563,16 @@
       "port": 5454,
       "uuid": "96f391f6-0762-4895-a57c-433360967ca8",
       "network": "grpc",
-      "tls": false,
+      "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
       "servername": "journalofbigdata.springeropen.com",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -698,19 +585,16 @@
       "port": 5454,
       "uuid": "96f391f6-0762-4895-a57c-433360967ca8",
       "network": "grpc",
-      "tls": false,
+      "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
       "servername": "journalofbigdata.springeropen.com",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -728,14 +612,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "141.227.162.18",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -753,14 +634,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "95.164.37.43",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -778,14 +656,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "638938755008244100.vienna-drc-tusacaf.info",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -803,14 +678,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "638938755008244100.vienna-drc-tusacaf.info",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -828,17 +700,14 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "45.82.251.114",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
-        "grpc-mode": "gun"
+        "grpc-mode": ""
       }
     },
     {
@@ -853,17 +722,14 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "80.92.206.19",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
-        "grpc-mode": "gun"
+        "grpc-mode": ""
       }
     },
     {
@@ -878,14 +744,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "104.248.168.91",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -898,22 +761,19 @@
       "port": 2087,
       "uuid": "7310ccbb-3940-4264-88cc-b3da92877395",
       "network": "grpc",
-      "tls": false,
+      "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
       "servername": "tito.floorshoping22.com",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
-        "grpc-mode": "gun"
+        "grpc-mode": ""
       }
     },
     {
@@ -928,14 +788,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "54.36.115.88",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -953,14 +810,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "141.227.180.39",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -978,14 +832,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "638930359207602168.dublin-drc-dcrabj.info",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1003,14 +854,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "103.231.75.74",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1028,14 +876,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "54.36.117.130",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1053,14 +898,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "141.227.136.92",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1078,17 +920,14 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "638936664855921747.amsterdam-prx-dnraacl.info",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
-        "grpc-mode": "gun"
+        "grpc-mode": ""
       }
     },
     {
@@ -1103,17 +942,14 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "638946986851068158.hamedan-drc-tusabl.info",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
-        "grpc-mode": "gun"
+        "grpc-mode": ""
       }
     },
     {
@@ -1128,14 +964,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "195.42.233.91",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1153,14 +986,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "95.164.37.43",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1173,19 +1003,16 @@
       "port": 4,
       "uuid": "601f29e1-b1ec-4be7-95fa-c1c0f2dbb165",
       "network": "grpc",
-      "tls": false,
+      "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
       "servername": "maps.google.com",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1203,14 +1030,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "157.180.29.19",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1228,14 +1052,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "45.120.178.9",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1253,14 +1074,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "57.129.92.155",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1278,14 +1096,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "194.4.49.4",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1303,14 +1118,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "638950280434434528.neyshabur-drc-tusacaf.info",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1328,14 +1140,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "146.19.230.248",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1353,14 +1162,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "194.4.49.16",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1378,14 +1184,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "86.104.74.155",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1398,19 +1201,16 @@
       "port": 2083,
       "uuid": "aeb5ac1e-4353-4c59-9bb2-d17f6e62f84f",
       "network": "grpc",
-      "tls": false,
+      "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
       "servername": "khamenei.ir",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1428,14 +1228,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "vip3.seniorrnet.info",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1453,14 +1250,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "94.131.118.98",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1473,22 +1267,19 @@
       "port": 2090,
       "uuid": "Telegram--SRCVPN-",
       "network": "grpc",
-      "tls": false,
+      "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
       "servername": "journalofbigdata.springeropen.com",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
-        "grpc-mode": "gun"
+        "grpc-mode": ""
       }
     },
     {
@@ -1503,14 +1294,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "54.36.115.88",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1528,14 +1316,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "80.92.206.172",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1553,14 +1338,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "194.4.49.16",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1578,14 +1360,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "pqh28v5.waipdirect.shop",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1603,14 +1382,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "638931272656134408.malayer-drc-tusabu.info",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1628,14 +1404,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "V2RAXX-channel.cataba.ir",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1653,14 +1426,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "95.164.37.43",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1678,14 +1448,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "638930359207602168.dublin-drc-dcrabj.info",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1698,22 +1465,19 @@
       "port": 443,
       "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
       "network": "grpc",
-      "tls": false,
+      "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
       "servername": "pqh23v4.hiddendom.shop",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
-        "grpc-mode": "gun"
+        "grpc-mode": ""
       }
     },
     {
@@ -1728,17 +1492,14 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "45.82.251.58",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
-        "grpc-mode": "gun"
+        "grpc-mode": ""
       }
     },
     {
@@ -1748,22 +1509,19 @@
       "port": 443,
       "uuid": "7beaf757-0426-4c11-bf15-36dc25a64286",
       "network": "grpc",
-      "tls": false,
+      "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
       "servername": "miro.com",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
-        "grpc-mode": "gun"
+        "grpc-mode": ""
       }
     },
     {
@@ -1778,14 +1536,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "86.104.74.155",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1798,19 +1553,16 @@
       "port": 2096,
       "uuid": "5c19f5b4-ac8a-485c-b656-5fe46ee0d5cf",
       "network": "grpc",
-      "tls": false,
+      "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
       "servername": "hydra.miniproxy.sbs",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "multi"
@@ -1828,17 +1580,14 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "85.209.153.82",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
-        "grpc-mode": "gun"
+        "grpc-mode": ""
       }
     },
     {
@@ -1853,17 +1602,14 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "85.208.110.41",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
-        "grpc-mode": "gun"
+        "grpc-mode": ""
       }
     },
     {
@@ -1878,17 +1624,14 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "94.131.14.193",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
-        "grpc-mode": "gun"
+        "grpc-mode": ""
       }
     },
     {
@@ -1903,14 +1646,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "638936664855921747.amsterdam-prx-dnraacl.info",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1928,14 +1668,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "638936664855921747.amsterdam-prx-dnraacl.info",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1953,14 +1690,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "86.104.74.155",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -1978,14 +1712,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "638943819862861158.oslo-prx-dnraacp.info",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2003,17 +1734,14 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "104.17.147.22",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
-        "grpc-mode": "gun"
+        "grpc-mode": ""
       }
     },
     {
@@ -2028,17 +1756,14 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "104.17.147.22",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
-        "grpc-mode": "gun"
+        "grpc-mode": ""
       }
     },
     {
@@ -2053,14 +1778,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "638927678654211750.rasht-drc-tusabn.info",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2078,14 +1800,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "45.12.133.235",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2103,14 +1822,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "45.12.133.235",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2128,14 +1844,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "638952778316595016.hamedan-drc-tusaas.info",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2153,14 +1866,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "638950280434430524.neyshabur-drc-tusacaf.info",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2178,14 +1888,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "638930382260455538.ahvaz-drc-tusabt.info",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2203,14 +1910,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "194.4.49.226",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2228,14 +1932,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "638947655065548930.bandar-prx-dnraacq.info",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2253,14 +1954,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "185.234.64.94",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2278,14 +1976,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "86.104.74.155",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2303,14 +1998,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "185.231.205.234",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2328,14 +2020,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "103.35.189.146",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2348,22 +2037,19 @@
       "port": 50452,
       "uuid": "2751d4fd-f5de-46fd-bc98-44a0b43a274a",
       "network": "grpc",
-      "tls": false,
+      "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
       "servername": "yahoo.com",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
-        "grpc-mode": "gun"
+        "grpc-mode": ""
       }
     },
     {
@@ -2378,17 +2064,14 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "185.242.87.160",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
-        "grpc-mode": "gun"
+        "grpc-mode": ""
       }
     },
     {
@@ -2398,19 +2081,16 @@
       "port": 443,
       "uuid": "97899a35-53a2-42b0-bc47-587d220772a1",
       "network": "grpc",
-      "tls": false,
+      "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
       "servername": "greenpepper.ir",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2423,19 +2103,16 @@
       "port": 443,
       "uuid": "97899a35-53a2-42b0-bc47-587d220772a1",
       "network": "grpc",
-      "tls": false,
+      "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
       "servername": "greenpepper.ir",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2448,19 +2125,16 @@
       "port": 443,
       "uuid": "e5f689a0-16c9-490e-8276-c1535964efc2",
       "network": "grpc",
-      "tls": false,
+      "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
       "servername": "refersion.com",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2473,19 +2147,16 @@
       "port": 3184,
       "uuid": "2e655095-7f4e-428d-9c7e-eb2278e153a8",
       "network": "grpc",
-      "tls": false,
+      "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
       "servername": "www.chess.com",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2503,14 +2174,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "141.227.160.91",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2528,14 +2196,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "94.131.118.98",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2553,14 +2218,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "54.36.117.130",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2578,14 +2240,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "141.227.180.211",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2603,14 +2262,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "45.12.133.235",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2623,19 +2279,16 @@
       "port": 443,
       "uuid": "95b0f8b6-8373-4398-893f-782af287e2fe",
       "network": "grpc",
-      "tls": false,
+      "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
       "servername": "www.speedtest.net",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2653,14 +2306,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "94.131.14.200",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2678,14 +2328,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "638938755008244100.vienna-drc-tusacaf.info",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2703,14 +2350,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "195.42.233.124",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2728,14 +2372,11 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "185.234.64.155",
+      "servername": "",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
@@ -2748,519 +2389,22 @@
       "port": 2083,
       "uuid": "df637e12-9381-4270-aeaa-42e5cfcbb0c2",
       "network": "grpc",
-      "tls": false,
+      "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
       "servername": "tgju.org",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ],
+      "client-fingerprint": "",
+      "packet-encoding": "",
+      "alpn": [],
       "grpc-opts": {
         "grpc-service-name": "",
         "grpc-mode": "gun"
       }
     }
   ],
-  "proxy-groups": [
-    {
-      "name": "ARISTA Select",
-      "type": "select",
-      "proxies": [
-        "ALRZ☃️-1",
-        "ALRZ☃️-2",
-        "ALRZ☃️-3",
-        "ALRZ☃️-4",
-        "ALRZ☃️-5",
-        "ALRZ☃️-6",
-        "ALRZ☃️-7",
-        "ALRZ☃️-8",
-        "ALRZ☃️-9",
-        "ALRZ☃️-10",
-        "ALRZ☃️-11",
-        "ALRZ☃️-12",
-        "ALRZ☃️-13",
-        "ALRZ☃️-14",
-        "ALRZ☃️-15",
-        "ALRZ☃️-16",
-        "ALRZ☃️-17",
-        "ALRZ☃️-18",
-        "ALRZ☃️-19",
-        "ALRZ☃️-20",
-        "ALRZ☃️-21",
-        "ALRZ☃️-22",
-        "ALRZ☃️-23",
-        "ALRZ☃️-24",
-        "ALRZ☃️-25",
-        "ALRZ☃️-26",
-        "ALRZ☃️-27",
-        "ALRZ☃️-28",
-        "ALRZ☃️-29",
-        "ALRZ☃️-30",
-        "ALRZ☃️-31",
-        "ALRZ☃️-32",
-        "ALRZ☃️-33",
-        "ALRZ☃️-34",
-        "ALRZ☃️-35",
-        "ALRZ☃️-36",
-        "ALRZ☃️-37",
-        "ALRZ☃️-38",
-        "ALRZ☃️-39",
-        "ALRZ☃️-40",
-        "ALRZ☃️-41",
-        "ALRZ☃️-42",
-        "ALRZ☃️-43",
-        "ALRZ☃️-44",
-        "ALRZ☃️-45",
-        "ALRZ☃️-46",
-        "ALRZ☃️-47",
-        "ALRZ☃️-48",
-        "ALRZ☃️-49",
-        "ALRZ☃️-50",
-        "ALRZ☃️-51",
-        "ALRZ☃️-52",
-        "ALRZ☃️-53",
-        "ALRZ☃️-54",
-        "ALRZ☃️-55",
-        "ALRZ☃️-57",
-        "ALRZ☃️-58",
-        "ALRZ☃️-59",
-        "ALRZ☃️-60",
-        "ALRZ☃️-61",
-        "ALRZ☃️-62",
-        "ALRZ☃️-63",
-        "ALRZ☃️-64",
-        "ALRZ☃️-65",
-        "ALRZ☃️-66",
-        "ALRZ☃️-67",
-        "ALRZ☃️-68",
-        "ALRZ☃️-69",
-        "ALRZ☃️-70",
-        "ALRZ☃️-71",
-        "ALRZ☃️-72",
-        "ALRZ☃️-73",
-        "ALRZ☃️-74",
-        "ALRZ☃️-75",
-        "ALRZ☃️-76",
-        "ALRZ☃️-77",
-        "ALRZ☃️-78",
-        "ALRZ☃️-79",
-        "ALRZ☃️-80",
-        "ALRZ☃️-81",
-        "ALRZ☃️-82",
-        "ALRZ☃️-83",
-        "ALRZ☃️-84",
-        "ALRZ☃️-85",
-        "ALRZ☃️-86",
-        "ALRZ☃️-87",
-        "ALRZ☃️-88",
-        "ALRZ☃️-89",
-        "ALRZ☃️-90",
-        "ALRZ☃️-91",
-        "ALRZ☃️-92",
-        "ALRZ☃️-93",
-        "ALRZ☃️-94",
-        "ALRZ☃️-95",
-        "ALRZ☃️-96",
-        "ALRZ☃️-97",
-        "ALRZ☃️-98",
-        "ALRZ☃️-99",
-        "ALRZ☃️-100",
-        "ALRZ☃️-101",
-        "ALRZ☃️-102",
-        "ALRZ☃️-103",
-        "ALRZ☃️-104",
-        "ALRZ☃️-105",
-        "ALRZ☃️-106",
-        "ALRZ☃️-107",
-        "ALRZ☃️-108",
-        "ALRZ☃️-109",
-        "ALRZ☃️-110"
-      ],
-      "disable-udp": false
-    },
-    {
-      "name": "ARISTA Auto",
-      "type": "url-test",
-      "proxies": [
-        "ALRZ☃️-1",
-        "ALRZ☃️-2",
-        "ALRZ☃️-3",
-        "ALRZ☃️-4",
-        "ALRZ☃️-5",
-        "ALRZ☃️-6",
-        "ALRZ☃️-7",
-        "ALRZ☃️-8",
-        "ALRZ☃️-9",
-        "ALRZ☃️-10",
-        "ALRZ☃️-11",
-        "ALRZ☃️-12",
-        "ALRZ☃️-13",
-        "ALRZ☃️-14",
-        "ALRZ☃️-15",
-        "ALRZ☃️-16",
-        "ALRZ☃️-17",
-        "ALRZ☃️-18",
-        "ALRZ☃️-19",
-        "ALRZ☃️-20",
-        "ALRZ☃️-21",
-        "ALRZ☃️-22",
-        "ALRZ☃️-23",
-        "ALRZ☃️-24",
-        "ALRZ☃️-25",
-        "ALRZ☃️-26",
-        "ALRZ☃️-27",
-        "ALRZ☃️-28",
-        "ALRZ☃️-29",
-        "ALRZ☃️-30",
-        "ALRZ☃️-31",
-        "ALRZ☃️-32",
-        "ALRZ☃️-33",
-        "ALRZ☃️-34",
-        "ALRZ☃️-35",
-        "ALRZ☃️-36",
-        "ALRZ☃️-37",
-        "ALRZ☃️-38",
-        "ALRZ☃️-39",
-        "ALRZ☃️-40",
-        "ALRZ☃️-41",
-        "ALRZ☃️-42",
-        "ALRZ☃️-43",
-        "ALRZ☃️-44",
-        "ALRZ☃️-45",
-        "ALRZ☃️-46",
-        "ALRZ☃️-47",
-        "ALRZ☃️-48",
-        "ALRZ☃️-49",
-        "ALRZ☃️-50",
-        "ALRZ☃️-51",
-        "ALRZ☃️-52",
-        "ALRZ☃️-53",
-        "ALRZ☃️-54",
-        "ALRZ☃️-55",
-        "ALRZ☃️-57",
-        "ALRZ☃️-58",
-        "ALRZ☃️-59",
-        "ALRZ☃️-60",
-        "ALRZ☃️-61",
-        "ALRZ☃️-62",
-        "ALRZ☃️-63",
-        "ALRZ☃️-64",
-        "ALRZ☃️-65",
-        "ALRZ☃️-66",
-        "ALRZ☃️-67",
-        "ALRZ☃️-68",
-        "ALRZ☃️-69",
-        "ALRZ☃️-70",
-        "ALRZ☃️-71",
-        "ALRZ☃️-72",
-        "ALRZ☃️-73",
-        "ALRZ☃️-74",
-        "ALRZ☃️-75",
-        "ALRZ☃️-76",
-        "ALRZ☃️-77",
-        "ALRZ☃️-78",
-        "ALRZ☃️-79",
-        "ALRZ☃️-80",
-        "ALRZ☃️-81",
-        "ALRZ☃️-82",
-        "ALRZ☃️-83",
-        "ALRZ☃️-84",
-        "ALRZ☃️-85",
-        "ALRZ☃️-86",
-        "ALRZ☃️-87",
-        "ALRZ☃️-88",
-        "ALRZ☃️-89",
-        "ALRZ☃️-90",
-        "ALRZ☃️-91",
-        "ALRZ☃️-92",
-        "ALRZ☃️-93",
-        "ALRZ☃️-94",
-        "ALRZ☃️-95",
-        "ALRZ☃️-96",
-        "ALRZ☃️-97",
-        "ALRZ☃️-98",
-        "ALRZ☃️-99",
-        "ALRZ☃️-100",
-        "ALRZ☃️-101",
-        "ALRZ☃️-102",
-        "ALRZ☃️-103",
-        "ALRZ☃️-104",
-        "ALRZ☃️-105",
-        "ALRZ☃️-106",
-        "ALRZ☃️-107",
-        "ALRZ☃️-108",
-        "ALRZ☃️-109",
-        "ALRZ☃️-110"
-      ],
-      "url": "http://www.gstatic.com/generate_204",
-      "interval": 120,
-      "tolerance": 50,
-      "lazy": true,
-      "disable-udp": false
-    },
-    {
-      "name": "ARISTA Fallback",
-      "type": "fallback",
-      "proxies": [
-        "ALRZ☃️-1",
-        "ALRZ☃️-2",
-        "ALRZ☃️-3",
-        "ALRZ☃️-4",
-        "ALRZ☃️-5",
-        "ALRZ☃️-6",
-        "ALRZ☃️-7",
-        "ALRZ☃️-8",
-        "ALRZ☃️-9",
-        "ALRZ☃️-10",
-        "ALRZ☃️-11",
-        "ALRZ☃️-12",
-        "ALRZ☃️-13",
-        "ALRZ☃️-14",
-        "ALRZ☃️-15",
-        "ALRZ☃️-16",
-        "ALRZ☃️-17",
-        "ALRZ☃️-18",
-        "ALRZ☃️-19",
-        "ALRZ☃️-20",
-        "ALRZ☃️-21",
-        "ALRZ☃️-22",
-        "ALRZ☃️-23",
-        "ALRZ☃️-24",
-        "ALRZ☃️-25",
-        "ALRZ☃️-26",
-        "ALRZ☃️-27",
-        "ALRZ☃️-28",
-        "ALRZ☃️-29",
-        "ALRZ☃️-30",
-        "ALRZ☃️-31",
-        "ALRZ☃️-32",
-        "ALRZ☃️-33",
-        "ALRZ☃️-34",
-        "ALRZ☃️-35",
-        "ALRZ☃️-36",
-        "ALRZ☃️-37",
-        "ALRZ☃️-38",
-        "ALRZ☃️-39",
-        "ALRZ☃️-40",
-        "ALRZ☃️-41",
-        "ALRZ☃️-42",
-        "ALRZ☃️-43",
-        "ALRZ☃️-44",
-        "ALRZ☃️-45",
-        "ALRZ☃️-46",
-        "ALRZ☃️-47",
-        "ALRZ☃️-48",
-        "ALRZ☃️-49",
-        "ALRZ☃️-50",
-        "ALRZ☃️-51",
-        "ALRZ☃️-52",
-        "ALRZ☃️-53",
-        "ALRZ☃️-54",
-        "ALRZ☃️-55",
-        "ALRZ☃️-57",
-        "ALRZ☃️-58",
-        "ALRZ☃️-59",
-        "ALRZ☃️-60",
-        "ALRZ☃️-61",
-        "ALRZ☃️-62",
-        "ALRZ☃️-63",
-        "ALRZ☃️-64",
-        "ALRZ☃️-65",
-        "ALRZ☃️-66",
-        "ALRZ☃️-67",
-        "ALRZ☃️-68",
-        "ALRZ☃️-69",
-        "ALRZ☃️-70",
-        "ALRZ☃️-71",
-        "ALRZ☃️-72",
-        "ALRZ☃️-73",
-        "ALRZ☃️-74",
-        "ALRZ☃️-75",
-        "ALRZ☃️-76",
-        "ALRZ☃️-77",
-        "ALRZ☃️-78",
-        "ALRZ☃️-79",
-        "ALRZ☃️-80",
-        "ALRZ☃️-81",
-        "ALRZ☃️-82",
-        "ALRZ☃️-83",
-        "ALRZ☃️-84",
-        "ALRZ☃️-85",
-        "ALRZ☃️-86",
-        "ALRZ☃️-87",
-        "ALRZ☃️-88",
-        "ALRZ☃️-89",
-        "ALRZ☃️-90",
-        "ALRZ☃️-91",
-        "ALRZ☃️-92",
-        "ALRZ☃️-93",
-        "ALRZ☃️-94",
-        "ALRZ☃️-95",
-        "ALRZ☃️-96",
-        "ALRZ☃️-97",
-        "ALRZ☃️-98",
-        "ALRZ☃️-99",
-        "ALRZ☃️-100",
-        "ALRZ☃️-101",
-        "ALRZ☃️-102",
-        "ALRZ☃️-103",
-        "ALRZ☃️-104",
-        "ALRZ☃️-105",
-        "ALRZ☃️-106",
-        "ALRZ☃️-107",
-        "ALRZ☃️-108",
-        "ALRZ☃️-109",
-        "ALRZ☃️-110"
-      ],
-      "url": "http://www.gstatic.com/generate_204",
-      "interval": 120,
-      "tolerance": 100,
-      "disable-udp": false
-    },
-    {
-      "name": "ARISTA Load Balance",
-      "type": "load-balance",
-      "proxies": [
-        "ALRZ☃️-1",
-        "ALRZ☃️-2",
-        "ALRZ☃️-3",
-        "ALRZ☃️-4",
-        "ALRZ☃️-5",
-        "ALRZ☃️-6",
-        "ALRZ☃️-7",
-        "ALRZ☃️-8",
-        "ALRZ☃️-9",
-        "ALRZ☃️-10",
-        "ALRZ☃️-11",
-        "ALRZ☃️-12",
-        "ALRZ☃️-13",
-        "ALRZ☃️-14",
-        "ALRZ☃️-15",
-        "ALRZ☃️-16",
-        "ALRZ☃️-17",
-        "ALRZ☃️-18",
-        "ALRZ☃️-19",
-        "ALRZ☃️-20",
-        "ALRZ☃️-21",
-        "ALRZ☃️-22",
-        "ALRZ☃️-23",
-        "ALRZ☃️-24",
-        "ALRZ☃️-25",
-        "ALRZ☃️-26",
-        "ALRZ☃️-27",
-        "ALRZ☃️-28",
-        "ALRZ☃️-29",
-        "ALRZ☃️-30",
-        "ALRZ☃️-31",
-        "ALRZ☃️-32",
-        "ALRZ☃️-33",
-        "ALRZ☃️-34",
-        "ALRZ☃️-35",
-        "ALRZ☃️-36",
-        "ALRZ☃️-37",
-        "ALRZ☃️-38",
-        "ALRZ☃️-39",
-        "ALRZ☃️-40",
-        "ALRZ☃️-41",
-        "ALRZ☃️-42",
-        "ALRZ☃️-43",
-        "ALRZ☃️-44",
-        "ALRZ☃️-45",
-        "ALRZ☃️-46",
-        "ALRZ☃️-47",
-        "ALRZ☃️-48",
-        "ALRZ☃️-49",
-        "ALRZ☃️-50",
-        "ALRZ☃️-51",
-        "ALRZ☃️-52",
-        "ALRZ☃️-53",
-        "ALRZ☃️-54",
-        "ALRZ☃️-55",
-        "ALRZ☃️-57",
-        "ALRZ☃️-58",
-        "ALRZ☃️-59",
-        "ALRZ☃️-60",
-        "ALRZ☃️-61",
-        "ALRZ☃️-62",
-        "ALRZ☃️-63",
-        "ALRZ☃️-64",
-        "ALRZ☃️-65",
-        "ALRZ☃️-66",
-        "ALRZ☃️-67",
-        "ALRZ☃️-68",
-        "ALRZ☃️-69",
-        "ALRZ☃️-70",
-        "ALRZ☃️-71",
-        "ALRZ☃️-72",
-        "ALRZ☃️-73",
-        "ALRZ☃️-74",
-        "ALRZ☃️-75",
-        "ALRZ☃️-76",
-        "ALRZ☃️-77",
-        "ALRZ☃️-78",
-        "ALRZ☃️-79",
-        "ALRZ☃️-80",
-        "ALRZ☃️-81",
-        "ALRZ☃️-82",
-        "ALRZ☃️-83",
-        "ALRZ☃️-84",
-        "ALRZ☃️-85",
-        "ALRZ☃️-86",
-        "ALRZ☃️-87",
-        "ALRZ☃️-88",
-        "ALRZ☃️-89",
-        "ALRZ☃️-90",
-        "ALRZ☃️-91",
-        "ALRZ☃️-92",
-        "ALRZ☃️-93",
-        "ALRZ☃️-94",
-        "ALRZ☃️-95",
-        "ALRZ☃️-96",
-        "ALRZ☃️-97",
-        "ALRZ☃️-98",
-        "ALRZ☃️-99",
-        "ALRZ☃️-100",
-        "ALRZ☃️-101",
-        "ALRZ☃️-102",
-        "ALRZ☃️-103",
-        "ALRZ☃️-104",
-        "ALRZ☃️-105",
-        "ALRZ☃️-106",
-        "ALRZ☃️-107",
-        "ALRZ☃️-108",
-        "ALRZ☃️-109",
-        "ALRZ☃️-110"
-      ],
-      "url": "http://www.gstatic.com/generate_204",
-      "interval": 300,
-      "strategy": "consistent-hashing",
-      "disable-udp": false
-    }
-  ],
-  "rules": [
-    "DOMAIN-SUFFIX,google.com,ARISTA Auto",
-    "DOMAIN-SUFFIX,youtube.com,ARISTA Auto",
-    "DOMAIN-SUFFIX,github.com,ARISTA Auto",
-    "DOMAIN-KEYWORD,telegram,ARISTA Auto",
-    "DOMAIN-SUFFIX,instagram.com,ARISTA Auto",
-    "DOMAIN-SUFFIX,twitter.com,ARISTA Auto",
-    "DOMAIN-SUFFIX,whatsapp.com,ARISTA Auto",
-    "DOMAIN-SUFFIX,cdn.ir,DIRECT",
-    "DOMAIN-SUFFIX,aparat.com,DIRECT",
-    "DOMAIN-SUFFIX,digikala.com,DIRECT",
-    "DOMAIN-SUFFIX,divar.ir,DIRECT",
-    "DOMAIN-SUFFIX,snapp.ir,DIRECT",
-    "DOMAIN-SUFFIX,torob.com,DIRECT",
-    "DOMAIN-SUFFIX,bamilo.com,DIRECT",
-    "DOMAIN-SUFFIX,alibaba.ir,DIRECT",
-    "DOMAIN-SUFFIX,ban.ir,DIRECT",
-    "GEOIP,IR,DIRECT",
-    "MATCH,ARISTA Auto"
-  ]
+  "proxy-groups": [],
+  "rules": []
 }
