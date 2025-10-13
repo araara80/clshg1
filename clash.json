@@ -4,7 +4,42 @@
   "mixed-port": 7893,
   "mode": "rule",
   "log-level": "info",
-  "dns": {},
+  "dns": {
+    "enable": true,
+    "listen": ":53",
+    "enhanced-mode": "fake-ip",
+    "fake-ip-range": "198.18.0.1/16",
+    "fake-ip-filter": [
+      "*.lan",
+      "*.local",
+      "*.localhost",
+      "*.ir",
+      "*.test"
+    ],
+    "nameserver": [
+      "78.157.42.100",
+      "78.157.42.101",
+      "10.202.10.10",
+      "8.8.8.8",
+      "1.1.1.1"
+    ],
+    "fallback": [
+      "10.202.10.11",
+      "78.157.42.100",
+      "8.8.4.4"
+    ],
+    "fallback-filter": {
+      "geoip": true,
+      "geoip-code": "IR",
+      "ipcidr": [
+        "0.0.0.0/8",
+        "127.0.0.0/8",
+        "10.0.0.0/8",
+        "172.16.0.0/12",
+        "192.168.0.0/16"
+      ]
+    }
+  },
   "proxies": [
     {
       "name": "ALRZ☃️-1",
@@ -90,7 +125,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
@@ -222,7 +257,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
@@ -244,7 +279,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
@@ -266,7 +301,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
@@ -420,7 +455,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
@@ -486,7 +521,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----",
         "grpc-mode": "gun"
       }
     },
@@ -508,7 +543,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
         "grpc-mode": "gun"
       }
     },
@@ -574,7 +609,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "mgrpcm",
         "grpc-mode": "gun"
       }
     },
@@ -596,7 +631,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "mgrpcm",
         "grpc-mode": "gun"
       }
     },
@@ -618,7 +653,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
@@ -794,7 +829,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
@@ -816,7 +851,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
@@ -882,7 +917,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
@@ -904,7 +939,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
@@ -1014,7 +1049,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE",
         "grpc-mode": "gun"
       }
     },
@@ -1080,7 +1115,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
@@ -1212,7 +1247,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "melov2ray",
         "grpc-mode": "gun"
       }
     },
@@ -1234,7 +1269,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "@SEVEN_PING@SEVEN_PING@SEVEN_PING@SEVEN_PING@SEVEN_PING@SEVEN_PING@SEVEN_PING@SEVEN_PING",
         "grpc-mode": "gun"
       }
     },
@@ -1278,7 +1313,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "32135vless",
         "grpc-mode": ""
       }
     },
@@ -1300,7 +1335,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
@@ -1410,7 +1445,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX",
         "grpc-mode": "gun"
       }
     },
@@ -1520,7 +1555,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy",
         "grpc-mode": ""
       }
     },
@@ -1564,7 +1599,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "hydra.miniproxy.sbs",
         "grpc-mode": "multi"
       }
     },
@@ -2136,7 +2171,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "W7lsFNbKqr3KudvIdn0xHgBq2t",
         "grpc-mode": "gun"
       }
     },
@@ -2158,7 +2193,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "chessgame",
         "grpc-mode": "gun"
       }
     },
@@ -2180,7 +2215,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
@@ -2224,7 +2259,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
@@ -2246,7 +2281,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
@@ -2290,7 +2325,7 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "0VTuTCdLL8WUYSwaz2OnC5y",
         "grpc-mode": "gun"
       }
     },
@@ -2400,11 +2435,399 @@
       "packet-encoding": "",
       "alpn": [],
       "grpc-opts": {
-        "grpc-service-name": "",
+        "grpc-service-name": "Tel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAY",
         "grpc-mode": "gun"
       }
     }
   ],
-  "proxy-groups": [],
-  "rules": []
+  "proxy-groups": [
+    {
+      "name": "Select",
+      "type": "select",
+      "proxies": [
+        "Auto",
+        "Fallback",
+        "Load Balance"
+      ],
+      "disable-udp": false
+    },
+    {
+      "name": "Auto",
+      "type": "url-test",
+      "proxies": [
+        "ALRZ☃️-1",
+        "ALRZ☃️-2",
+        "ALRZ☃️-3",
+        "ALRZ☃️-4",
+        "ALRZ☃️-5",
+        "ALRZ☃️-6",
+        "ALRZ☃️-7",
+        "ALRZ☃️-8",
+        "ALRZ☃️-9",
+        "ALRZ☃️-10",
+        "ALRZ☃️-11",
+        "ALRZ☃️-12",
+        "ALRZ☃️-13",
+        "ALRZ☃️-14",
+        "ALRZ☃️-15",
+        "ALRZ☃️-16",
+        "ALRZ☃️-17",
+        "ALRZ☃️-18",
+        "ALRZ☃️-19",
+        "ALRZ☃️-20",
+        "ALRZ☃️-21",
+        "ALRZ☃️-22",
+        "ALRZ☃️-23",
+        "ALRZ☃️-24",
+        "ALRZ☃️-25",
+        "ALRZ☃️-26",
+        "ALRZ☃️-27",
+        "ALRZ☃️-28",
+        "ALRZ☃️-29",
+        "ALRZ☃️-30",
+        "ALRZ☃️-31",
+        "ALRZ☃️-32",
+        "ALRZ☃️-33",
+        "ALRZ☃️-34",
+        "ALRZ☃️-35",
+        "ALRZ☃️-36",
+        "ALRZ☃️-37",
+        "ALRZ☃️-38",
+        "ALRZ☃️-39",
+        "ALRZ☃️-40",
+        "ALRZ☃️-41",
+        "ALRZ☃️-42",
+        "ALRZ☃️-43",
+        "ALRZ☃️-44",
+        "ALRZ☃️-45",
+        "ALRZ☃️-46",
+        "ALRZ☃️-47",
+        "ALRZ☃️-48",
+        "ALRZ☃️-49",
+        "ALRZ☃️-50",
+        "ALRZ☃️-51",
+        "ALRZ☃️-52",
+        "ALRZ☃️-53",
+        "ALRZ☃️-54",
+        "ALRZ☃️-55",
+        "ALRZ☃️-57",
+        "ALRZ☃️-58",
+        "ALRZ☃️-59",
+        "ALRZ☃️-60",
+        "ALRZ☃️-61",
+        "ALRZ☃️-62",
+        "ALRZ☃️-63",
+        "ALRZ☃️-64",
+        "ALRZ☃️-65",
+        "ALRZ☃️-66",
+        "ALRZ☃️-67",
+        "ALRZ☃️-68",
+        "ALRZ☃️-69",
+        "ALRZ☃️-70",
+        "ALRZ☃️-71",
+        "ALRZ☃️-72",
+        "ALRZ☃️-73",
+        "ALRZ☃️-74",
+        "ALRZ☃️-75",
+        "ALRZ☃️-76",
+        "ALRZ☃️-77",
+        "ALRZ☃️-78",
+        "ALRZ☃️-79",
+        "ALRZ☃️-80",
+        "ALRZ☃️-81",
+        "ALRZ☃️-82",
+        "ALRZ☃️-83",
+        "ALRZ☃️-84",
+        "ALRZ☃️-85",
+        "ALRZ☃️-86",
+        "ALRZ☃️-87",
+        "ALRZ☃️-88",
+        "ALRZ☃️-89",
+        "ALRZ☃️-90",
+        "ALRZ☃️-91",
+        "ALRZ☃️-92",
+        "ALRZ☃️-93",
+        "ALRZ☃️-94",
+        "ALRZ☃️-95",
+        "ALRZ☃️-96",
+        "ALRZ☃️-97",
+        "ALRZ☃️-98",
+        "ALRZ☃️-99",
+        "ALRZ☃️-100",
+        "ALRZ☃️-101",
+        "ALRZ☃️-102",
+        "ALRZ☃️-103",
+        "ALRZ☃️-104",
+        "ALRZ☃️-105",
+        "ALRZ☃️-106",
+        "ALRZ☃️-107",
+        "ALRZ☃️-108",
+        "ALRZ☃️-109",
+        "ALRZ☃️-110"
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": 120,
+      "tolerance": 50,
+      "lazy": true,
+      "disable-udp": false
+    },
+    {
+      "name": "Fallback",
+      "type": "fallback",
+      "proxies": [
+        "ALRZ☃️-1",
+        "ALRZ☃️-2",
+        "ALRZ☃️-3",
+        "ALRZ☃️-4",
+        "ALRZ☃️-5",
+        "ALRZ☃️-6",
+        "ALRZ☃️-7",
+        "ALRZ☃️-8",
+        "ALRZ☃️-9",
+        "ALRZ☃️-10",
+        "ALRZ☃️-11",
+        "ALRZ☃️-12",
+        "ALRZ☃️-13",
+        "ALRZ☃️-14",
+        "ALRZ☃️-15",
+        "ALRZ☃️-16",
+        "ALRZ☃️-17",
+        "ALRZ☃️-18",
+        "ALRZ☃️-19",
+        "ALRZ☃️-20",
+        "ALRZ☃️-21",
+        "ALRZ☃️-22",
+        "ALRZ☃️-23",
+        "ALRZ☃️-24",
+        "ALRZ☃️-25",
+        "ALRZ☃️-26",
+        "ALRZ☃️-27",
+        "ALRZ☃️-28",
+        "ALRZ☃️-29",
+        "ALRZ☃️-30",
+        "ALRZ☃️-31",
+        "ALRZ☃️-32",
+        "ALRZ☃️-33",
+        "ALRZ☃️-34",
+        "ALRZ☃️-35",
+        "ALRZ☃️-36",
+        "ALRZ☃️-37",
+        "ALRZ☃️-38",
+        "ALRZ☃️-39",
+        "ALRZ☃️-40",
+        "ALRZ☃️-41",
+        "ALRZ☃️-42",
+        "ALRZ☃️-43",
+        "ALRZ☃️-44",
+        "ALRZ☃️-45",
+        "ALRZ☃️-46",
+        "ALRZ☃️-47",
+        "ALRZ☃️-48",
+        "ALRZ☃️-49",
+        "ALRZ☃️-50",
+        "ALRZ☃️-51",
+        "ALRZ☃️-52",
+        "ALRZ☃️-53",
+        "ALRZ☃️-54",
+        "ALRZ☃️-55",
+        "ALRZ☃️-57",
+        "ALRZ☃️-58",
+        "ALRZ☃️-59",
+        "ALRZ☃️-60",
+        "ALRZ☃️-61",
+        "ALRZ☃️-62",
+        "ALRZ☃️-63",
+        "ALRZ☃️-64",
+        "ALRZ☃️-65",
+        "ALRZ☃️-66",
+        "ALRZ☃️-67",
+        "ALRZ☃️-68",
+        "ALRZ☃️-69",
+        "ALRZ☃️-70",
+        "ALRZ☃️-71",
+        "ALRZ☃️-72",
+        "ALRZ☃️-73",
+        "ALRZ☃️-74",
+        "ALRZ☃️-75",
+        "ALRZ☃️-76",
+        "ALRZ☃️-77",
+        "ALRZ☃️-78",
+        "ALRZ☃️-79",
+        "ALRZ☃️-80",
+        "ALRZ☃️-81",
+        "ALRZ☃️-82",
+        "ALRZ☃️-83",
+        "ALRZ☃️-84",
+        "ALRZ☃️-85",
+        "ALRZ☃️-86",
+        "ALRZ☃️-87",
+        "ALRZ☃️-88",
+        "ALRZ☃️-89",
+        "ALRZ☃️-90",
+        "ALRZ☃️-91",
+        "ALRZ☃️-92",
+        "ALRZ☃️-93",
+        "ALRZ☃️-94",
+        "ALRZ☃️-95",
+        "ALRZ☃️-96",
+        "ALRZ☃️-97",
+        "ALRZ☃️-98",
+        "ALRZ☃️-99",
+        "ALRZ☃️-100",
+        "ALRZ☃️-101",
+        "ALRZ☃️-102",
+        "ALRZ☃️-103",
+        "ALRZ☃️-104",
+        "ALRZ☃️-105",
+        "ALRZ☃️-106",
+        "ALRZ☃️-107",
+        "ALRZ☃️-108",
+        "ALRZ☃️-109",
+        "ALRZ☃️-110"
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": 120,
+      "tolerance": 100,
+      "disable-udp": false
+    },
+    {
+      "name": "Load Balance",
+      "type": "load-balance",
+      "proxies": [
+        "ALRZ☃️-1",
+        "ALRZ☃️-2",
+        "ALRZ☃️-3",
+        "ALRZ☃️-4",
+        "ALRZ☃️-5",
+        "ALRZ☃️-6",
+        "ALRZ☃️-7",
+        "ALRZ☃️-8",
+        "ALRZ☃️-9",
+        "ALRZ☃️-10",
+        "ALRZ☃️-11",
+        "ALRZ☃️-12",
+        "ALRZ☃️-13",
+        "ALRZ☃️-14",
+        "ALRZ☃️-15",
+        "ALRZ☃️-16",
+        "ALRZ☃️-17",
+        "ALRZ☃️-18",
+        "ALRZ☃️-19",
+        "ALRZ☃️-20",
+        "ALRZ☃️-21",
+        "ALRZ☃️-22",
+        "ALRZ☃️-23",
+        "ALRZ☃️-24",
+        "ALRZ☃️-25",
+        "ALRZ☃️-26",
+        "ALRZ☃️-27",
+        "ALRZ☃️-28",
+        "ALRZ☃️-29",
+        "ALRZ☃️-30",
+        "ALRZ☃️-31",
+        "ALRZ☃️-32",
+        "ALRZ☃️-33",
+        "ALRZ☃️-34",
+        "ALRZ☃️-35",
+        "ALRZ☃️-36",
+        "ALRZ☃️-37",
+        "ALRZ☃️-38",
+        "ALRZ☃️-39",
+        "ALRZ☃️-40",
+        "ALRZ☃️-41",
+        "ALRZ☃️-42",
+        "ALRZ☃️-43",
+        "ALRZ☃️-44",
+        "ALRZ☃️-45",
+        "ALRZ☃️-46",
+        "ALRZ☃️-47",
+        "ALRZ☃️-48",
+        "ALRZ☃️-49",
+        "ALRZ☃️-50",
+        "ALRZ☃️-51",
+        "ALRZ☃️-52",
+        "ALRZ☃️-53",
+        "ALRZ☃️-54",
+        "ALRZ☃️-55",
+        "ALRZ☃️-57",
+        "ALRZ☃️-58",
+        "ALRZ☃️-59",
+        "ALRZ☃️-60",
+        "ALRZ☃️-61",
+        "ALRZ☃️-62",
+        "ALRZ☃️-63",
+        "ALRZ☃️-64",
+        "ALRZ☃️-65",
+        "ALRZ☃️-66",
+        "ALRZ☃️-67",
+        "ALRZ☃️-68",
+        "ALRZ☃️-69",
+        "ALRZ☃️-70",
+        "ALRZ☃️-71",
+        "ALRZ☃️-72",
+        "ALRZ☃️-73",
+        "ALRZ☃️-74",
+        "ALRZ☃️-75",
+        "ALRZ☃️-76",
+        "ALRZ☃️-77",
+        "ALRZ☃️-78",
+        "ALRZ☃️-79",
+        "ALRZ☃️-80",
+        "ALRZ☃️-81",
+        "ALRZ☃️-82",
+        "ALRZ☃️-83",
+        "ALRZ☃️-84",
+        "ALRZ☃️-85",
+        "ALRZ☃️-86",
+        "ALRZ☃️-87",
+        "ALRZ☃️-88",
+        "ALRZ☃️-89",
+        "ALRZ☃️-90",
+        "ALRZ☃️-91",
+        "ALRZ☃️-92",
+        "ALRZ☃️-93",
+        "ALRZ☃️-94",
+        "ALRZ☃️-95",
+        "ALRZ☃️-96",
+        "ALRZ☃️-97",
+        "ALRZ☃️-98",
+        "ALRZ☃️-99",
+        "ALRZ☃️-100",
+        "ALRZ☃️-101",
+        "ALRZ☃️-102",
+        "ALRZ☃️-103",
+        "ALRZ☃️-104",
+        "ALRZ☃️-105",
+        "ALRZ☃️-106",
+        "ALRZ☃️-107",
+        "ALRZ☃️-108",
+        "ALRZ☃️-109",
+        "ALRZ☃️-110"
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": 300,
+      "strategy": "consistent-hashing",
+      "disable-udp": false
+    }
+  ],
+  "rules": [
+    "DOMAIN-SUFFIX,google.com,Auto",
+    "DOMAIN-SUFFIX,youtube.com,Auto",
+    "DOMAIN-SUFFIX,github.com,Auto",
+    "DOMAIN-KEYWORD,telegram,Auto",
+    "DOMAIN-SUFFIX,instagram.com,Auto",
+    "DOMAIN-SUFFIX,twitter.com,Auto",
+    "DOMAIN-SUFFIX,whatsapp.com,Auto",
+    "DOMAIN-SUFFIX,cdn.ir,DIRECT",
+    "DOMAIN-SUFFIX,aparat.com,DIRECT",
+    "DOMAIN-SUFFIX,digikala.com,DIRECT",
+    "DOMAIN-SUFFIX,divar.ir,DIRECT",
+    "DOMAIN-SUFFIX,snapp.ir,DIRECT",
+    "DOMAIN-SUFFIX,torob.com,DIRECT",
+    "DOMAIN-SUFFIX,bamilo.com,DIRECT",
+    "DOMAIN-SUFFIX,alibaba.ir,DIRECT",
+    "DOMAIN-SUFFIX,ban.ir,DIRECT",
+    "GEOIP,IR,DIRECT",
+    "MATCH,Auto"
+  ]
 }
