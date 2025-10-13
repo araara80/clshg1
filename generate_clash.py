@@ -5,221 +5,119 @@ import json
 
 RAW_URL = "https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/grpc.txt"
 
-# اسکلت پیش‌فرض Clash که دادی
-CLASH_TEMPLATE = {
-  "port": 7890,
-  "socks-port": 7891,
-  "mixed-port": 7893,
-  "mode": "rule",
-  "log-level": "info",
-  "dns": {
-    "enable": True,
-    "listen": ":53",
-    "enhanced-mode": "fake-ip",
-    "fake-ip-range": "198.18.0.1/16",
-    "fake-ip-filter": [
-      "*.lan",
-      "*.local",
-      "*.localhost",
-      "*.ir",
-      "*.test"
-    ],
-    "nameserver": [
-      "78.157.42.100",
-      "78.157.42.101",
-      "10.202.10.10",
-      "8.8.8.8",
-      "1.1.1.1"
-    ],
-    "fallback": [
-      "10.202.10.11",
-      "78.157.42.100",
-      "8.8.4.4"
-    ],
-    "fallback-filter": {
-      "geoip": True,
-      "geoip-code": "IR",
-      "ipcidr": [
-        "0.0.0.0/8",
-        "127.0.0.0/8",
-        "10.0.0.0/8",
-        "172.16.0.0/12",
-        "192.168.0.0/16"
-      ]
-    }
-  },
-  "proxies": [],
-  "proxy-groups": [],  # این بخش بعداً هم اضافه می‌کنیم
-  "rules": [
-    "DOMAIN-SUFFIX,google.com,ARISTA Auto",
-    "DOMAIN-SUFFIX,youtube.com,ARISTA Auto",
-    "DOMAIN-SUFFIX,github.com,ARISTA Auto",
-    "DOMAIN-KEYWORD,telegram,ARISTA Auto",
-    "DOMAIN-SUFFIX,instagram.com,ARISTA Auto",
-    "DOMAIN-SUFFIX,twitter.com,ARISTA Auto",
-    "DOMAIN-SUFFIX,whatsapp.com,ARISTA Auto",
-    "DOMAIN-SUFFIX,cdn.ir,DIRECT",
-    "DOMAIN-SUFFIX,aparat.com,DIRECT",
-    "DOMAIN-SUFFIX,digikala.com,DIRECT",
-    "DOMAIN-SUFFIX,divar.ir,DIRECT",
-    "DOMAIN-SUFFIX,snapp.ir,DIRECT",
-    "DOMAIN-SUFFIX,torob.com,DIRECT",
-    "DOMAIN-SUFFIX,bamilo.com,DIRECT",
-    "DOMAIN-SUFFIX,alibaba.ir,DIRECT",
-    "DOMAIN-SUFFIX,ban.ir,DIRECT",
-    "GEOIP,IR,DIRECT",
-    "MATCH,ARISTA Auto"
-  ]
-}
 
 def fetch_raw():
+    """دریافت محتوای لینک و تلاش برای decode در صورت Base64 بودن"""
     resp = requests.get(RAW_URL, timeout=10)
     resp.raise_for_status()
     text = resp.text.strip()
-    # اگر متن Base64 باشه، تلاش به decode
     try:
         decoded = base64.b64decode(text).decode("utf-8", errors="ignore")
         return decoded
     except Exception:
         return text
 
+
 def parse_vless_lines(raw_text):
+    """فقط خطوط vless:// که type=grpc دارند"""
     lines = raw_text.splitlines()
-    # فقط خطوطی که vless:// و type=grpc دارند
-    filtered = [
-        line for line in lines
+    return [
+        line.strip()
+        for line in lines
         if line.lower().startswith("vless://") and "type=grpc" in line.lower()
     ]
-    return filtered
+
 
 def extract_params(vless_url):
-    """
-    از لینک vless:// پارامترهای لازم را برمی‌دارد:
-    server, port, uuid, tls, servername, flow, grpc-service-name و ... 
-    """
-    # Pattern ساده‌تر برای گرفتن بخش before ? و بخش query بعدش
-    # ساختار ممکن: vless://UUID@host:port?key1=val1&key2=val2#tag
+    """استخراج فیلدهای داخل لینک VLESS"""
+    # ساختار: vless://UUID@host:port?key=value&key=value#TAG
     parts = re.split(r"\?", vless_url, maxsplit=1)
     head = parts[0]
     query = parts[1] if len(parts) > 1 else ""
-    # جدا کردن بخش fragment (بعد #)
     query, *_ = query.split("#", 1)
-    # parse head: vless://UUID@host:port
-    m = re.match(r"vless://([^@]+)@([^:]+):([0-9]+)", head)
-    if not m:
-        return None
-    uuid, server, port = m.group(1), m.group(2), int(m.group(3))
 
-    # parse query parameters
+    match = re.match(r"vless://([^@]+)@([^:]+):([0-9]+)", head)
+    if not match:
+        return None
+
+    uuid, server, port = match.group(1), match.group(2), int(match.group(3))
+
     params = {}
     for kv in query.split("&"):
         if "=" in kv:
             k, v = kv.split("=", 1)
             params[k.lower()] = v
 
-    # جمع کردن همه چیز در دیکشنری
-    d = {
-        "type": "vless",
+    # ساخت دیکشنری با مقدار خالی در صورت نبود پارامتر
+    return {
+        "uuid": uuid,
         "server": server,
         "port": port,
-        "uuid": uuid,
-        "network": params.get("network", "grpc"),
-        "tls": params.get("tls", "false").lower() in ("true", "1", "yes"),
-        "servername": params.get("sni", server),
+        "type": "vless",
+        "network": params.get("type", "grpc"),
+        "tls": params.get("security", "").lower() in ("tls", "reality"),
+        "servername": params.get("sni", ""),
         "flow": params.get("flow", ""),
-        # grpc opts
+        "service_name": params.get("serviceName", ""),
+        "grpc_mode": params.get("mode", ""),
+    }
+
+
+def build_proxy_object(entry, index):
+    """ساخت یک شیء پروکسی کامل با مقادیر خالی در صورت نبود داده"""
+    return {
+        "name": f"ALRZ☃️-{index}",
+        "type": entry.get("type", "vless"),
+        "server": entry.get("server", ""),
+        "port": entry.get("port", 0),
+        "uuid": entry.get("uuid", ""),
+        "network": entry.get("network", "grpc"),
+        "tls": entry.get("tls", False),
+        "udp": True,
+        "skip-cert-verify": False,
+        "tcp-fast-open": True,
+        "fast-open": True,
+        "servername": entry.get("servername", ""),
+        "flow": entry.get("flow", ""),
+        "client-fingerprint": "",
+        "packet-encoding": "",
+        "alpn": [],
         "grpc-opts": {
-            "grpc-service-name": params.get("serviceName", ""),
-            "grpc-mode": params.get("mode", "gun")
+            "grpc-service-name": entry.get("service_name", ""),
+            "grpc-mode": entry.get("grpc_mode", "")
         }
     }
-    return d
 
-def build_proxies(vless_list):
-    proxies = []
-    for i, url in enumerate(vless_list, 1):
-        p = extract_params(url)
-        if not p:
-            continue
-        # اضافه کردن فیلدهایی که قالب داده بودی
-        proxy = {
-            "name": f"ALRZ☃️-{i}",
-            "type": "vless",
-            "server": p["server"],
-            "port": p["port"],
-            "uuid": p["uuid"],
-            "network": "grpc",
-            "tls": p["tls"],
-            "udp": True,
-            "skip-cert-verify": False,
-            "tcp-fast-open": True,
-            "fast-open": True,
-            "servername": p["servername"],
-            "flow": p["flow"],
-            "client-fingerprint": "chrome",
-            "packet-encoding": "xudp",
-            "alpn": ["h2", "http/1.1"],
-            "grpc-opts": {
-                "grpc-service-name": p["grpc-opts"]["grpc-service-name"],
-                "grpc-mode": p["grpc-opts"]["grpc-mode"]
-            }
-        }
-        proxies.append(proxy)
-    return proxies
 
 def main():
-    raw = fetch_raw()
-    vless_urls = parse_vless_lines(raw)
-    proxies = build_proxies(vless_urls)
+    raw_text = fetch_raw()
+    vless_list = parse_vless_lines(raw_text)
 
-    # پر کردن بخش proxies در قالب
-    result = CLASH_TEMPLATE.copy()
-    result["proxies"] = proxies
+    proxies = []
+    for i, vless in enumerate(vless_list, 1):
+        entry = extract_params(vless)
+        if not entry:
+            continue
+        proxy = build_proxy_object(entry, i)
+        proxies.append(proxy)
 
-    # می‌تونی اینجا بخش proxy-groups رو هم به دلخواه اضافه کنی
-    # مثلاً همان proxy-groups که قبلاً داشتی:
-    result["proxy-groups"] = [
-        {
-            "name": "ARISTA Select",
-            "type": "select",
-            "proxies": [p["name"] for p in proxies],
-            "disable-udp": False
-        },
-        {
-            "name": "ARISTA Auto",
-            "type": "url-test",
-            "proxies": [p["name"] for p in proxies],
-            "url": "http://www.gstatic.com/generate_204",
-            "interval": 120,
-            "tolerance": 50,
-            "lazy": True,
-            "disable-udp": False
-        },
-        {
-            "name": "ARISTA Fallback",
-            "type": "fallback",
-            "proxies": [p["name"] for p in proxies],
-            "url": "http://www.gstatic.com/generate_204",
-            "interval": 120,
-            "tolerance": 100,
-            "disable-udp": False
-        },
-        {
-            "name": "ARISTA Load Balance",
-            "type": "load-balance",
-            "proxies": [p["name"] for p in proxies],
-            "url": "http://www.gstatic.com/generate_204",
-            "interval": 300,
-            "strategy": "consistent-hashing",
-            "disable-udp": False
-        }
-    ]
+    result = {
+        "port": 7890,
+        "socks-port": 7891,
+        "mixed-port": 7893,
+        "mode": "rule",
+        "log-level": "info",
+        "dns": {},  # برای سادگی خالی نگه می‌داریم
+        "proxies": proxies,
+        "proxy-groups": [],
+        "rules": []
+    }
 
-    # خروجی به صورت فایل JSON
     with open("clash.json", "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
 
-    print(f"✅ فایل clash.json با {len(proxies)} پروکسی ساخته شد.")
+    print(f"✅ {len(proxies)} کانفیگ استخراج و در clash.json ذخیره شد.")
+
 
 if __name__ == "__main__":
     main()
