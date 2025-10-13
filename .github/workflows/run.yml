@@ -2,8 +2,11 @@ name: Filter VLESS gRPC
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # هر ۶ ساعت
-  workflow_dispatch:       # قابلیت اجرای دستی
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write  # 👈 این خط جدید لازمه
 
 jobs:
   build:
