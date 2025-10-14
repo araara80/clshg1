@@ -72,7 +72,7 @@ def main():
         final.append(labeled)
 
     # ذخیره خروجی
-    with open("filtered.txt", "w", encoding="utf-8") as f:
+    with open("vless_grpc.txt", "w", encoding="utf-8") as f:
         f.write("\n".join(final))
 
     print(f"✅ تمام شد! {len(final)} لینک نهایی بعد از حذف تکراری‌ها پیدا شد.")
