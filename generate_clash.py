@@ -4,7 +4,7 @@ import re
 import json
 
 # 🔗 لینک فایل کانفیگ‌های gRPC
-RAW_URL = "https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/grpc.txt"
+RAW_URL = "https://github.com/araara80/clshg1/raw/refs/heads/main/filtered.txt"
 
 # 📁 فایل قالب ثابت (template.json)
 TEMPLATE_FILE = "template.json"
