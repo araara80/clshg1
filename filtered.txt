@@ -217,32 +217,29 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.162:8880?encryption=none
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.150.156:8880?security=&encryption=none&type=grpc#ALRZ☃️-217
 vless://46c13f51-af3a-47de-a2a3-b6cae11ba178@51.89.136.51:2053?mode=gun&security=reality&encryption=none&authority=Tel:@VPN_KING_V2RAY&pbk=zXUooNteR4bbYVnhPuv1nGPxjkPSl0cE7_847Wr032o&fp=chrome&spx=/MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN----MTMVPN---MTMVPN----MTMVPN---MTMVPN---MTMVPN---MTMVPN&type=grpc&serviceName=Tel:@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY&sni=tgju.org&sid=8ae7e4#ALRZ☃️-218
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.79:8880?mode=gun&security=&encryption=none&authority=Join----TM (@AZARBAYJAB1)---Join----TM (@AZARBAYJAB1)----Join----TM (@AZARBAYJAB1)----Join----TM (@AZARBAYJAB1)&type=grpc&sni=/?---@Azarbayjab1_Net---@Azarbayjab1_Net---@azarbayjab1_Net---@azarbayjab1_Net---@Azarbayjab1_Net#ALRZ☃️-219
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.133.176:8880?encryption=none&security=none&type=grpc&note=@freeOnlineVPN#ALRZ☃️-220
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.133.176:8880?security=&amp;type=grpc&amp;encryption=none#ALRZ☃️-220
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.136:8880?security=&amp;type=grpc&amp;encryption=none#ALRZ☃️-221
 vless://58ceae57-1ea5-4056-869d-cc10255a5e90@vvv.floorshoping22.com:2087?type=grpc&amp;encryption=none&amp;serviceName=&amp;authority=&amp;security=tls&amp;fp=chrome&amp;alpn=h2&amp;allowInsecure=1&amp;sni=vvv.floorshoping22.com#ALRZ☃️-222
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.153.183.183:8880?mode=gun&security=none&encryption=none&authority=&type=grpc&serviceName=#ALRZ☃️-223
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638964706453370319.birjand-blkaft-aaar.info:8880?mode=&security=&alpn=&encryption=none&fp=&type=grpc&serviceName=&sni=&allowInsecure=#ALRZ☃️-224
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638964706456833989.esfahan-blkaft-aaar.info:8880?mode=&amp;security=&amp;alpn=&amp;encryption=none&amp;fp=&amp;type=grpc&amp;serviceName=&amp;sni=&amp;allowInsecure=#ALRZ☃️-225
-vless://7aae7d90-0b37-421e-834a-502ea15f43df@208.69.78.142:443?encryption=none&security=reality&sni=www.microsoft.com&fp=safari&pbk=eV7nN5zQA1ecRLyt2u1ChDrl5LU832tCySZOrWoiVXo&sid=91fbf6164cb2bc53&type=grpc&serviceName=dcfc23920fc8a07991dda30d#ALRZ☃️-226
-vless://7c9d302f-1438-4f37-a6e0-0591dc4a4614@158.220.88.63:443?mode=gun&security=reality&encryption=none&pbk=DTfizB6SKAjSe4gQVreWTIMpDT7HsDcqfR0_Y2xo7Gw&fp=safari&type=grpc&serviceName=7e41eb32ea906cebaf077110&sni=www.microsoft.com&sid=7daa515f56d7db89#ALRZ☃️-227
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638934319458527217.zagreb-drc-tusaby.info:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-228
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.71:8880?mode=gun&security=&encryption=none&type=grpc#ALRZ☃️-229
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.96:8880?mode=gun&security=&encryption=none&type=grpc#ALRZ☃️-230
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@103.35.189.107:8880?mode=gun&security=none&encryption=none&authority=&type=grpc&serviceName=#ALRZ☃️-231
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.139:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-232
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.150.186:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-233
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@89.221.224.210:8880?mode=gun&security=none&encryption=none&authority=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&type=grpc#ALRZ☃️-234
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@89.221.224.225:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-235
+vless://68aa2bd7-db2a-4e29-b3c3-ca751e4c3c51@176.97.77.194:443?encryption=none&amp;security=reality&amp;sni=www.microsoft.com&amp;fp=safari&amp;pbk=NvVKlkEzhjalaV82PCtugmgZGemOGAqHg4i7J2F93g8&amp;sid=4c6b4ebea75189ca&amp;type=grpc&amp;serviceName=89e2c9f6f66fc9dd7e4a2e8d#ALRZ☃️-226
+vless://7aae7d90-0b37-421e-834a-502ea15f43df@208.69.78.142:443?encryption=none&security=reality&sni=www.microsoft.com&fp=safari&pbk=eV7nN5zQA1ecRLyt2u1ChDrl5LU832tCySZOrWoiVXo&sid=91fbf6164cb2bc53&type=grpc&serviceName=dcfc23920fc8a07991dda30d#ALRZ☃️-227
+vless://7c9d302f-1438-4f37-a6e0-0591dc4a4614@158.220.88.63:443?mode=gun&security=reality&encryption=none&pbk=DTfizB6SKAjSe4gQVreWTIMpDT7HsDcqfR0_Y2xo7Gw&fp=safari&type=grpc&serviceName=7e41eb32ea906cebaf077110&sni=www.microsoft.com&sid=7daa515f56d7db89#ALRZ☃️-228
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638934319458527217.zagreb-drc-tusaby.info:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-229
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.71:8880?mode=gun&security=&encryption=none&type=grpc#ALRZ☃️-230
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.96:8880?mode=gun&security=&encryption=none&type=grpc#ALRZ☃️-231
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@103.35.189.107:8880?mode=gun&security=&encryption=none&type=grpc#ALRZ☃️-232
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.139:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-233
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.150.186:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-234
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@89.221.224.225:8880?encryption=none&security=none&type=grpc#ALRZ☃️-235
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.138.164.186:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-236
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.93:8880?mode=gun&security=none&encryption=none&authority=/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1%2&type=grpc&sni=---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1#ALRZ☃️-237
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.106:8880?mode=gun&security=none&encryption=none&type=grpc&sni=%F0%9F%94%92%20%5BBy%20EbraSha%5D%20vless-TR#ALRZ☃️-238
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.75:8880?mode=gun&security=none&encryption=none&type=grpc&sni=%F0%9F%94%92%20%5BBy%20EbraSha%5D%20GPRS#ALRZ☃️-239
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.100:8880?mode=gun&security=none&encryption=none&type=grpc&sni=%F0%9F%94%92%20%5BBy%20EbraSha%5D%20vless-TR#ALRZ☃️-240
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.88:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-241
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.103:8880?mode=gun&security=none&encryption=none&authority=/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)&type=grpc#ALRZ☃️-242
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.87:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-243
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.99:8880?mode=gun&security=&encryption=none&authority=/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)&type=grpc&sni=---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1#ALRZ☃️-244
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.96:8880?mode=gun&security=none&encryption=none&type=grpc&sni=%F0%9F%94%92%20%5BBy%20EbraSha%5D%20GPRS#ALRZ☃️-245
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.72:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-246
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638955452903725333.malayer-drc-tusaas.info:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-247
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.6.169:8880?mode=gun&security=&encryption=none&type=grpc#ALRZ☃️-248
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.75:8880?mode=gun&security=none&encryption=none&type=grpc&sni=%F0%9F%94%92%20%5BBy%20EbraSha%5D%20GPRS#ALRZ☃️-237
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.100:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-238
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.88:8880?mode=gun&security=none&encryption=none&authority=/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)&type=grpc#ALRZ☃️-239
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.103:8880?mode=gun&security=none&encryption=none&authority=/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)&type=grpc#ALRZ☃️-240
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.87:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-241
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.96:8880?mode=gun&security=none&encryption=none&type=grpc&sni=%F0%9F%94%92%20%5BBy%20EbraSha%5D%20vless-TR#ALRZ☃️-242
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.72:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-243
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638955452903725333.malayer-drc-tusaas.info:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-244
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.6.169:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-245
