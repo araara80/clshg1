@@ -96,7 +96,7 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.110.61:8880?mode=gun&securit
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.27:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-96
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.104:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-97
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@171.22.114.43:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-98
-vless://b62e676f-ef16-4083-a046-b710e26b2a08@107.161.168.148:28882?mode=gun&security=tls&encryption=none&alpn=h2,http/1.1&authority=&fp=chrome&type=grpc&serviceName=&sni=site.cvbsoft.com#ALRZ☃️-99
+vless://b62e676f-ef16-4083-a046-b710e26b2a08@107.161.168.148:28882?mode=gun&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;authority=&amp;fp=chrome&amp;type=grpc&amp;serviceName=&amp;sni=site.cvbsoft.com#ALRZ☃️-99
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.133.176:8880?security=&amp;type=grpc&amp;encryption=none#ALRZ☃️-100
 vless://5f39f871-2fae-446e-99ad-719fa8be687c@194.61.31.126:443?encryption=none&amp;security=reality&amp;sni=www.microsoft.com&amp;fp=safari&amp;pbk=L3UuY_lketYWBrW_naLct9-VFIAGwdtMplkubdHdEHQ&amp;sid=ce874361e8dfcd4e&amp;type=grpc&amp;serviceName=78e691d782c9b9b2cd3c5621#ALRZ☃️-101
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.140.167.172:8880?mode=gun&security=none&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&fp=chrome&type=grpc&sni=%F0%9F%94%92%20%5BBy%20EbraSha%5D%20vless-GB#ALRZ☃️-102
