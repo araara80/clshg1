@@ -68,7 +68,7 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.232.247.177:8880?mode=gun&securi
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.62:8880?mode=gun&security=&encryption=none&authority=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&type=grpc#ALRZ☃️-68
 vless://e4824193-4f54-453b-d037-88368e85ef0e@all.tellmethetrue.shop:443?mode=gun&security=tls&alpn=h2&encryption=none&type=grpc&sni=pqh27v2.carwashipdir.shop#ALRZ☃️-69
 vless://6967a7f2-e8a7-497e-f72e-c989e9f896d7@91.98.169.122:443?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-70
-vless://f8361e47-c7e1-4d00-a5b4-e208cf48eeed@62.60.247.164:17226?type=grpc&serviceName=/@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec&authority=&security=reality&pbk=uWfe2A9RpUjC9VzEsRr2I-i5Z-mAWSZlDQ107NbJA0g&fp=chrome&sni=tgju.org&sid=fad1783730&spx=/#ALRZ☃️-71
+vless://8cdc6e73-cbc6-4d4c-abe2-d2eb29fce6c2@185.135.9.202:443?security=tls&sni=noodturk.parsianboton.ir&type=grpc&serviceName=BuT9Wfa6u5bLQUgA9#ALRZ☃️-71
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@103.231.75.74:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-72
 vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.145:80?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-73
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@171.22.114.244:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-74
@@ -79,8 +79,7 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.110.61:8880?mode=gun&securit
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.27:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-79
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.104:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-80
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@171.22.114.43:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-81
-vless://36cc13fe-1bc0-462d-a8f6-9830c943966a@194.182.79.240:22734?mode=gun&amp;security=none&amp;encryption=none&amp;type=grpc&amp;serviceName=ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#ALRZ☃️-82
-vless://3677501e-31fc-41cf-b28c-e475acdacaf5@ziro1.zarashop0.ir:2087?type=grpc&amp;encryption=none&amp;serviceName=&amp;authority=&amp;security=tls&amp;fp=chrome&amp;alpn=&amp;allowInsecure=1&amp;sni=ziro1.zarashop0.ir#ALRZ☃️-83
-vless://6967a7f2-e8a7-497e-f72e-c989e9f896d7@91.98.155.220:443?mode=gun&security=&encryption=none&type=grpc#ALRZ☃️-84
-vless://02529660-52bf-4896-951a-1857c88d1dba@164.92.143.135:47542?mode=gun&security=reality&encryption=none&pbk=krsHuR6-NfPzTvW8uE9b_Xbjj-48yI91kLqhx4tWPUg&fp=chrome&spx=/&type=grpc&sni=zula.ir&sid=7a6d1a#ALRZ☃️-85
-vless://95b1344a-2b59-419f-ab7d-2ff7e5c6aa34@91.98.33.242:443?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-86
+vless://3677501e-31fc-41cf-b28c-e475acdacaf5@ziro1.zarashop0.ir:2087?type=grpc&amp;encryption=none&amp;serviceName=&amp;authority=&amp;security=tls&amp;fp=chrome&amp;alpn=&amp;allowInsecure=1&amp;sni=ziro1.zarashop0.ir#ALRZ☃️-82
+vless://6967a7f2-e8a7-497e-f72e-c989e9f896d7@91.98.155.220:443?mode=gun&amp;security=none&amp;encryption=none&amp;type=grpc#ALRZ☃️-83
+vless://02529660-52bf-4896-951a-1857c88d1dba@164.92.143.135:47542?mode=gun&security=reality&encryption=none&pbk=krsHuR6-NfPzTvW8uE9b_Xbjj-48yI91kLqhx4tWPUg&fp=chrome&spx=/&type=grpc&sni=zula.ir&sid=7a6d1a#ALRZ☃️-84
+vless://95b1344a-2b59-419f-ab7d-2ff7e5c6aa34@91.98.33.242:443?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-85
