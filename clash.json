@@ -296,21 +296,21 @@
     {
       "name": "ALRZ☃️-13",
       "type": "vless",
-      "server": "638938755008244100.vienna-drc-tusacaf.info",
-      "port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "server": "51.250.28.39",
+      "port": 443,
+      "uuid": "4a6de183-2ad3-456c-b420-feeac81f6257",
       "network": "grpc",
-      "tls": false,
+      "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "cloudflare.com",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "GunService",
+        "grpc-service-name": "xyz",
         "grpc-mode": "gun"
       }
     },
@@ -338,6 +338,27 @@
     {
       "name": "ALRZ☃️-15",
       "type": "vless",
+      "server": "638938755008244100.vienna-drc-tusacaf.info",
+      "port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-16",
+      "type": "vless",
       "server": "45.82.251.114",
       "port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -357,7 +378,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-16",
+      "name": "ALRZ☃️-17",
       "type": "vless",
       "server": "80.92.206.19",
       "port": 8880,
@@ -378,7 +399,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-17",
+      "name": "ALRZ☃️-18",
       "type": "vless",
       "server": "104.248.168.91",
       "port": 8443,
@@ -399,7 +420,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-18",
+      "name": "ALRZ☃️-19",
       "type": "vless",
       "server": "141.227.160.163",
       "port": 25536,
@@ -420,7 +441,28 @@
       }
     },
     {
-      "name": "ALRZ☃️-19",
+      "name": "ALRZ☃️-20",
+      "type": "vless",
+      "server": "legendary.zooboming.com",
+      "port": 443,
+      "uuid": "----v2rayNGcloud----",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "docker.com",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "-@v2rayNGcloud--@v2rayNGcloud--@v2rayNGcloud--@v2rayNGcloud--@v2rayNGcloud--",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-21",
       "type": "vless",
       "server": "91.107.139.110",
       "port": 8880,
@@ -441,7 +483,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-20",
+      "name": "ALRZ☃️-22",
       "type": "vless",
       "server": "[2001",
       "port": 41,
@@ -458,48 +500,6 @@
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-21",
-      "type": "vless",
-      "server": "141.227.180.236",
-      "port": 17276,
-      "uuid": "7d4c571c-0697-4d84-8c61-babcfe7ba2bc",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-22",
-      "type": "vless",
-      "server": "141.227.166.221",
-      "port": 13155,
-      "uuid": "7d3f3119-8e2d-4a7f-9223-d391e0d1d674",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
@@ -527,6 +527,48 @@
     {
       "name": "ALRZ☃️-24",
       "type": "vless",
+      "server": "141.227.166.221",
+      "port": 13155,
+      "uuid": "7d3f3119-8e2d-4a7f-9223-d391e0d1d674",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-25",
+      "type": "vless",
+      "server": "141.227.180.236",
+      "port": 17276,
+      "uuid": "7d4c571c-0697-4d84-8c61-babcfe7ba2bc",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-26",
+      "type": "vless",
       "server": "141.227.160.163",
       "port": 25536,
       "uuid": "c192de5f-85a5-4d73-8bfe-6d2d12f1637d",
@@ -546,53 +588,11 @@
       }
     },
     {
-      "name": "ALRZ☃️-25",
+      "name": "ALRZ☃️-27",
       "type": "vless",
       "server": "91.98.168.173",
       "port": 443,
       "uuid": "2ee2a715-d541-416a-8713-d66567448c2e",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-26",
-      "type": "vless",
-      "server": "194.182.79.240",
-      "port": 22729,
-      "uuid": "e7a88f85-e3dd-4458-81bb-65dff65c5b13",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-27",
-      "type": "vless",
-      "server": "638939927968108687.dublin-drc-tusaas.info",
-      "port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
       "network": "grpc",
       "tls": false,
       "udp": true,
@@ -611,9 +611,9 @@
     {
       "name": "ALRZ☃️-28",
       "type": "vless",
-      "server": "157.180.29.19",
-      "port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "server": "185.236.232.77",
+      "port": 80,
+      "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
       "network": "grpc",
       "tls": false,
       "udp": true,
@@ -632,9 +632,9 @@
     {
       "name": "ALRZ☃️-29",
       "type": "vless",
-      "server": "91.98.168.173",
-      "port": 443,
-      "uuid": "2ee2a715-d541-416a-8713-d66567448c2e",
+      "server": "157.180.29.19",
+      "port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
       "network": "grpc",
       "tls": false,
       "udp": true,
@@ -674,9 +674,9 @@
     {
       "name": "ALRZ☃️-31",
       "type": "vless",
-      "server": "185.236.232.108",
-      "port": 80,
-      "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
+      "server": "91.98.168.173",
+      "port": 443,
+      "uuid": "2ee2a715-d541-416a-8713-d66567448c2e",
       "network": "grpc",
       "tls": false,
       "udp": true,
@@ -1310,9 +1310,9 @@
     {
       "name": "ALRZ☃️-61",
       "type": "vless",
-      "server": "185.236.232.108",
-      "port": 80,
-      "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
+      "server": "141.227.172.96",
+      "port": 56089,
+      "uuid": "2d535288-d08e-4de4-b674-fd8cb3c6e4d3",
       "network": "grpc",
       "tls": false,
       "udp": true,
@@ -1324,7 +1324,7 @@
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "GunService",
+        "grpc-service-name": "🍫Telegram:v2ray_configs_v2c🍫",
         "grpc-mode": "gun"
       }
     },
@@ -1739,27 +1739,6 @@
     {
       "name": "ALRZ☃️-81",
       "type": "vless",
-      "server": "cone-snail.unity4world.ir",
-      "port": 8880,
-      "uuid": "cfe554a3-4cd5-4fe1-9951-e6b65fc52a74",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-82",
-      "type": "vless",
       "server": "141.227.178.176",
       "port": 34718,
       "uuid": "9cea414e-fe28-41ff-ae56-b5817aa03473",
@@ -1874,8 +1853,7 @@
         "ALRZ☃️-78",
         "ALRZ☃️-79",
         "ALRZ☃️-80",
-        "ALRZ☃️-81",
-        "ALRZ☃️-82"
+        "ALRZ☃️-81"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -1967,8 +1945,7 @@
         "ALRZ☃️-78",
         "ALRZ☃️-79",
         "ALRZ☃️-80",
-        "ALRZ☃️-81",
-        "ALRZ☃️-82"
+        "ALRZ☃️-81"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -2059,8 +2036,7 @@
         "ALRZ☃️-78",
         "ALRZ☃️-79",
         "ALRZ☃️-80",
-        "ALRZ☃️-81",
-        "ALRZ☃️-82"
+        "ALRZ☃️-81"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
