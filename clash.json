@@ -149,6 +149,27 @@
     {
       "name": "ALRZ☃️-6",
       "type": "vless",
+      "server": "45.82.251.249",
+      "port": 80,
+      "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-7",
+      "type": "vless",
       "server": "141.227.172.96",
       "port": 56089,
       "uuid": "2d535288-d08e-4de4-b674-fd8cb3c6e4d3",
@@ -168,7 +189,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-7",
+      "name": "ALRZ☃️-8",
       "type": "vless",
       "server": "46.224.38.129",
       "port": 52186,
@@ -189,7 +210,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-8",
+      "name": "ALRZ☃️-9",
       "type": "vless",
       "server": "198.105.123.182",
       "port": 2080,
@@ -210,7 +231,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-9",
+      "name": "ALRZ☃️-10",
       "type": "vless",
       "server": "xtlsresponse.revolutiontime.vigilante.ir",
       "port": 6842,
@@ -227,27 +248,6 @@
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs?ed=2048",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-10",
-      "type": "vless",
-      "server": "141.227.136.51",
-      "port": 25687,
-      "uuid": "a03e540d-7fa2-4187-b0d0-5202a22cf9a0",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "t.me/entryNETEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "grpc-mode": "gun"
       }
     },
@@ -485,7 +485,7 @@
     {
       "name": "ALRZ☃️-22",
       "type": "vless",
-      "server": "89.221.224.211",
+      "server": "638950280342840960.esfahan-drc-tusaas.info",
       "port": 8880,
       "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
       "network": "grpc",
@@ -971,27 +971,6 @@
     {
       "name": "ALRZ☃️-45",
       "type": "vless",
-      "server": "141.227.136.51",
-      "port": 25687,
-      "uuid": "a03e540d-7fa2-4187-b0d0-5202a22cf9a0",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "t.me/entryNETEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-46",
-      "type": "vless",
       "server": "91.98.168.173",
       "port": 443,
       "uuid": "2ee2a715-d541-416a-8713-d66567448c2e",
@@ -1011,7 +990,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-47",
+      "name": "ALRZ☃️-46",
       "type": "vless",
       "server": "91.98.38.116",
       "port": 443,
@@ -1032,7 +1011,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-48",
+      "name": "ALRZ☃️-47",
       "type": "vless",
       "server": "legendary.zooboming.com",
       "port": 443,
@@ -1053,7 +1032,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-49",
+      "name": "ALRZ☃️-48",
       "type": "vless",
       "server": "legendary.zooboming.com",
       "port": 443,
@@ -1074,7 +1053,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-50",
+      "name": "ALRZ☃️-49",
       "type": "vless",
       "server": "104.17.147.22",
       "port": 8080,
@@ -1095,7 +1074,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-51",
+      "name": "ALRZ☃️-50",
       "type": "vless",
       "server": "91.107.130.76",
       "port": 41647,
@@ -1116,7 +1095,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-52",
+      "name": "ALRZ☃️-51",
       "type": "vless",
       "server": "all.tellmethetrue.shop",
       "port": 443,
@@ -1140,7 +1119,7 @@
       ]
     },
     {
-      "name": "ALRZ☃️-53",
+      "name": "ALRZ☃️-52",
       "type": "vless",
       "server": "91.98.155.240",
       "port": 443,
@@ -1161,7 +1140,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-54",
+      "name": "ALRZ☃️-53",
       "type": "vless",
       "server": "95.179.217.208",
       "port": 8880,
@@ -1182,7 +1161,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-55",
+      "name": "ALRZ☃️-54",
       "type": "vless",
       "server": "45.82.251.250",
       "port": 80,
@@ -1203,7 +1182,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-56",
+      "name": "ALRZ☃️-55",
       "type": "vless",
       "server": "45.13.119.77",
       "port": 2024,
@@ -1220,6 +1199,27 @@
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "yourServiceName",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-56",
+      "type": "vless",
+      "server": "91.107.179.99",
+      "port": 443,
+      "uuid": "97899a35-53a2-42b0-bc47-587d220772a1",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "greenpepper.ir",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
     },
@@ -1247,27 +1247,6 @@
     {
       "name": "ALRZ☃️-58",
       "type": "vless",
-      "server": "91.107.179.99",
-      "port": 443,
-      "uuid": "97899a35-53a2-42b0-bc47-587d220772a1",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "greenpepper.ir",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-59",
-      "type": "vless",
       "server": "sublink.kharejishop.sbs",
       "port": 443,
       "uuid": "e5f689a0-16c9-490e-8276-c1535964efc2",
@@ -1290,7 +1269,7 @@
       ]
     },
     {
-      "name": "ALRZ☃️-60",
+      "name": "ALRZ☃️-59",
       "type": "vless",
       "server": "91.99.148.251",
       "port": 3184,
@@ -1311,7 +1290,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-61",
+      "name": "ALRZ☃️-60",
       "type": "vless",
       "server": "54.36.117.130",
       "port": 25369,
@@ -1332,7 +1311,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-62",
+      "name": "ALRZ☃️-61",
       "type": "vless",
       "server": "141.227.180.211",
       "port": 25365,
@@ -1353,7 +1332,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-63",
+      "name": "ALRZ☃️-62",
       "type": "vless",
       "server": "static.50.146.62.46.clients.your-server.de",
       "port": 443,
@@ -1377,7 +1356,7 @@
       ]
     },
     {
-      "name": "ALRZ☃️-64",
+      "name": "ALRZ☃️-63",
       "type": "vless",
       "server": "141.227.160.163",
       "port": 25538,
@@ -1398,7 +1377,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-65",
+      "name": "ALRZ☃️-64",
       "type": "vless",
       "server": "141.227.160.163",
       "port": 25539,
@@ -1497,8 +1476,7 @@
         "ALRZ☃️-61",
         "ALRZ☃️-62",
         "ALRZ☃️-63",
-        "ALRZ☃️-64",
-        "ALRZ☃️-65"
+        "ALRZ☃️-64"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -1573,8 +1551,7 @@
         "ALRZ☃️-61",
         "ALRZ☃️-62",
         "ALRZ☃️-63",
-        "ALRZ☃️-64",
-        "ALRZ☃️-65"
+        "ALRZ☃️-64"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -1648,8 +1625,7 @@
         "ALRZ☃️-61",
         "ALRZ☃️-62",
         "ALRZ☃️-63",
-        "ALRZ☃️-64",
-        "ALRZ☃️-65"
+        "ALRZ☃️-64"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
