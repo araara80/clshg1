@@ -1355,6 +1355,27 @@
     {
       "name": "ALRZ☃️-63",
       "type": "vless",
+      "server": "141.227.130.6",
+      "port": 46106,
+      "uuid": "89d98d66-4695-400d-9fdf-7767af9f24a5",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-64",
+      "type": "vless",
       "server": "all.tellmethetrue.shop",
       "port": 443,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -1377,7 +1398,7 @@
       ]
     },
     {
-      "name": "ALRZ☃️-64",
+      "name": "ALRZ☃️-65",
       "type": "vless",
       "server": "all.tellmethetrue.shop",
       "port": 443,
@@ -1479,7 +1500,8 @@
         "ALRZ☃️-61",
         "ALRZ☃️-62",
         "ALRZ☃️-63",
-        "ALRZ☃️-64"
+        "ALRZ☃️-64",
+        "ALRZ☃️-65"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -1554,7 +1576,8 @@
         "ALRZ☃️-61",
         "ALRZ☃️-62",
         "ALRZ☃️-63",
-        "ALRZ☃️-64"
+        "ALRZ☃️-64",
+        "ALRZ☃️-65"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -1628,7 +1651,8 @@
         "ALRZ☃️-61",
         "ALRZ☃️-62",
         "ALRZ☃️-63",
-        "ALRZ☃️-64"
+        "ALRZ☃️-64",
+        "ALRZ☃️-65"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
