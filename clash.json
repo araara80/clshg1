@@ -149,27 +149,6 @@
     {
       "name": "ALRZ☃️-6",
       "type": "vless",
-      "server": "141.227.172.96",
-      "port": 56089,
-      "uuid": "2d535288-d08e-4de4-b674-fd8cb3c6e4d3",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-7",
-      "type": "vless",
       "server": "145.239.29.74",
       "port": 43962,
       "uuid": "3735d502-12ea-40a5-a59f-6b66413c20ad",
@@ -185,6 +164,27 @@
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-7",
+      "type": "vless",
+      "server": "91.98.231.130",
+      "port": 443,
+      "uuid": "2ee2a715-d541-416a-8713-d66567448c2e",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
     },
@@ -716,27 +716,6 @@
     {
       "name": "ALRZ☃️-33",
       "type": "vless",
-      "server": "141.227.180.236",
-      "port": 17276,
-      "uuid": "7d4c571c-0697-4d84-8c61-babcfe7ba2bc",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-34",
-      "type": "vless",
       "server": "141.227.162.151",
       "port": 33919,
       "uuid": "9eee43b5-6b7d-494a-a5b3-fb45b7ee4976",
@@ -756,28 +735,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-35",
-      "type": "vless",
-      "server": "a.confignor.site",
-      "port": 35493,
-      "uuid": "e5097617-273a-4d52-8110-c2f67cf80147",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "www.cdn77.com",
-      "flow": "",
-      "client-fingerprint": "qq",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "چنل+سازنده+اصلی+کانفیگ+@ConfigFree",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-36",
+      "name": "ALRZ☃️-34",
       "type": "vless",
       "server": "pqh28v5.waipdirect.shop",
       "port": 8880,
@@ -798,7 +756,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-37",
+      "name": "ALRZ☃️-35",
       "type": "vless",
       "server": "638931272656134408.malayer-drc-tusabu.info",
       "port": 8880,
@@ -819,7 +777,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-38",
+      "name": "ALRZ☃️-36",
       "type": "vless",
       "server": "V2RAXX-channel.cataba.ir",
       "port": 6666,
@@ -840,7 +798,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-39",
+      "name": "ALRZ☃️-37",
       "type": "vless",
       "server": "pico1.zarashop0.ir",
       "port": 2087,
@@ -861,7 +819,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-40",
+      "name": "ALRZ☃️-38",
       "type": "vless",
       "server": "103.160.204.145",
       "port": 443,
@@ -885,7 +843,7 @@
       ]
     },
     {
-      "name": "ALRZ☃️-41",
+      "name": "ALRZ☃️-39",
       "type": "vless",
       "server": "45.82.251.58",
       "port": 8880,
@@ -906,7 +864,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-42",
+      "name": "ALRZ☃️-40",
       "type": "vless",
       "server": "91.98.39.30",
       "port": 443,
@@ -927,7 +885,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-43",
+      "name": "ALRZ☃️-41",
       "type": "vless",
       "server": "45.144.55.48",
       "port": 46395,
@@ -948,28 +906,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-44",
-      "type": "vless",
-      "server": "178.62.226.192",
-      "port": 32202,
-      "uuid": "f3f5728d-7c73-4f0f-8b9c-455f6f9af11b",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-45",
+      "name": "ALRZ☃️-42",
       "type": "vless",
       "server": "pop.netbazchanell.ir",
       "port": 2087,
@@ -990,7 +927,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-46",
+      "name": "ALRZ☃️-43",
       "type": "vless",
       "server": "209.38.218.66",
       "port": 45419,
@@ -1011,7 +948,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-47",
+      "name": "ALRZ☃️-44",
       "type": "vless",
       "server": "145.239.29.93",
       "port": 48209,
@@ -1032,7 +969,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-48",
+      "name": "ALRZ☃️-45",
       "type": "vless",
       "server": "194.104.94.7",
       "port": 443,
@@ -1053,7 +990,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-49",
+      "name": "ALRZ☃️-46",
       "type": "vless",
       "server": "194.104.94.7",
       "port": 443,
@@ -1074,7 +1011,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-50",
+      "name": "ALRZ☃️-47",
       "type": "vless",
       "server": "104.17.147.22",
       "port": 8080,
@@ -1095,7 +1032,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-51",
+      "name": "ALRZ☃️-48",
       "type": "vless",
       "server": "core-pixel-blue-quick-modern.dlcnamatike7.com",
       "port": 6062,
@@ -1116,7 +1053,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-52",
+      "name": "ALRZ☃️-49",
       "type": "vless",
       "server": "hy6awiaa3c2e.dopweed.com",
       "port": 2053,
@@ -1137,7 +1074,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-53",
+      "name": "ALRZ☃️-50",
       "type": "vless",
       "server": "45.82.251.95",
       "port": 8880,
@@ -1158,7 +1095,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-54",
+      "name": "ALRZ☃️-51",
       "type": "vless",
       "server": "91.107.179.99",
       "port": 443,
@@ -1179,7 +1116,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-55",
+      "name": "ALRZ☃️-52",
       "type": "vless",
       "server": "91.107.179.99",
       "port": 443,
@@ -1200,7 +1137,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-56",
+      "name": "ALRZ☃️-53",
       "type": "vless",
       "server": "sublink.kharejishop.sbs",
       "port": 443,
@@ -1224,7 +1161,7 @@
       ]
     },
     {
-      "name": "ALRZ☃️-57",
+      "name": "ALRZ☃️-54",
       "type": "vless",
       "server": "91.99.148.251",
       "port": 3184,
@@ -1245,7 +1182,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-58",
+      "name": "ALRZ☃️-55",
       "type": "vless",
       "server": "54.36.117.130",
       "port": 25369,
@@ -1266,7 +1203,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-59",
+      "name": "ALRZ☃️-56",
       "type": "vless",
       "server": "141.227.180.211",
       "port": 25365,
@@ -1287,7 +1224,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-60",
+      "name": "ALRZ☃️-57",
       "type": "vless",
       "server": "static.50.146.62.46.clients.your-server.de",
       "port": 443,
@@ -1311,7 +1248,7 @@
       ]
     },
     {
-      "name": "ALRZ☃️-61",
+      "name": "ALRZ☃️-58",
       "type": "vless",
       "server": "209.38.218.66",
       "port": 45419,
@@ -1332,7 +1269,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-62",
+      "name": "ALRZ☃️-59",
       "type": "vless",
       "server": "145.239.29.93",
       "port": 48209,
@@ -1426,10 +1363,7 @@
         "ALRZ☃️-56",
         "ALRZ☃️-57",
         "ALRZ☃️-58",
-        "ALRZ☃️-59",
-        "ALRZ☃️-60",
-        "ALRZ☃️-61",
-        "ALRZ☃️-62"
+        "ALRZ☃️-59"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -1499,10 +1433,7 @@
         "ALRZ☃️-56",
         "ALRZ☃️-57",
         "ALRZ☃️-58",
-        "ALRZ☃️-59",
-        "ALRZ☃️-60",
-        "ALRZ☃️-61",
-        "ALRZ☃️-62"
+        "ALRZ☃️-59"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -1571,10 +1502,7 @@
         "ALRZ☃️-56",
         "ALRZ☃️-57",
         "ALRZ☃️-58",
-        "ALRZ☃️-59",
-        "ALRZ☃️-60",
-        "ALRZ☃️-61",
-        "ALRZ☃️-62"
+        "ALRZ☃️-59"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
