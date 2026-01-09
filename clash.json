@@ -620,27 +620,6 @@
     {
       "name": "ALRZ☃️-28",
       "type": "vless",
-      "server": "145.239.29.93",
-      "port": 48218,
-      "uuid": "4c6a8514-a3ff-46c6-960b-d06599cb5cac",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-29",
-      "type": "vless",
       "server": "91.107.148.79",
       "port": 443,
       "uuid": "7b148add-4438-426e-a583-50f11e7bd0e4",
@@ -660,7 +639,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-30",
+      "name": "ALRZ☃️-29",
       "type": "vless",
       "server": "octopusss5.info",
       "port": 22955,
@@ -681,7 +660,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-31",
+      "name": "ALRZ☃️-30",
       "type": "vless",
       "server": "all.tellmethetrue.shop",
       "port": 443,
@@ -705,7 +684,7 @@
       ]
     },
     {
-      "name": "ALRZ☃️-32",
+      "name": "ALRZ☃️-31",
       "type": "vless",
       "server": "all.tellmethetrue.shop",
       "port": 443,
@@ -774,8 +753,7 @@
         "ALRZ☃️-28",
         "ALRZ☃️-29",
         "ALRZ☃️-30",
-        "ALRZ☃️-31",
-        "ALRZ☃️-32"
+        "ALRZ☃️-31"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -817,8 +795,7 @@
         "ALRZ☃️-28",
         "ALRZ☃️-29",
         "ALRZ☃️-30",
-        "ALRZ☃️-31",
-        "ALRZ☃️-32"
+        "ALRZ☃️-31"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -859,8 +836,7 @@
         "ALRZ☃️-28",
         "ALRZ☃️-29",
         "ALRZ☃️-30",
-        "ALRZ☃️-31",
-        "ALRZ☃️-32"
+        "ALRZ☃️-31"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
