@@ -578,6 +578,27 @@
     {
       "name": "ALRZ☃️-26",
       "type": "vless",
+      "server": "VPNCUSTOMIZE.ddns.net",
+      "port": 2096,
+      "uuid": "d46b43e7-96bf-49dd-db29-63e786e43407",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "ch.loveislam.top",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "@VPNCUSTOMIZE",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-27",
+      "type": "vless",
       "server": "54.36.117.130",
       "port": 25369,
       "uuid": "3bba9a08-157f-442b-b814-jjxjxjxn313e3ec7f350",
@@ -597,7 +618,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-27",
+      "name": "ALRZ☃️-28",
       "type": "vless",
       "server": "141.227.180.211",
       "port": 25365,
@@ -618,7 +639,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-28",
+      "name": "ALRZ☃️-29",
       "type": "vless",
       "server": "84.32.101.93",
       "port": 443,
@@ -639,7 +660,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-29",
+      "name": "ALRZ☃️-30",
       "type": "vless",
       "server": "91.107.148.79",
       "port": 443,
@@ -660,7 +681,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-30",
+      "name": "ALRZ☃️-31",
       "type": "vless",
       "server": "octopusss5.info",
       "port": 22955,
@@ -725,7 +746,8 @@
         "ALRZ☃️-27",
         "ALRZ☃️-28",
         "ALRZ☃️-29",
-        "ALRZ☃️-30"
+        "ALRZ☃️-30",
+        "ALRZ☃️-31"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -766,7 +788,8 @@
         "ALRZ☃️-27",
         "ALRZ☃️-28",
         "ALRZ☃️-29",
-        "ALRZ☃️-30"
+        "ALRZ☃️-30",
+        "ALRZ☃️-31"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -806,7 +829,8 @@
         "ALRZ☃️-27",
         "ALRZ☃️-28",
         "ALRZ☃️-29",
-        "ALRZ☃️-30"
+        "ALRZ☃️-30",
+        "ALRZ☃️-31"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
