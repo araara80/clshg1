@@ -620,27 +620,6 @@
     {
       "name": "ALRZ☃️-28",
       "type": "vless",
-      "server": "209.38.202.192",
-      "port": 42030,
-      "uuid": "f6bd0b57-1e1c-4dd1-8f1c-939cb96bdb0a",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "journalofbigdata.springeropen.com",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-29",
-      "type": "vless",
       "server": "91.107.148.79",
       "port": 443,
       "uuid": "7b148add-4438-426e-a583-50f11e7bd0e4",
@@ -660,7 +639,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-30",
+      "name": "ALRZ☃️-29",
       "type": "vless",
       "server": "octopusss5.info",
       "port": 22955,
@@ -724,8 +703,7 @@
         "ALRZ☃️-26",
         "ALRZ☃️-27",
         "ALRZ☃️-28",
-        "ALRZ☃️-29",
-        "ALRZ☃️-30"
+        "ALRZ☃️-29"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -765,8 +743,7 @@
         "ALRZ☃️-26",
         "ALRZ☃️-27",
         "ALRZ☃️-28",
-        "ALRZ☃️-29",
-        "ALRZ☃️-30"
+        "ALRZ☃️-29"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -805,8 +782,7 @@
         "ALRZ☃️-26",
         "ALRZ☃️-27",
         "ALRZ☃️-28",
-        "ALRZ☃️-29",
-        "ALRZ☃️-30"
+        "ALRZ☃️-29"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
