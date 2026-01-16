@@ -620,6 +620,27 @@
     {
       "name": "ALRZ☃️-28",
       "type": "vless",
+      "server": "46.149.68.186",
+      "port": 8080,
+      "uuid": "da849c56-9a6b-4fae-86e3-d76a8512b14c",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "vless",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-29",
+      "type": "vless",
       "server": "91.107.148.79",
       "port": 443,
       "uuid": "7b148add-4438-426e-a583-50f11e7bd0e4",
@@ -639,7 +660,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-29",
+      "name": "ALRZ☃️-30",
       "type": "vless",
       "server": "octopusss5.info",
       "port": 22955,
@@ -703,7 +724,8 @@
         "ALRZ☃️-26",
         "ALRZ☃️-27",
         "ALRZ☃️-28",
-        "ALRZ☃️-29"
+        "ALRZ☃️-29",
+        "ALRZ☃️-30"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -743,7 +765,8 @@
         "ALRZ☃️-26",
         "ALRZ☃️-27",
         "ALRZ☃️-28",
-        "ALRZ☃️-29"
+        "ALRZ☃️-29",
+        "ALRZ☃️-30"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -782,7 +805,8 @@
         "ALRZ☃️-26",
         "ALRZ☃️-27",
         "ALRZ☃️-28",
-        "ALRZ☃️-29"
+        "ALRZ☃️-29",
+        "ALRZ☃️-30"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
