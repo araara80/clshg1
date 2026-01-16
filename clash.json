@@ -620,21 +620,21 @@
     {
       "name": "ALRZ☃️-28",
       "type": "vless",
-      "server": "46.149.68.186",
-      "port": 8080,
-      "uuid": "da849c56-9a6b-4fae-86e3-d76a8512b14c",
+      "server": "84.32.101.93",
+      "port": 443,
+      "uuid": "telegram-id-ArV2ray3",
       "network": "grpc",
-      "tls": false,
+      "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "ftp.debian.org",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "vless",
+        "grpc-service-name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
         "grpc-mode": "gun"
       }
     },
