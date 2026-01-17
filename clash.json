@@ -557,6 +557,27 @@
     {
       "name": "ALRZ☃️-25",
       "type": "vless",
+      "server": "joinv2rayfree1.ddns.net",
+      "port": 2053,
+      "uuid": "396a9f28-2286-4c9c-9866-238ffc3029b4",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "e1.newv2rayfree1.shop",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-26",
+      "type": "vless",
       "server": "54.36.117.130",
       "port": 25369,
       "uuid": "3bba9a08-157f-442b-b814-jjxjxjxn313e3ec7f350",
@@ -576,7 +597,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-26",
+      "name": "ALRZ☃️-27",
       "type": "vless",
       "server": "141.227.180.211",
       "port": 25365,
@@ -597,7 +618,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-27",
+      "name": "ALRZ☃️-28",
       "type": "vless",
       "server": "91.107.148.79",
       "port": 443,
@@ -618,7 +639,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-28",
+      "name": "ALRZ☃️-29",
       "type": "vless",
       "server": "octopusss5.info",
       "port": 22955,
@@ -681,7 +702,8 @@
         "ALRZ☃️-25",
         "ALRZ☃️-26",
         "ALRZ☃️-27",
-        "ALRZ☃️-28"
+        "ALRZ☃️-28",
+        "ALRZ☃️-29"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -720,7 +742,8 @@
         "ALRZ☃️-25",
         "ALRZ☃️-26",
         "ALRZ☃️-27",
-        "ALRZ☃️-28"
+        "ALRZ☃️-28",
+        "ALRZ☃️-29"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -758,7 +781,8 @@
         "ALRZ☃️-25",
         "ALRZ☃️-26",
         "ALRZ☃️-27",
-        "ALRZ☃️-28"
+        "ALRZ☃️-28",
+        "ALRZ☃️-29"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
