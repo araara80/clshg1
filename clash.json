@@ -578,27 +578,6 @@
     {
       "name": "ALRZ☃️-26",
       "type": "vless",
-      "server": "www.zooboming.com",
-      "port": 443,
-      "uuid": "ItsLegendaryking",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "tgju.org",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-27",
-      "type": "vless",
       "server": "91.107.148.79",
       "port": 443,
       "uuid": "7b148add-4438-426e-a583-50f11e7bd0e4",
@@ -618,7 +597,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-28",
+      "name": "ALRZ☃️-27",
       "type": "vless",
       "server": "octopusss5.info",
       "port": 22955,
@@ -680,8 +659,7 @@
         "ALRZ☃️-24",
         "ALRZ☃️-25",
         "ALRZ☃️-26",
-        "ALRZ☃️-27",
-        "ALRZ☃️-28"
+        "ALRZ☃️-27"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -719,8 +697,7 @@
         "ALRZ☃️-24",
         "ALRZ☃️-25",
         "ALRZ☃️-26",
-        "ALRZ☃️-27",
-        "ALRZ☃️-28"
+        "ALRZ☃️-27"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -757,8 +734,7 @@
         "ALRZ☃️-24",
         "ALRZ☃️-25",
         "ALRZ☃️-26",
-        "ALRZ☃️-27",
-        "ALRZ☃️-28"
+        "ALRZ☃️-27"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
