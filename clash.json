@@ -386,21 +386,42 @@
     {
       "name": "ALRZ☃️-17",
       "type": "vless",
-      "server": "37.114.53.223",
-      "port": 3307,
-      "uuid": "a861157a-e465-44bf-8a81-338cf1aa030b",
+      "server": "partners.dissertationhelpspecialist.com",
+      "port": 443,
+      "uuid": "8a7fbf84-5e28-4150-aea5-cd14953201bb",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "nobitex.ir",
+      "servername": "tgju.org",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-18",
+      "type": "vless",
+      "server": "pub2.legendaryking.link",
+      "port": 443,
+      "uuid": "ItsLegendaryking",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "fortune.com",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "Contact-->discord:sadra",
+        "grpc-service-name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
         "grpc-mode": "gun"
       }
     }
@@ -436,7 +457,8 @@
         "ALRZ☃️-14",
         "ALRZ☃️-15",
         "ALRZ☃️-16",
-        "ALRZ☃️-17"
+        "ALRZ☃️-17",
+        "ALRZ☃️-18"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -464,7 +486,8 @@
         "ALRZ☃️-14",
         "ALRZ☃️-15",
         "ALRZ☃️-16",
-        "ALRZ☃️-17"
+        "ALRZ☃️-17",
+        "ALRZ☃️-18"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -491,7 +514,8 @@
         "ALRZ☃️-14",
         "ALRZ☃️-15",
         "ALRZ☃️-16",
-        "ALRZ☃️-17"
+        "ALRZ☃️-17",
+        "ALRZ☃️-18"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
