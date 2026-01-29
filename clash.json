@@ -65,6 +65,27 @@
     {
       "name": "ALRZ☃️-2",
       "type": "vless",
+      "server": "162.159.152.4",
+      "port": 443,
+      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "pqh30v1.carwashipdir.shop",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-3",
+      "type": "vless",
       "server": "45.82.251.208",
       "port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
@@ -84,7 +105,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-3",
+      "name": "ALRZ☃️-4",
       "type": "vless",
       "server": "78.40.194.14",
       "port": 19465,
@@ -105,32 +126,11 @@
       }
     },
     {
-      "name": "ALRZ☃️-4",
+      "name": "ALRZ☃️-5",
       "type": "vless",
       "server": "157.180.29.19",
       "port": 8880,
       "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-5",
-      "type": "vless",
-      "server": "45.82.251.208",
-      "port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "network": "grpc",
       "tls": false,
       "udp": true,
@@ -239,27 +239,6 @@
     {
       "name": "ALRZ☃️-10",
       "type": "vless",
-      "server": "pqh29v3.globalfymain.com",
-      "port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-11",
-      "type": "vless",
       "server": "162.159.152.4",
       "port": 443,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -279,20 +258,41 @@
       }
     },
     {
+      "name": "ALRZ☃️-11",
+      "type": "vless",
+      "server": "pqh29v3.globalfymain.com",
+      "port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
       "name": "ALRZ☃️-12",
       "type": "vless",
-      "server": "91.107.179.99",
+      "server": "162.159.152.4",
       "port": 443,
-      "uuid": "97899a35-53a2-42b0-bc47-587d220772a1",
+      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "greenpepper.ir",
+      "servername": "pqh30v1.carwashipdir.shop",
       "flow": "",
-      "client-fingerprint": "firefox",
+      "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "GunService",
@@ -323,47 +323,26 @@
     {
       "name": "ALRZ☃️-14",
       "type": "vless",
-      "server": "partners.dissertationhelpspecialist.com",
-      "port": 2025,
-      "uuid": "86adcc4e-e0de-4226-b055-d90e3a5ff34a",
+      "server": "91.107.179.99",
+      "port": 443,
+      "uuid": "97899a35-53a2-42b0-bc47-587d220772a1",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "tgju.org",
+      "servername": "greenpepper.ir",
       "flow": "",
       "client-fingerprint": "firefox",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl",
+        "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
     },
     {
       "name": "ALRZ☃️-15",
-      "type": "vless",
-      "server": "prime.dissertationhelpspecialist.com",
-      "port": 2026,
-      "uuid": "481d12c1-8d8d-4333-900d-c935a314157f",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "tgju.org",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-16",
       "type": "vless",
       "server": "54.36.117.130",
       "port": 25369,
@@ -384,7 +363,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-17",
+      "name": "ALRZ☃️-16",
       "type": "vless",
       "server": "141.227.180.211",
       "port": 25365,
@@ -405,23 +384,23 @@
       }
     },
     {
-      "name": "ALRZ☃️-18",
+      "name": "ALRZ☃️-17",
       "type": "vless",
-      "server": "www.zooboming.com",
-      "port": 443,
-      "uuid": "ItsLegendaryking",
+      "server": "209.38.243.0",
+      "port": 2025,
+      "uuid": "be91a34d-6faf-43b6-a70b-14e12e5cf973",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "tgju.org",
+      "servername": "journalofbigdata.springeropen.com",
       "flow": "",
-      "client-fingerprint": "chrome",
+      "client-fingerprint": "random",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers",
+        "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
     }
@@ -457,8 +436,7 @@
         "ALRZ☃️-14",
         "ALRZ☃️-15",
         "ALRZ☃️-16",
-        "ALRZ☃️-17",
-        "ALRZ☃️-18"
+        "ALRZ☃️-17"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -486,8 +464,7 @@
         "ALRZ☃️-14",
         "ALRZ☃️-15",
         "ALRZ☃️-16",
-        "ALRZ☃️-17",
-        "ALRZ☃️-18"
+        "ALRZ☃️-17"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -514,8 +491,7 @@
         "ALRZ☃️-14",
         "ALRZ☃️-15",
         "ALRZ☃️-16",
-        "ALRZ☃️-17",
-        "ALRZ☃️-18"
+        "ALRZ☃️-17"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
