@@ -305,6 +305,27 @@
     {
       "name": "ALRZ☃️-13",
       "type": "vless",
+      "server": "joinv2rayfree1.ddns.net",
+      "port": 2053,
+      "uuid": "396a9f28-2286-4c9c-9866-238ffc3029b4",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "e1.newv2rayfree1.shop",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-14",
+      "type": "vless",
       "server": "54.36.117.130",
       "port": 25369,
       "uuid": "3bba9a08-157f-442b-b814-jjxjxjxn313e3ec7f350",
@@ -324,7 +345,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-14",
+      "name": "ALRZ☃️-15",
       "type": "vless",
       "server": "141.227.180.211",
       "port": 25365,
@@ -345,7 +366,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-15",
+      "name": "ALRZ☃️-16",
       "type": "vless",
       "server": "lovefishingfishes.kuckenpq.ir",
       "port": 32135,
@@ -395,7 +416,8 @@
         "ALRZ☃️-12",
         "ALRZ☃️-13",
         "ALRZ☃️-14",
-        "ALRZ☃️-15"
+        "ALRZ☃️-15",
+        "ALRZ☃️-16"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -421,7 +443,8 @@
         "ALRZ☃️-12",
         "ALRZ☃️-13",
         "ALRZ☃️-14",
-        "ALRZ☃️-15"
+        "ALRZ☃️-15",
+        "ALRZ☃️-16"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -446,7 +469,8 @@
         "ALRZ☃️-12",
         "ALRZ☃️-13",
         "ALRZ☃️-14",
-        "ALRZ☃️-15"
+        "ALRZ☃️-15",
+        "ALRZ☃️-16"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
