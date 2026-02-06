@@ -86,16 +86,16 @@
     {
       "name": "ALRZ☃️-3",
       "type": "vless",
-      "server": "curt231.ctcurt.ir",
-      "port": 2372,
-      "uuid": "e45881f6-925c-4490-af27-725770911c50",
+      "server": "40.160.6.133",
+      "port": 8880,
+      "uuid": "6251f84e-9c02-4140-921c-6b47d394fb96",
       "network": "grpc",
-      "tls": true,
+      "tls": false,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "filimo.com",
+      "servername": "",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
@@ -128,37 +128,37 @@
     {
       "name": "ALRZ☃️-5",
       "type": "vless",
-      "server": "curt231.ctcurt.ir",
-      "port": 2372,
-      "uuid": "189c2263-8848-433f-a115-aacdabd7fe30",
+      "server": "dd.openaccessnode.com",
+      "port": 504,
+      "uuid": "31701b5d-ca95-92f9-d684-dae3706161ea",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "filimo.com",
+      "servername": "nobitex.ir",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "GunService",
+        "grpc-service-name": "JNIR",
         "grpc-mode": "gun"
       }
     },
     {
       "name": "ALRZ☃️-6",
       "type": "vless",
-      "server": "curt231.ctcurt.ir",
-      "port": 2372,
-      "uuid": "21584dac-f5d8-40db-9601-a97131c34d95",
+      "server": "yesok42v2.ip4exordir.shop",
+      "port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "network": "grpc",
-      "tls": true,
+      "tls": false,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "filimo.com",
+      "servername": "",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
@@ -170,7 +170,7 @@
     {
       "name": "ALRZ☃️-7",
       "type": "vless",
-      "server": "45.82.251.208",
+      "server": "yesok42v2.ip4exordir.shop",
       "port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "network": "grpc",
@@ -233,27 +233,6 @@
     {
       "name": "ALRZ☃️-10",
       "type": "vless",
-      "server": "curt231.ctcurt.ir",
-      "port": 2372,
-      "uuid": "01729047-84eb-4888-b0d5-f1eebc09431d",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "filimo.com",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-11",
-      "type": "vless",
       "server": "curt232.bestvxau.ir",
       "port": 2373,
       "uuid": "759d9a57-f43c-4e60-af5e-3a3ea6cdc91b",
@@ -273,9 +252,51 @@
       }
     },
     {
+      "name": "ALRZ☃️-11",
+      "type": "vless",
+      "server": "curt232.bestvxau.ir",
+      "port": 2373,
+      "uuid": "26f9aeed-6bfc-4054-8d7d-da1995551fde",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "varzesh3.com",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
       "name": "ALRZ☃️-12",
       "type": "vless",
-      "server": "45.82.251.208",
+      "server": "amin3.trmas-ps.ir",
+      "port": 5365,
+      "uuid": "1467dff0-8dc8-47c4-b610-a3f4d3c957fa",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "google.com",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "20987vless",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-13",
+      "type": "vless",
+      "server": "yesok42v2.ip4exordir.shop",
       "port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "network": "grpc",
@@ -294,7 +315,32 @@
       }
     },
     {
-      "name": "ALRZ☃️-13",
+      "name": "ALRZ☃️-14",
+      "type": "vless",
+      "server": "ipbaz.ping-box.com",
+      "port": 443,
+      "uuid": "e765eb5b-8442-40e3-9532-857ba5ececa7",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "vbox.ping-box.com",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      },
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "ALRZ☃️-15",
       "type": "vless",
       "server": "V2RAXX-channel.cataba.ir",
       "port": 6666,
@@ -315,9 +361,9 @@
       }
     },
     {
-      "name": "ALRZ☃️-14",
+      "name": "ALRZ☃️-16",
       "type": "vless",
-      "server": "45.82.251.208",
+      "server": "yesok42v2.ip4exordir.shop",
       "port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "network": "grpc",
@@ -336,7 +382,28 @@
       }
     },
     {
-      "name": "ALRZ☃️-15",
+      "name": "ALRZ☃️-17",
+      "type": "vless",
+      "server": "yesok42v2.ip4exordir.shop",
+      "port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-18",
       "type": "vless",
       "server": "103.160.204.145",
       "port": 443,
@@ -360,7 +427,7 @@
       ]
     },
     {
-      "name": "ALRZ☃️-16",
+      "name": "ALRZ☃️-19",
       "type": "vless",
       "server": "45.82.251.58",
       "port": 8880,
@@ -381,11 +448,11 @@
       }
     },
     {
-      "name": "ALRZ☃️-17",
+      "name": "ALRZ☃️-20",
       "type": "vless",
-      "server": "dojman.global.ssl.fastly.net",
-      "port": 443,
-      "uuid": "36213657-e751-478b-a5d7-547eef892af9",
+      "server": "strong.zdshop.ir",
+      "port": 2053,
+      "uuid": "4d961eae-b6a0-497c-98ee-ea5b70c6d71b",
       "network": "grpc",
       "tls": false,
       "udp": true,
@@ -402,30 +469,9 @@
       }
     },
     {
-      "name": "ALRZ☃️-18",
+      "name": "ALRZ☃️-21",
       "type": "vless",
-      "server": "mitivpndozd.global.ssl.fastly.net",
-      "port": 443,
-      "uuid": "4ee73e0b-0d09-4a06-9619-8a5d0d3d8257",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-19",
-      "type": "vless",
-      "server": "45.82.251.208",
+      "server": "yesok42v2.ip4exordir.shop",
       "port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "network": "grpc",
@@ -435,48 +481,6 @@
       "tcp-fast-open": true,
       "fast-open": true,
       "servername": "",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-20",
-      "type": "vless",
-      "server": "curt231.ctcurt.ir",
-      "port": 2372,
-      "uuid": "01729047-84eb-4888-b0d5-f1eebc09431d",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "filimo.com",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-21",
-      "type": "vless",
-      "server": "curt231.ctcurt.ir",
-      "port": 2372,
-      "uuid": "01729047-84eb-4888-b0d5-f1eebc09431d",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "filimo.com",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
@@ -638,27 +642,6 @@
     {
       "name": "ALRZ☃️-29",
       "type": "vless",
-      "server": "VPNCUSTOMIZE.ddns.net",
-      "port": 2096,
-      "uuid": "1580e69b-fc87-41e5-a0be-f4e254a3c17f",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "ch.loveislam.top",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "@VPNCUSTOMIZE",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-30",
-      "type": "vless",
       "server": "45.82.251.208",
       "port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
@@ -678,7 +661,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-31",
+      "name": "ALRZ☃️-30",
       "type": "vless",
       "server": "54.36.117.130",
       "port": 25369,
@@ -699,7 +682,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-32",
+      "name": "ALRZ☃️-31",
       "type": "vless",
       "server": "141.227.180.211",
       "port": 25365,
@@ -720,7 +703,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-33",
+      "name": "ALRZ☃️-32",
       "type": "vless",
       "server": "prime.dissertationhelpspecialist.com",
       "port": 443,
@@ -741,7 +724,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-34",
+      "name": "ALRZ☃️-33",
       "type": "vless",
       "server": "45.82.251.208",
       "port": 8880,
@@ -762,7 +745,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-35",
+      "name": "ALRZ☃️-34",
       "type": "vless",
       "server": "45.82.251.116",
       "port": 8880,
@@ -783,23 +766,44 @@
       }
     },
     {
-      "name": "ALRZ☃️-36",
+      "name": "ALRZ☃️-35",
       "type": "vless",
-      "server": "45.82.251.208",
-      "port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "server": "www.zooboming.com",
+      "port": 443,
+      "uuid": "ItsLegendaryking",
       "network": "grpc",
-      "tls": false,
+      "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "tgju.org",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "GunService",
+        "grpc-service-name": "telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-36",
+      "type": "vless",
+      "server": "amin3.trmas-ps.ir",
+      "port": 5365,
+      "uuid": "1467dff0-8dc8-47c4-b610-a3f4d3c957fa",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "google.com",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "20987vless",
         "grpc-mode": "gun"
       }
     }
