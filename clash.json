@@ -128,27 +128,6 @@
     {
       "name": "ALRZ☃️-5",
       "type": "vless",
-      "server": "185.99.96.64",
-      "port": 443,
-      "uuid": "b741da8d-985b-44e1-855d-3a6fc0c7c160",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "ads.x5.ru",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-6",
-      "type": "vless",
       "server": "tishert.motionbetter.ir",
       "port": 29487,
       "uuid": "ee3db1ee-23f7-4279-b5a2-21ff3aff7a48",
@@ -164,6 +143,27 @@
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-6",
+      "type": "vless",
+      "server": "91.218.122.10",
+      "port": 8443,
+      "uuid": "c10999b4-7f93-5a50-3908-1467b1e52ae2",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "www.microsoft.com",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "TunService",
         "grpc-mode": "gun"
       }
     },
