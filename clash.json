@@ -44,6 +44,27 @@
     {
       "name": "ALRZ☃️-1",
       "type": "vless",
+      "server": "194.85.249.173",
+      "port": 433,
+      "uuid": "e81a36d5-b3c3-48e0-bf08-d8938a247391",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "www.google.com",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-2",
+      "type": "vless",
       "server": "209.38.222.192",
       "port": 2096,
       "uuid": "dfee545b-6087-4f13-b2a3-41cc9642d583",
@@ -63,7 +84,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-2",
+      "name": "ALRZ☃️-3",
       "type": "vless",
       "server": "curt235.cvbesty.ir",
       "port": 2376,
@@ -84,67 +105,52 @@
       }
     },
     {
-      "name": "ALRZ☃️-3",
+      "name": "ALRZ☃️-4",
       "type": "vless",
-      "server": "vkcbaza.appav.online",
+      "server": "154.219.5.84",
       "port": 443,
-      "uuid": "c501c66b-c6c2-456b-b604-80393b83d67f",
+      "uuid": "a98d1e7d-e794-449c-b8a0-34fa6d4478b4",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "eh.vk.com",
+      "servername": "third.pinocchio1.ir",
       "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "UpdateService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-4",
-      "type": "vless",
-      "server": "45.82.251.208",
-      "port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "chrome",
+      "client-fingerprint": "firefox",
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "GunService",
         "grpc-mode": "gun"
-      }
+      },
+      "alpn": [
+        "http/1.1"
+      ]
     },
     {
       "name": "ALRZ☃️-5",
       "type": "vless",
-      "server": "web.acangame.ir",
-      "port": 446,
-      "uuid": "da188aa6-f6bb-4e4e-91b7-a5dafc1d4190",
+      "server": "86.38.214.52",
+      "port": 443,
+      "uuid": "a98d1e7d-e794-449c-b8a0-34fa6d4478b4",
       "network": "grpc",
-      "tls": false,
+      "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "fourth.pinocchio1.ir.",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "GunService",
         "grpc-mode": "gun"
-      }
+      },
+      "alpn": [
+        "http/1.1"
+      ]
     },
     {
       "name": "ALRZ☃️-6",
@@ -278,8 +284,8 @@
     {
       "name": "ALRZ☃️-12",
       "type": "vless",
-      "server": "5e90629662c14e89.vERtAlIsT.Ir",
-      "port": 1310,
+      "server": "safe.zdshop.ir",
+      "port": 2053,
       "uuid": "09387f07-5bf2-4486-9bb7-f49b959ed48f",
       "network": "grpc",
       "tls": true,
@@ -299,7 +305,7 @@
     {
       "name": "ALRZ☃️-13",
       "type": "vless",
-      "server": "safe.zdshop.ir",
+      "server": "shield.zdshop.ir",
       "port": 2053,
       "uuid": "09387f07-5bf2-4486-9bb7-f49b959ed48f",
       "network": "grpc",
@@ -379,6 +385,27 @@
         "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
+    },
+    {
+      "name": "ALRZ☃️-17",
+      "type": "vless",
+      "server": "srfremehdi-1.vahidtoni.life",
+      "port": 2096,
+      "uuid": "a41e01c3-94a3-4fd0-c1e1-e7bab798c4c0",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "srfremehdi-1.vahidtoni.life",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "@v2raysrv",
+        "grpc-mode": "gun"
+      }
     }
   ],
   "proxy-groups": [
@@ -411,7 +438,8 @@
         "ALRZ☃️-13",
         "ALRZ☃️-14",
         "ALRZ☃️-15",
-        "ALRZ☃️-16"
+        "ALRZ☃️-16",
+        "ALRZ☃️-17"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -438,7 +466,8 @@
         "ALRZ☃️-13",
         "ALRZ☃️-14",
         "ALRZ☃️-15",
-        "ALRZ☃️-16"
+        "ALRZ☃️-16",
+        "ALRZ☃️-17"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -464,7 +493,8 @@
         "ALRZ☃️-13",
         "ALRZ☃️-14",
         "ALRZ☃️-15",
-        "ALRZ☃️-16"
+        "ALRZ☃️-16",
+        "ALRZ☃️-17"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
