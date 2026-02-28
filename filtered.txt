@@ -26,7 +26,7 @@ vless://f7a69294-6d14-0db1-a813-b4a4b4a1913a@37.18.14.151:8443?mode=gun&security
 vless://f7a69294-6d14-0db1-a813-b4a4b4a1913a@51.250.11.246:9443?mode=gun&security=reality&encryption=none&pbk=Aq8GONHzaWw99OLolgVfWo8PTrX1w5m9eVHEJ5v0JyY&fp=firefox&type=grpc&sni=api-maps.yandex.ru&sid=789ee6#ALRZ☃️-26
 vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.223:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-27
 vless://e4824193-4f54-453b-d037-88368e85ef0e@pqh27v4.waipdirect.shop:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-28
-vless://4bc7d558-1943-44de-bd82-56920bc9383e@free2.spectrum.vu:7443?security=reality&type=grpc&mode=gun&serviceName=vless&sni=www.google.com&fp=chrome&sid=ab1c1a11&pbk=9Ow4bZxApNkRwAjQxyr_aZsBcJGc__jemUA7__BbZTE&encryption=none#ALRZ☃️-29
+vless://4bc7d558-1943-44de-bd82-56920bc9383e@free2.spectrum.vu:7443?mode=gun&security=reality&encryption=none&authority=&pbk=9Ow4bZxApNkRwAjQxyr_aZsBcJGc__jemUA7__BbZTE&fp=chrome&type=grpc&serviceName=vless&sni=www.google.com&sid=ab1c1a11#ALRZ☃️-29
 vless://8c6118b9-78a8-3b3b-a49a-6aa9cb5b1d4e@s842.ccgfw.top:443?fp=chrome&security=tls&serviceName=ssp&sni=u708330u0378s842.ccgfw.top&type=grpc#ALRZ☃️-30
 vless://e81a36d5-b3c3-48e0-bf08-d8938a247391@194.85.249.173:433?mode=gun&amp;security=reality&amp;encryption=none&amp;pbk=LSqEbA7EfGiohFgxMYtFJq61jSd9wuSWqR__krgtERc&amp;fp=chrome&amp;type=grpc&amp;sni=www.google.com&amp;sid=d239de8e#ALRZ☃️-31
 vless://e4824193-4f54-453b-d037-88368e85ef0e@104.17.239.248:443?security=tls&sni=pqh29v7.carwashipdir.shop&type=grpc&alpn=h2&allowInsecure=1#ALRZ☃️-32
