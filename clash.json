@@ -470,7 +470,7 @@
     {
       "name": "ALRZ☃️-21",
       "type": "vless",
-      "server": "84.32.101.93",
+      "server": "84.32.102.152",
       "port": 443,
       "uuid": "telegram-id-ArV2ray2",
       "network": "grpc",
@@ -485,6 +485,27 @@
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-22",
+      "type": "vless",
+      "server": "45.82.251.116",
+      "port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
     }
@@ -524,7 +545,8 @@
         "ALRZ☃️-18",
         "ALRZ☃️-19",
         "ALRZ☃️-20",
-        "ALRZ☃️-21"
+        "ALRZ☃️-21",
+        "ALRZ☃️-22"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -556,7 +578,8 @@
         "ALRZ☃️-18",
         "ALRZ☃️-19",
         "ALRZ☃️-20",
-        "ALRZ☃️-21"
+        "ALRZ☃️-21",
+        "ALRZ☃️-22"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -587,7 +610,8 @@
         "ALRZ☃️-18",
         "ALRZ☃️-19",
         "ALRZ☃️-20",
-        "ALRZ☃️-21"
+        "ALRZ☃️-21",
+        "ALRZ☃️-22"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
