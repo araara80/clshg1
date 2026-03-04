@@ -86,6 +86,27 @@
     {
       "name": "ALRZ☃️-3",
       "type": "vless",
+      "server": "185.99.96.64",
+      "port": 443,
+      "uuid": "8992a806-e060-457d-acea-34262cd31043",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "ads.x5.ru",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-4",
+      "type": "vless",
       "server": "150.241.94.142",
       "port": 7443,
       "uuid": "4bc7d558-1943-44de-bd82-56920bc9383e",
@@ -105,7 +126,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-4",
+      "name": "ALRZ☃️-5",
       "type": "vless",
       "server": "104.16.9.20",
       "port": 443,
@@ -127,27 +148,6 @@
       "alpn": [
         "h2"
       ]
-    },
-    {
-      "name": "ALRZ☃️-5",
-      "type": "vless",
-      "server": "87.107.83.179",
-      "port": 29487,
-      "uuid": "26231910-507a-4a79-cb62-6e1ed81c5c89",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "yahoo.com",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
     },
     {
       "name": "ALRZ☃️-6",
@@ -173,21 +173,21 @@
     {
       "name": "ALRZ☃️-7",
       "type": "vless",
-      "server": "81.12.33.100",
-      "port": 7710,
-      "uuid": "83b8e95b-df6e-4a80-b897-273cd4524caf",
+      "server": "87.107.83.179",
+      "port": 29487,
+      "uuid": "26231910-507a-4a79-cb62-6e1ed81c5c89",
       "network": "grpc",
-      "tls": false,
+      "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "yahoo.com",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "qwemmqwoedmqwoemdoqwmedpmqwedmpm",
+        "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
     },
