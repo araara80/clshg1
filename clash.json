@@ -466,6 +466,27 @@
         "grpc-service-name": "@v2raysrv",
         "grpc-mode": "gun"
       }
+    },
+    {
+      "name": "ALRZ☃️-21",
+      "type": "vless",
+      "server": "S1.LoadBalance.LAT",
+      "port": 9090,
+      "uuid": "6fcb287e-1b92-4c03-b5ca-aa668dad2f51",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "refersion.com",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "mgrpcm",
+        "grpc-mode": "gun"
+      }
     }
   ],
   "proxy-groups": [
@@ -502,7 +523,8 @@
         "ALRZ☃️-17",
         "ALRZ☃️-18",
         "ALRZ☃️-19",
-        "ALRZ☃️-20"
+        "ALRZ☃️-20",
+        "ALRZ☃️-21"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -533,7 +555,8 @@
         "ALRZ☃️-17",
         "ALRZ☃️-18",
         "ALRZ☃️-19",
-        "ALRZ☃️-20"
+        "ALRZ☃️-20",
+        "ALRZ☃️-21"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -563,7 +586,8 @@
         "ALRZ☃️-17",
         "ALRZ☃️-18",
         "ALRZ☃️-19",
-        "ALRZ☃️-20"
+        "ALRZ☃️-20",
+        "ALRZ☃️-21"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
