@@ -173,9 +173,9 @@
     {
       "name": "ALRZ☃️-7",
       "type": "vless",
-      "server": "194.60.228.135",
-      "port": 7710,
-      "uuid": "ca9fe47c-2d84-4445-b2ff-36387c1aa948",
+      "server": "ir.api.clothesshopping.ir",
+      "port": 19163,
+      "uuid": "ce7331c5-a28c-4478-ae06-2a2c5b5416fe",
       "network": "grpc",
       "tls": false,
       "udp": true,
@@ -187,7 +187,7 @@
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "qwemmqwoedmqwoemdoqwmedpmqwedmpm",
+        "grpc-service-name": "vless",
         "grpc-mode": "gun"
       }
     },
