@@ -450,27 +450,6 @@
         "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
-    },
-    {
-      "name": "ALRZ☃️-20",
-      "type": "vless",
-      "server": "srfremehdi-1.vahidtoni.life",
-      "port": 2096,
-      "uuid": "a41e01c3-94a3-4fd0-c1e1-e7bab798c4c0",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "srfremehdi-1.vahidtoni.life",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "@v2raysrv",
-        "grpc-mode": "gun"
-      }
     }
   ],
   "proxy-groups": [
@@ -506,8 +485,7 @@
         "ALRZ☃️-16",
         "ALRZ☃️-17",
         "ALRZ☃️-18",
-        "ALRZ☃️-19",
-        "ALRZ☃️-20"
+        "ALRZ☃️-19"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -537,8 +515,7 @@
         "ALRZ☃️-16",
         "ALRZ☃️-17",
         "ALRZ☃️-18",
-        "ALRZ☃️-19",
-        "ALRZ☃️-20"
+        "ALRZ☃️-19"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -567,8 +544,7 @@
         "ALRZ☃️-16",
         "ALRZ☃️-17",
         "ALRZ☃️-18",
-        "ALRZ☃️-19",
-        "ALRZ☃️-20"
+        "ALRZ☃️-19"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
