@@ -323,21 +323,21 @@
     {
       "name": "ALRZ☃️-14",
       "type": "vless",
-      "server": "94.183.165.146",
-      "port": 443,
-      "uuid": "5e2b5500-d2fb-44c1-8cec-8def7a4347c5",
+      "server": "52.195.208.63",
+      "port": 14564,
+      "uuid": "b60dd651-2d4e-4c15-b2d0-60a76c5cc1a6",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "aparat.com",
+      "servername": "www.apple.com",
       "flow": "",
       "client-fingerprint": "firefox",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "qwemmqwoedmqwoemdoqwmedpmqwedmpm",
+        "grpc-service-name": "mci.ir",
         "grpc-mode": "gun"
       }
     },
