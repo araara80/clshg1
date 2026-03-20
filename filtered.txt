@@ -23,9 +23,9 @@ vless://f7a69294-6d14-0db1-a813-b4a4b4a1913a@37.18.14.151:8443?mode=gun&security
 vless://f7a69294-6d14-0db1-a813-b4a4b4a1913a@51.250.11.246:9443?mode=gun&security=reality&encryption=none&pbk=Aq8GONHzaWw99OLolgVfWo8PTrX1w5m9eVHEJ5v0JyY&fp=firefox&type=grpc&sni=api-maps.yandex.ru&sid=789ee6#ALRZ☃️-23
 vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.223:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-24
 vless://e4824193-4f54-453b-d037-88368e85ef0e@pqh27v4.waipdirect.shop:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-25
-vless://e4824193-4f54-453b-d037-88368e85ef0e@104.16.4.103:443?encryption=none&security=tls&sni=pqh30v5.carwashipdir.shop&alpn=h2&fp=chrome&insecure=1&type=grpc&mode=gun#ALRZ☃️-26
-vless://e4824193-4f54-453b-d037-88368e85ef0e@188.114.98.0:443?encryption=none&security=tls&sni=pqh30v3.carwashipdir.shop&alpn=h2&insecure=1&allowInsecure=1&type=grpc#ALRZ☃️-27
-vless://e4824193-4f54-453b-d037-88368e85ef0e@all.tellmethetrue.shop:443?mode=gun&security=tls&alpn=h2&encryption=none&insecure=0&type=grpc&allowInsecure=0&sni=pqh30v5.carwashipdir.shop#ALRZ☃️-28
+vless://e4824193-4f54-453b-d037-88368e85ef0e@all.tellmethetrue.shop:443?allowInsecure=1&alpn=h2&encryption=none&security=tls&sni=pqh20v3.carwashipdir.shop&type=grpc#ALRZ☃️-26
+vless://e4824193-4f54-453b-d037-88368e85ef0e@104.16.4.103:443?encryption=none&security=tls&sni=pqh30v5.carwashipdir.shop&alpn=h2&fp=chrome&insecure=1&type=grpc&mode=gun#ALRZ☃️-27
+vless://e4824193-4f54-453b-d037-88368e85ef0e@188.114.98.0:443?encryption=none&security=tls&sni=pqh30v3.carwashipdir.shop&alpn=h2&insecure=1&allowInsecure=1&type=grpc#ALRZ☃️-28
 vless://e4824193-4f54-453b-d037-88368e85ef0e@chatgpt.com:443?encryption=none&security=tls&sni=pqh30v4.carwashipdir.shop&fp=chrome&type=grpc&mode=gun#ALRZ☃️-29
 vless://0341d8f2-99e0-4f6c-af0a-345ac26815cf@91.99.218.107:51269?encryption=none&type=grpc&packetEncoding=xudp#ALRZ☃️-30
 vless://0341d8f2-99e0-4f6c-af0a-345ac26815cf@ab.fxgoldensignals.com:51269?type=grpc#ALRZ☃️-31
