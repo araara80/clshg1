@@ -386,21 +386,42 @@
     {
       "name": "ALRZ☃️-17",
       "type": "vless",
-      "server": "lovefishingfishes.kuckenpq.ir",
-      "port": 32135,
-      "uuid": "c8b6a94f-eb38-4b68-9ae7-fadc7d690e16",
+      "server": "84.32.102.152",
+      "port": 443,
+      "uuid": "telegram-id-ArV2ray",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "journalofbigdata.springeropen.com",
+      "servername": "ftp.debian.org",
       "flow": "",
-      "client-fingerprint": "randomized",
+      "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "32135vless",
+        "grpc-service-name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-18",
+      "type": "vless",
+      "server": "45.82.251.116",
+      "port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
     }
@@ -436,7 +457,8 @@
         "ALRZ☃️-14",
         "ALRZ☃️-15",
         "ALRZ☃️-16",
-        "ALRZ☃️-17"
+        "ALRZ☃️-17",
+        "ALRZ☃️-18"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -464,7 +486,8 @@
         "ALRZ☃️-14",
         "ALRZ☃️-15",
         "ALRZ☃️-16",
-        "ALRZ☃️-17"
+        "ALRZ☃️-17",
+        "ALRZ☃️-18"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -491,7 +514,8 @@
         "ALRZ☃️-14",
         "ALRZ☃️-15",
         "ALRZ☃️-16",
-        "ALRZ☃️-17"
+        "ALRZ☃️-17",
+        "ALRZ☃️-18"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
