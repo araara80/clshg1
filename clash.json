@@ -382,6 +382,27 @@
         "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
+    },
+    {
+      "name": "ALRZ☃️-17",
+      "type": "vless",
+      "server": "lovefishingfishes.kuckenpq.ir",
+      "port": 32135,
+      "uuid": "c8b6a94f-eb38-4b68-9ae7-fadc7d690e16",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "journalofbigdata.springeropen.com",
+      "flow": "",
+      "client-fingerprint": "randomized",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "32135vless",
+        "grpc-mode": "gun"
+      }
     }
   ],
   "proxy-groups": [
@@ -414,7 +435,8 @@
         "ALRZ☃️-13",
         "ALRZ☃️-14",
         "ALRZ☃️-15",
-        "ALRZ☃️-16"
+        "ALRZ☃️-16",
+        "ALRZ☃️-17"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -441,7 +463,8 @@
         "ALRZ☃️-13",
         "ALRZ☃️-14",
         "ALRZ☃️-15",
-        "ALRZ☃️-16"
+        "ALRZ☃️-16",
+        "ALRZ☃️-17"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -467,7 +490,8 @@
         "ALRZ☃️-13",
         "ALRZ☃️-14",
         "ALRZ☃️-15",
-        "ALRZ☃️-16"
+        "ALRZ☃️-16",
+        "ALRZ☃️-17"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
