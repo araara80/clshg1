@@ -10,11 +10,11 @@ vless://d20d3881-03a0-457d-9c67-9ac480fa8d38@94.183.241.105:15254?type=grpc&serv
 vless://e0c50817-86dd-4ee1-bca3-6e296d85dd59@grok.com:2083?mode=multi&security=tls&encryption=none&insecure=1&fp=chrome&type=grpc&serviceName=Love&allowInsecure=1&sni=blouck-de.gozarcloud.ir#ALRZ☃️-10
 vless://97899a35-53a2-42b0-bc47-587d220772a1@91.107.179.99:443?mode=gun&security=reality&encryption=none&pbk=R3MMDRlsQpis_5qP60bKS7NKBmheziLeqSboauBbKnU&fp=firefox&spx=/&type=grpc&serviceName=&sni=greenpepper.ir&sid=a62fe261#ALRZ☃️-11
 vless://6251f84e-9c02-4140-921c-6b47d394fb96@40.160.6.133:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-12
-vless://f00984ef-f57e-41db-9182-b25f7bc3a1e2@64.188.83.19:443?encryption=none&fp=chrome&pbk=LwP6wU-_noj6mjituSmH8ZLNr54499NTDneUEEXPcAs&security=reality&serviceName=GrpcFuckRKN&sni=www.microsoft.com&type=grpc#ALRZ☃️-13
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.115:8880?encryption=none&security=none&type=grpc#ALRZ☃️-14
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v2.ip4exordir.shop:8880?encryption=none&security=none&type=grpc#ALRZ☃️-15
-vless://63f92f3c-447c-4283-80b9-0af8e164cdad@152.53.48.237:22955?mode=gun&amp;security=reality&amp;encryption=none&amp;pbk=9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms&amp;fp=chrome&amp;type=grpc&amp;serviceName=grpc&amp;sni=one-piece.com&amp;sid=6ba85179e30d4fc2#ALRZ☃️-16
-vless://63f92f3c-447c-4283-80b9-0af8e164cdad@152.53.50.126:22955?mode=gun&security=reality&encryption=none&pbk=9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms&fp=chrome&type=grpc&serviceName=grpc&sni=one-piece.com&sid=6ba85179e30d4fc2#ALRZ☃️-17
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.115:8880?encryption=none&security=none&type=grpc#ALRZ☃️-13
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v2.ip4exordir.shop:8880?mode=gun&amp;security=&amp;encryption=none&amp;type=grpc#ALRZ☃️-14
+vless://63f92f3c-447c-4283-80b9-0af8e164cdad@152.53.48.237:22955?mode=gun&amp;security=reality&amp;encryption=none&amp;pbk=9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms&amp;fp=chrome&amp;type=grpc&amp;serviceName=grpc&amp;sni=one-piece.com&amp;sid=6ba85179e30d4fc2#ALRZ☃️-15
+vless://63f92f3c-447c-4283-80b9-0af8e164cdad@152.53.51.29:22955?encryption=none&security=reality&sni=one-piece.com&fp=chrome&pbk=9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms&sid=6ba85179e30d4fc2&type=grpc&serviceName=grpc&mode=gun#ALRZ☃️-16
+vless://f00984ef-f57e-41db-9182-b25f7bc3a1e2@64.188.83.19:443?type=grpc&security=reality&encryption=none&fp=chrome&pbk=LwP6wU-_noj6mjituSmH8ZLNr54499NTDneUEEXPcAs&sni=www.microsoft.com&mode=multi&serviceName=GrpcFuckRKN#ALRZ☃️-17
 vless://1c45e98c-8a4a-45e7-acc5-3a3cc962f463@142.132.146.241:25565?type=grpc&security=reality&encryption=none&fp=chrome&pbk=n00VSaVEImUfNI-8882Ecum-Er2KIHLg32Y-MWQGeh8&sni=hypixel.net&mode=gun#ALRZ☃️-18
 vless://1c45e98c-8a4a-45e7-acc5-3a3cc962f463@144.31.220.136:25565?type=grpc&security=reality&fp=chrome&pbk=n00VSaVEImUfNI-8882Ecum-Er2KIHLg32Y-MWQGeh8&sni=hypixel.net&mode=gun&serviceName=#ALRZ☃️-19
 vless://54431fad-614f-4205-96fd-ea7e0a15fc4e@94.156.115.52:443?type=grpc&security=tls&encryption=none&fp=chrome&sni=94.156.115.52&path=bTMl3D6ClwP1M1RpHoe&host=94.156.115.52&mode=gun&alpn=h2&serviceName=bTMl3D6ClwP1M1RpHoe&hiddify=1&insecure=true#ALRZ☃️-20
@@ -55,5 +55,5 @@ vless://63f92f3c-447c-4283-80b9-0af8e164cdad@152.53.51.24:22955?security=reality
 vless://63f92f3c-447c-4283-80b9-0af8e164cdad@152.53.49.144:22955?security=reality&encryption=none&pbk=9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms&fp=chrome&type=grpc&serviceName=grpc&sni=one-piece.com&sid=6ba85179e30d4fc2#ALRZ☃️-55
 vless://63f92f3c-447c-4283-80b9-0af8e164cdad@152.53.49.130:22955?security=reality&encryption=none&pbk=9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms&fp=chrome&type=grpc&serviceName=grpc&sni=one-piece.com&sid=6ba85179e30d4fc2#ALRZ☃️-56
 vless://63f92f3c-447c-4283-80b9-0af8e164cdad@152.53.48.224:22955?security=reality&encryption=none&pbk=9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms&fp=chrome&type=grpc&serviceName=grpc&sni=one-piece.com&sid=6ba85179e30d4fc2#ALRZ☃️-57
-vless://63f92f3c-447c-4283-80b9-0af8e164cdad@152.53.51.29:22955/?type=grpc&encryption=none&serviceName=grpc&sni=one-piece.com&fp=chrome&security=reality&pbk=9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms&sid=6ba85179e30d4fc2#ALRZ☃️-58
+vless://63f92f3c-447c-4283-80b9-0af8e164cdad@152.53.50.126:22955?type=grpc&security=reality&encryption=none&fp=chrome&pbk=9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms&sid=6ba85179e30d4fc2&sni=one-piece.com&serviceName=grpc#ALRZ☃️-58
 vless://sGLzG6kUwBpZd73sW0nq@81.208.170.142:1500?security=reality&encryption=none&pbk=VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE&fp=chrome&type=grpc&sni=www.ebay.com&sid=775eb6408888248e#ALRZ☃️-59
