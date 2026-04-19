@@ -12,9 +12,9 @@ vless://97899a35-53a2-42b0-bc47-587d220772a1@91.107.179.99:443?mode=gun&security
 vless://6251f84e-9c02-4140-921c-6b47d394fb96@40.160.6.133:8880?mode=gun&security=none&encryption=none&type=grpc#ALRZ☃️-12
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.115:8880?encryption=none&security=none&type=grpc#ALRZ☃️-13
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v2.ip4exordir.shop:8880?encryption=none&security=none&type=grpc#ALRZ☃️-14
-vless://f00984ef-f57e-41db-9182-b25f7bc3a1e2@64.188.83.19:443?encryption=none&fp=chrome&pbk=LwP6wU-_noj6mjituSmH8ZLNr54499NTDneUEEXPcAs&security=reality&serviceName=GrpcFuckRKN&sni=www.microsoft.com&type=grpc#ALRZ☃️-15
-vless://63f92f3c-447c-4283-80b9-0af8e164cdad@152.53.51.29:22955?encryption=none&security=reality&sni=one-piece.com&fp=chrome&pbk=9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms&sid=6ba85179e30d4fc2&type=grpc&serviceName=grpc&mode=gun#ALRZ☃️-16
-vless://63f92f3c-447c-4283-80b9-0af8e164cdad@152.53.50.126:22955?mode=gun&security=reality&encryption=none&pbk=9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms&fp=chrome&type=grpc&serviceName=grpc&sni=one-piece.com&sid=6ba85179e30d4fc2#ALRZ☃️-17
+vless://63f92f3c-447c-4283-80b9-0af8e164cdad@152.53.51.29:22955?encryption=none&security=reality&sni=one-piece.com&fp=chrome&pbk=9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms&sid=6ba85179e30d4fc2&type=grpc&serviceName=grpc&mode=gun#ALRZ☃️-15
+vless://63f92f3c-447c-4283-80b9-0af8e164cdad@152.53.50.126:22955?mode=gun&security=reality&encryption=none&pbk=9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms&fp=chrome&type=grpc&serviceName=grpc&sni=one-piece.com&sid=6ba85179e30d4fc2#ALRZ☃️-16
+vless://f00984ef-f57e-41db-9182-b25f7bc3a1e2@64.188.83.19:443?type=grpc&security=reality&encryption=none&fp=chrome&pbk=LwP6wU-_noj6mjituSmH8ZLNr54499NTDneUEEXPcAs&sni=www.microsoft.com&mode=multi&serviceName=GrpcFuckRKN#ALRZ☃️-17
 vless://1c45e98c-8a4a-45e7-acc5-3a3cc962f463@142.132.146.241:25565?type=grpc&security=reality&encryption=none&fp=chrome&pbk=n00VSaVEImUfNI-8882Ecum-Er2KIHLg32Y-MWQGeh8&sni=hypixel.net&mode=gun#ALRZ☃️-18
 vless://1c45e98c-8a4a-45e7-acc5-3a3cc962f463@144.31.220.136:25565?type=grpc&security=reality&fp=chrome&pbk=n00VSaVEImUfNI-8882Ecum-Er2KIHLg32Y-MWQGeh8&sni=hypixel.net&mode=gun&serviceName=#ALRZ☃️-19
 vless://caf9d5f7-77f2-4033-823e-d55a1996fc4a@138.124.32.188:30086/?type=grpc&encryption=none&flow=&serviceName=gprc#ALRZ☃️-20
@@ -40,7 +40,7 @@ vless://f8c5b018-f51a-4137-be8a-50a451630589@ru150.tcpnet.fun:5432?mode=gun&secu
 vless://f8c5b018-f51a-4137-be8a-50a451630589@45.144.30.81:5432?mode=gun&security=reality&encryption=none&authority=&pbk=WNsIqrfrK3gEmFFkeP2Ja8lvt9vGpFyxV612QdqYPC8&fp=firefox&allowinsecure=0&type=grpc&serviceName=grpc&sni=www.samsung.com&sid=489da765#ALRZ☃️-40
 vless://832f76f8-fca3-4efa-80be-870e123ad764@155.212.140.222.vhub.pro:443?allowinsecure=0&authority=&echfq=none&encryption=none&fp=chrome&mode=gun&security=tls&serviceName=/sequre/grpc/&sni=155.212.140.222.vhub.pro&type=grpc#ALRZ☃️-41
 vless://caf9d5f7-77f2-4033-823e-d55a1996fc4a@45.156.26.118:30086/?type=grpc&encryption=none&flow=&serviceName=gprc#ALRZ☃️-42
-vless://e218c974-3228-4528-98b4-a9da632a9bc2@213.171.26.10:12443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=grpc-gg&fp=chrome&sni=ads.x5.ru&pbk=XqH-gNEL9eJfr1pglaI8WU3OvE654_5duXYBS35UXlM&sid=ab#ALRZ☃️-43
+vless://e99a4b6b-2259-48b2-a0c1-7fb0325ca815@213.171.26.10:12443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=grpc-gg&fp=chrome&sni=ads.x5.ru&pbk=XqH-gNEL9eJfr1pglaI8WU3OvE654_5duXYBS35UXlM&sid=abcdef0123456789#ALRZ☃️-43
 vless://6a876f42-e674-4645-961e-eb72b9c10af4@51.250.119.228:443?type=grpc&security=reality&encryption=none&fp=chrome&pbk=9yVrUROOKrCuWXaOIIN4aV7cxuS4NOEeSI372W1-VBU&sid=bb&sni=megafon.ru#ALRZ☃️-44
 vless://a3a23630-839a-49c1-9285-3ee0026fb23f@51.250.99.91:443/?type=grpc&encryption=none&flow=&serviceName=grpc&sni=5post-gate.x5.ru&fp=chrome&security=reality&pbk=zVkSQiDMvCFk2zmmvChQlDA24K2QUdoq1-IyFw5nMTw&sid=96d0a6e8a6c0d73a&packetEncoding=xudp#ALRZ☃️-45
 vless://8076ac43-3bd6-4cbb-9aa8-ec2e8462913c@51.250.73.181:446/?type=grpc&encryption=none&flow=&serviceName=ads.x5.ru&sni=ads.x5.ru&fp=chrome&security=reality&pbk=mMaSUsOC5i3ErLDcaWW9UOOjG0fcKPCwVjzGS1wXQx8&sid=0512567389abcdef&packetEncoding=xudp#ALRZ☃️-46
