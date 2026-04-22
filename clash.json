@@ -365,21 +365,21 @@
     {
       "name": "ALRZ☃️-16",
       "type": "vless",
-      "server": "Wow2.preghost2.ir",
-      "port": 1919,
-      "uuid": "22b6a22b-a88a-4e2c-ba84-6fcca907d8ee",
+      "server": "45.82.251.116",
+      "port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "network": "grpc",
-      "tls": true,
+      "tls": false,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "www.oracle.com",
+      "servername": "",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "aparat-stream",
+        "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
     }
