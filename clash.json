@@ -424,27 +424,6 @@
         "grpc-service-name": "m19.lionets.nl",
         "grpc-mode": "gun"
       }
-    },
-    {
-      "name": "ALRZ☃️-19",
-      "type": "vless",
-      "server": "m19.lionets.nl",
-      "port": 443,
-      "uuid": "58891394-068a-4e3c-ab85-09b4083e0d94",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "aparat.com",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "m19.lionets.nl",
-        "grpc-mode": "gun"
-      }
     }
   ],
   "proxy-groups": [
@@ -479,8 +458,7 @@
         "ALRZ☃️-15",
         "ALRZ☃️-16",
         "ALRZ☃️-17",
-        "ALRZ☃️-18",
-        "ALRZ☃️-19"
+        "ALRZ☃️-18"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -509,8 +487,7 @@
         "ALRZ☃️-15",
         "ALRZ☃️-16",
         "ALRZ☃️-17",
-        "ALRZ☃️-18",
-        "ALRZ☃️-19"
+        "ALRZ☃️-18"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -538,8 +515,7 @@
         "ALRZ☃️-15",
         "ALRZ☃️-16",
         "ALRZ☃️-17",
-        "ALRZ☃️-18",
-        "ALRZ☃️-19"
+        "ALRZ☃️-18"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
