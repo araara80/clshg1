@@ -65,21 +65,21 @@
     {
       "name": "ALRZ☃️-2",
       "type": "vless",
-      "server": "m19.lionets.nl",
-      "port": 443,
-      "uuid": "58891394-068a-4e3c-ab85-09b4083e0d94",
+      "server": "144.31.24.85",
+      "port": 8443,
+      "uuid": "0011cd3b-a6b2-4131-a295-2b4efa178aea",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "aparat.com",
+      "servername": "ads.x5.ru",
       "flow": "",
-      "client-fingerprint": "firefox",
+      "client-fingerprint": "qq",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "m19.lionets.nl",
+        "grpc-service-name": "xyz",
         "grpc-mode": "gun"
       }
     },
@@ -403,27 +403,6 @@
         "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
-    },
-    {
-      "name": "ALRZ☃️-18",
-      "type": "vless",
-      "server": "m19.lionets.nl",
-      "port": 443,
-      "uuid": "58891394-068a-4e3c-ab85-09b4083e0d94",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "aparat.com",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "m19.lionets.nl",
-        "grpc-mode": "gun"
-      }
     }
   ],
   "proxy-groups": [
@@ -457,8 +436,7 @@
         "ALRZ☃️-14",
         "ALRZ☃️-15",
         "ALRZ☃️-16",
-        "ALRZ☃️-17",
-        "ALRZ☃️-18"
+        "ALRZ☃️-17"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -486,8 +464,7 @@
         "ALRZ☃️-14",
         "ALRZ☃️-15",
         "ALRZ☃️-16",
-        "ALRZ☃️-17",
-        "ALRZ☃️-18"
+        "ALRZ☃️-17"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -514,8 +491,7 @@
         "ALRZ☃️-14",
         "ALRZ☃️-15",
         "ALRZ☃️-16",
-        "ALRZ☃️-17",
-        "ALRZ☃️-18"
+        "ALRZ☃️-17"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
