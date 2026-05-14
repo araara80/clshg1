@@ -65,8 +65,8 @@
     {
       "name": "ALRZ☃️-2",
       "type": "vless",
-      "server": "83.147.255.191",
-      "port": 8443,
+      "server": "130.49.189.40",
+      "port": 443,
       "uuid": "4cb46f0c-4f4e-468d-a834-bc2a4e404835",
       "network": "grpc",
       "tls": true,
@@ -76,7 +76,7 @@
       "fast-open": true,
       "servername": "ads.x5.ru",
       "flow": "",
-      "client-fingerprint": "qq",
+      "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "xyz",
