@@ -65,9 +65,9 @@
     {
       "name": "ALRZ☃️-2",
       "type": "vless",
-      "server": "130.49.189.40",
+      "server": "79.137.198.154",
       "port": 443,
-      "uuid": "aedb65ef-b2c9-4ce1-8a72-332a94a253f2",
+      "uuid": "86f8a90e-b25a-492a-ac42-65b9756c9d67",
       "network": "grpc",
       "tls": true,
       "udp": true,
@@ -79,7 +79,7 @@
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "xyz",
+        "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
     },
