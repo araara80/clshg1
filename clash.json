@@ -67,7 +67,7 @@
       "type": "vless",
       "server": "130.49.189.40",
       "port": 443,
-      "uuid": "f5fd97d1-9f64-4a9a-8f40-aa75903bb111",
+      "uuid": "bc174d7d-6271-4b65-adb3-53164d61e9ea",
       "network": "grpc",
       "tls": true,
       "udp": true,
