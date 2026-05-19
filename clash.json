@@ -65,7 +65,7 @@
     {
       "name": "ALRZ☃️-2",
       "type": "vless",
-      "server": "45.140.205.215",
+      "server": "130.49.189.40",
       "port": 443,
       "uuid": "a1ad9d30-8ed9-4afd-9726-fd0724546522",
       "network": "grpc",
