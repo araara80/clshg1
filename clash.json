@@ -323,27 +323,6 @@
     {
       "name": "ALRZ☃️-14",
       "type": "vless",
-      "server": "grok.com",
-      "port": 2083,
-      "uuid": "e0c50817-86dd-4ee1-bca3-6e296d85dd59",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "blouck-de.gozarcloud.ir",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "Love",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-15",
-      "type": "vless",
       "server": "91.107.179.99",
       "port": 443,
       "uuid": "97899a35-53a2-42b0-bc47-587d220772a1",
@@ -363,7 +342,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-16",
+      "name": "ALRZ☃️-15",
       "type": "vless",
       "server": "91.107.179.99",
       "port": 443,
@@ -413,8 +392,7 @@
         "ALRZ☃️-12",
         "ALRZ☃️-13",
         "ALRZ☃️-14",
-        "ALRZ☃️-15",
-        "ALRZ☃️-16"
+        "ALRZ☃️-15"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -440,8 +418,7 @@
         "ALRZ☃️-12",
         "ALRZ☃️-13",
         "ALRZ☃️-14",
-        "ALRZ☃️-15",
-        "ALRZ☃️-16"
+        "ALRZ☃️-15"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -466,8 +443,7 @@
         "ALRZ☃️-12",
         "ALRZ☃️-13",
         "ALRZ☃️-14",
-        "ALRZ☃️-15",
-        "ALRZ☃️-16"
+        "ALRZ☃️-15"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
