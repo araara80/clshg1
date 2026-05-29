@@ -86,34 +86,9 @@
     {
       "name": "ALRZ☃️-3",
       "type": "vless",
-      "server": "104.18.32.47",
-      "port": 2096,
-      "uuid": "0e0bd555-4d21-485c-90a4-bb0b497c002a",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "cOMpASSioNAte-INtEntIOnr55Et2c87l.carbONBLACKBMW.IR",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "presstv.ir.iribnews.ir.tasnimnews.com.irannewsdaily.com.ifpnews.com.kayhan.ir.irdiplomacy.ir",
-        "grpc-mode": "gun"
-      },
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "ALRZ☃️-4",
-      "type": "vless",
-      "server": "45.140.205.215",
+      "server": "5.188.115.153",
       "port": 443,
-      "uuid": "408e86f5-beb7-4649-85c8-d01ad3eceab5",
+      "uuid": "6c36723b-75a3-4816-9c19-1ccd3fde83fe",
       "network": "grpc",
       "tls": true,
       "udp": true,
@@ -122,7 +97,28 @@
       "fast-open": true,
       "servername": "ads.x5.ru",
       "flow": "",
-      "client-fingerprint": "chrome",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-4",
+      "type": "vless",
+      "server": "130.49.189.40",
+      "port": 443,
+      "uuid": "73a7a937-ad24-4b68-a64f-d9d3611e2fdc",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "ads.x5.ru",
+      "flow": "",
+      "client-fingerprint": "safari",
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "GunService",
@@ -133,8 +129,8 @@
       "name": "ALRZ☃️-5",
       "type": "vless",
       "server": "130.49.189.40",
-      "port": 443,
-      "uuid": "408e86f5-beb7-4649-85c8-d01ad3eceab5",
+      "port": 8443,
+      "uuid": "73a7a937-ad24-4b68-a64f-d9d3611e2fdc",
       "network": "grpc",
       "tls": true,
       "udp": true,
@@ -143,7 +139,7 @@
       "fast-open": true,
       "servername": "ads.x5.ru",
       "flow": "",
-      "client-fingerprint": "safari",
+      "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "GunService",
@@ -457,6 +453,56 @@
     {
       "name": "ALRZ☃️-20",
       "type": "vless",
+      "server": "104.18.32.47",
+      "port": 2096,
+      "uuid": "a4eaf02b-740c-4cb3-a455-ef18850dff2b",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "HurT-cHEeSerb03zuk53f.WiNDleR.Co.UK",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "alalamtv.net.irdiplomacy.ir.tehrantimes.com.en.mehrnews.com.parstoday.com.entekhab.ir.tasnimnews.com",
+        "grpc-mode": "gun"
+      },
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "ALRZ☃️-21",
+      "type": "vless",
+      "server": "45.130.125.69",
+      "port": 2096,
+      "uuid": "ac0517ac-af76-4436-bfa4-0a8b2b6bb433",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "eVoLVIng-CHAnCeR6CS39rs25.caRBoNblAcKbMw.Ir",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "fararu.com.parstoday.com.ilna.news.financialtribune.com.presstv.ir.jamejamonline.ir.alalamtv.net",
+        "grpc-mode": "gun"
+      },
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "ALRZ☃️-22",
+      "type": "vless",
       "server": "sca9.myfymain.com",
       "port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
@@ -474,31 +520,6 @@
         "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
-    },
-    {
-      "name": "ALRZ☃️-21",
-      "type": "vless",
-      "server": "104.17.121.129",
-      "port": 2096,
-      "uuid": "6992f972-39ab-41e3-9d2e-39efc00ced3d",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "aRTfuL-eXCHAnGed81Ihi4YWX.carbONblAckBMW.ir",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "alalamtv.net.jamejamonline.ir.iribnews.ir.alef.ir.eghtesadonline.com.rajanews.com.khabaronline.ir",
-        "grpc-mode": "gun"
-      },
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
     }
   ],
   "proxy-groups": [
@@ -536,7 +557,8 @@
         "ALRZ☃️-18",
         "ALRZ☃️-19",
         "ALRZ☃️-20",
-        "ALRZ☃️-21"
+        "ALRZ☃️-21",
+        "ALRZ☃️-22"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -568,7 +590,8 @@
         "ALRZ☃️-18",
         "ALRZ☃️-19",
         "ALRZ☃️-20",
-        "ALRZ☃️-21"
+        "ALRZ☃️-21",
+        "ALRZ☃️-22"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -599,7 +622,8 @@
         "ALRZ☃️-18",
         "ALRZ☃️-19",
         "ALRZ☃️-20",
-        "ALRZ☃️-21"
+        "ALRZ☃️-21",
+        "ALRZ☃️-22"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
