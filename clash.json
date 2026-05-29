@@ -44,30 +44,30 @@
     {
       "name": "ALRZ☃️-1",
       "type": "vless",
-      "server": "104.16.7.70",
-      "port": 443,
-      "uuid": "71962e3f-4c2c-49c6-889d-2a6eb3d5ddfa",
+      "server": "209.38.222.192",
+      "port": 2096,
+      "uuid": "dfee545b-6087-4f13-b2a3-41cc9642d583",
       "network": "grpc",
-      "tls": true,
+      "tls": false,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "TRM.xuiprospeed.ir",
+      "servername": "",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "vless",
+        "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
     },
     {
       "name": "ALRZ☃️-2",
       "type": "vless",
-      "server": "209.38.222.192",
-      "port": 2096,
-      "uuid": "dfee545b-6087-4f13-b2a3-41cc9642d583",
+      "server": "sca9.myfymain.com",
+      "port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "network": "grpc",
       "tls": false,
       "udp": true,
@@ -128,27 +128,23 @@
     {
       "name": "ALRZ☃️-5",
       "type": "vless",
-      "server": "104.17.121.238",
-      "port": 2096,
-      "uuid": "4e93e8e6-8cc1-4a5b-b577-3d5bcae6ada0",
+      "server": "l4.l-itx.info",
+      "port": 7443,
+      "uuid": "5da05cf7-9913-45a9-a7c6-71a41b1cd713",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "FAiNT-beliEFst4dReAkTi.WINdler.Co.Uk",
+      "servername": "colorlib.com",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "irdiplomacy.ir.rajanews.com.parstoday.com.donya-e-eqtesad.com.alalamtv.net.yjc.ir.tehrantimes.com",
+        "grpc-service-name": "xyz",
         "grpc-mode": "gun"
-      },
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      }
     },
     {
       "name": "ALRZ☃️-6",
@@ -219,27 +215,6 @@
     {
       "name": "ALRZ☃️-9",
       "type": "vless",
-      "server": "45.82.251.116",
-      "port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-10",
-      "type": "vless",
       "server": "45.82.251.208",
       "port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
@@ -259,7 +234,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-11",
+      "name": "ALRZ☃️-10",
       "type": "vless",
       "server": "104.18.32.47",
       "port": 2096,
@@ -284,23 +259,48 @@
       ]
     },
     {
-      "name": "ALRZ☃️-12",
+      "name": "ALRZ☃️-11",
       "type": "vless",
-      "server": "104.17.121.238",
+      "server": "104.17.121.71",
       "port": 2096,
-      "uuid": "4e93e8e6-8cc1-4a5b-b577-3d5bcae6ada0",
+      "uuid": "10be524f-e1dc-4d1c-a256-17df1399a739",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "FAiNT-beliEFst4dReAkTi.WINdler.Co.Uk",
+      "servername": "loVELY-bATtLeNn9IH0SniS.WInDlER.Co.Uk",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "irdiplomacy.ir.rajanews.com.parstoday.com.donya-e-eqtesad.com.alalamtv.net.yjc.ir.tehrantimes.com",
+        "grpc-service-name": "donya-e-eqtesad.com.fararu.com.alef.ir.hamshahrionline.ir.khabaronline.ir.asriran.com.alalamtv.net",
+        "grpc-mode": "gun"
+      },
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "ALRZ☃️-12",
+      "type": "vless",
+      "server": "104.18.32.47",
+      "port": 2096,
+      "uuid": "e221880c-0ada-4e89-a336-62c3b909f787",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "Old-CaREg74s0ugV9a.CaRboNblAcKBMw.ir",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "iranprimer.usip.org.entekhab.ir.presstv.ir.alef.ir.yjc.ir.presstv.ir.en.mehrnews.com",
         "grpc-mode": "gun"
       },
       "alpn": [
@@ -377,26 +377,55 @@
     {
       "name": "ALRZ☃️-16",
       "type": "vless",
-      "server": "number1.api50951.ir",
-      "port": 1080,
-      "uuid": "8a6d385f-3bf8-4320-8740-b0800bc949da",
+      "server": "104.17.121.71",
+      "port": 2096,
+      "uuid": "d6641b78-1556-4f9d-ab17-e3b31117fe4b",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "api.api50951.ir",
+      "servername": "AdVenTurOUs-cOnflIcT3W7nbZ9EQw.carboNblACKbmw.Ir",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "api.api50951.ir",
+        "grpc-service-name": "en.mehrnews.com.isna.ir.entekhab.ir.khabaronline.ir.alef.ir.irandaily.ir.tehrantimes.com",
         "grpc-mode": "gun"
-      }
+      },
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
     },
     {
       "name": "ALRZ☃️-17",
+      "type": "vless",
+      "server": "104.18.32.47",
+      "port": 2096,
+      "uuid": "e221880c-0ada-4e89-a336-62c3b909f787",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "Old-CaREg74s0ugV9a.CaRboNblAcKBMw.ir",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "iranprimer.usip.org.entekhab.ir.presstv.ir.alef.ir.yjc.ir.presstv.ir.en.mehrnews.com",
+        "grpc-mode": "gun"
+      },
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "ALRZ☃️-18",
       "type": "vless",
       "server": "safe.zdshop.ir",
       "port": 2053,
@@ -417,7 +446,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-18",
+      "name": "ALRZ☃️-19",
       "type": "vless",
       "server": "94.183.241.105",
       "port": 15254,
@@ -438,7 +467,32 @@
       }
     },
     {
-      "name": "ALRZ☃️-19",
+      "name": "ALRZ☃️-20",
+      "type": "vless",
+      "server": "45.130.125.69",
+      "port": 2096,
+      "uuid": "5e8c894b-1efa-48d4-85ee-9daf5d574c16",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "bad-AppLicatIon22nBd8j5OK.CArBoNbLaCkBmw.Ir",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "irannewsdaily.com.hamshahrionline.ir.irdiplomacy.ir.irandaily.ir.alef.ir.rajanews.com.irannewsdaily.com",
+        "grpc-mode": "gun"
+      },
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "ALRZ☃️-21",
       "type": "vless",
       "server": "104.18.32.47",
       "port": 2096,
@@ -463,70 +517,49 @@
       ]
     },
     {
-      "name": "ALRZ☃️-20",
-      "type": "vless",
-      "server": "91.107.179.99",
-      "port": 443,
-      "uuid": "97899a35-53a2-42b0-bc47-587d220772a1",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "greenpepper.ir",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-21",
-      "type": "vless",
-      "server": "91.107.179.99",
-      "port": 443,
-      "uuid": "97899a35-53a2-42b0-bc47-587d220772a1",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "greenpepper.ir",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
       "name": "ALRZ☃️-22",
       "type": "vless",
-      "server": "l4.l-itx.info",
-      "port": 7443,
-      "uuid": "5da05cf7-9913-45a9-a7c6-71a41b1cd713",
+      "server": "91.107.179.99",
+      "port": 443,
+      "uuid": "97899a35-53a2-42b0-bc47-587d220772a1",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "colorlib.com",
+      "servername": "greenpepper.ir",
       "flow": "",
-      "client-fingerprint": "chrome",
+      "client-fingerprint": "firefox",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "xyz",
+        "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
     },
     {
       "name": "ALRZ☃️-23",
+      "type": "vless",
+      "server": "91.107.179.99",
+      "port": 443,
+      "uuid": "97899a35-53a2-42b0-bc47-587d220772a1",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "greenpepper.ir",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-24",
       "type": "vless",
       "server": "sca9.myfymain.com",
       "port": 8880,
@@ -547,48 +580,23 @@
       }
     },
     {
-      "name": "ALRZ☃️-24",
-      "type": "vless",
-      "server": "104.17.121.238",
-      "port": 2096,
-      "uuid": "4e93e8e6-8cc1-4a5b-b577-3d5bcae6ada0",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "FAiNT-beliEFst4dReAkTi.WINdler.Co.Uk",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "irdiplomacy.ir.rajanews.com.parstoday.com.donya-e-eqtesad.com.alalamtv.net.yjc.ir.tehrantimes.com",
-        "grpc-mode": "gun"
-      },
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
       "name": "ALRZ☃️-25",
       "type": "vless",
-      "server": "45.130.125.76",
+      "server": "104.18.32.47",
       "port": 2096,
-      "uuid": "3a40cae4-179e-43dc-8711-745ad5de95cc",
+      "uuid": "0e0bd555-4d21-485c-90a4-bb0b497c002a",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "QuIck-foRESt967D0t4M6x.CArBoNBlaCkBMW.IR",
+      "servername": "cOMpASSioNAte-INtEntIOnr55Et2c87l.carbONBLACKBMW.IR",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "iranprimer.usip.org.mizanonline.com.fararu.com.financialtribune.com.jamejamonline.ir.iribnews.ir.iranprimer.usip.org",
+        "grpc-service-name": "presstv.ir.iribnews.ir.tasnimnews.com.irannewsdaily.com.ifpnews.com.kayhan.ir.irdiplomacy.ir",
         "grpc-mode": "gun"
       },
       "alpn": [
