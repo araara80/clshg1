@@ -487,27 +487,23 @@
     {
       "name": "ALRZ☃️-21",
       "type": "vless",
-      "server": "45.130.125.76",
-      "port": 2096,
-      "uuid": "7673f4bd-cf73-4e62-9f8b-2a0338924fe5",
+      "server": "84.32.101.93",
+      "port": 443,
+      "uuid": "telegram-id-ArV2ray2",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "FRIendLY-AUThor087nJXB1y9.SAMsunGOVEnS.Ir",
+      "servername": "ftp.debian.org",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "irannewsdaily.com.tabnak.ir.eghtesadonline.com.irna.ir.ilna.news.iribnews.ir.kayhan.ir",
+        "grpc-service-name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
         "grpc-mode": "gun"
-      },
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      }
     }
   ],
   "proxy-groups": [
