@@ -307,6 +307,27 @@
     {
       "name": "ALRZ☃️-13",
       "type": "vless",
+      "server": "safe.zdshop.ir",
+      "port": 2053,
+      "uuid": "09387f07-5bf2-4486-9bb7-f49b959ed48f",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-14",
+      "type": "vless",
       "server": "94.183.241.105",
       "port": 15254,
       "uuid": "d20d3881-03a0-457d-9c67-9ac480fa8d38",
@@ -326,7 +347,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-14",
+      "name": "ALRZ☃️-15",
       "type": "vless",
       "server": "sca20.myfymain.com",
       "port": 8880,
@@ -347,7 +368,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-15",
+      "name": "ALRZ☃️-16",
       "type": "vless",
       "server": "104.18.32.47",
       "port": 2096,
@@ -372,27 +393,6 @@
       ]
     },
     {
-      "name": "ALRZ☃️-16",
-      "type": "vless",
-      "server": "91.107.179.99",
-      "port": 443,
-      "uuid": "97899a35-53a2-42b0-bc47-587d220772a1",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "greenpepper.ir",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
       "name": "ALRZ☃️-17",
       "type": "vless",
       "server": "91.107.179.99",
@@ -415,6 +415,27 @@
     },
     {
       "name": "ALRZ☃️-18",
+      "type": "vless",
+      "server": "91.107.179.99",
+      "port": 443,
+      "uuid": "97899a35-53a2-42b0-bc47-587d220772a1",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "greenpepper.ir",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-19",
       "type": "vless",
       "server": "sca9.myfymain.com",
       "port": 8880,
@@ -467,7 +488,8 @@
         "ALRZ☃️-15",
         "ALRZ☃️-16",
         "ALRZ☃️-17",
-        "ALRZ☃️-18"
+        "ALRZ☃️-18",
+        "ALRZ☃️-19"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -496,7 +518,8 @@
         "ALRZ☃️-15",
         "ALRZ☃️-16",
         "ALRZ☃️-17",
-        "ALRZ☃️-18"
+        "ALRZ☃️-18",
+        "ALRZ☃️-19"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -524,7 +547,8 @@
         "ALRZ☃️-15",
         "ALRZ☃️-16",
         "ALRZ☃️-17",
-        "ALRZ☃️-18"
+        "ALRZ☃️-18",
+        "ALRZ☃️-19"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
