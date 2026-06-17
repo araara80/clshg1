@@ -383,9 +383,9 @@
     {
       "name": "ALRZ☃️-17",
       "type": "vless",
-      "server": "kamo1.parsianboton.ir",
-      "port": 2083,
-      "uuid": "d3d7f255-617b-4b66-b1eb-8788ddd986b3",
+      "server": "www.jorquna.ir",
+      "port": 443,
+      "uuid": "Telegram-Parsashonam",
       "network": "grpc",
       "tls": true,
       "udp": true,
