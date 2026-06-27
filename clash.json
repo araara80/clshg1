@@ -65,27 +65,6 @@
     {
       "name": "ALRZ☃️-2",
       "type": "vless",
-      "server": "ll0ll.vip",
-      "port": 8082,
-      "uuid": "d9228d5d-618d-4771-835f-96b4ebdd38cd",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "id.vk.com",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "vless-grpc-reality",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-3",
-      "type": "vless",
       "server": "fanlandv2.sorcepack.ir",
       "port": 52077,
       "uuid": "f6c9ef00-feb2-456e-ac54-11fd5a996cc3",
@@ -105,7 +84,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-4",
+      "name": "ALRZ☃️-3",
       "type": "vless",
       "server": "45.152.198.221",
       "port": 47208,
@@ -126,7 +105,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-5",
+      "name": "ALRZ☃️-4",
       "type": "vless",
       "server": "151.115.164.37",
       "port": 8880,
@@ -147,7 +126,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-6",
+      "name": "ALRZ☃️-5",
       "type": "vless",
       "server": "fanlandv2.sorcepack.ir",
       "port": 52077,
@@ -168,7 +147,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-7",
+      "name": "ALRZ☃️-6",
       "type": "vless",
       "server": "fanlandv3.sorcepack.ir",
       "port": 52077,
@@ -182,6 +161,27 @@
       "servername": "yahoo.com",
       "flow": "",
       "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-7",
+      "type": "vless",
+      "server": "sca14.myfymain.com",
+      "port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "",
+      "flow": "",
+      "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "GunService",
@@ -530,27 +530,6 @@
     {
       "name": "ALRZ☃️-24",
       "type": "vless",
-      "server": "193.233.137.60",
-      "port": 4111,
-      "uuid": "ce967499-9b55-480f-9d8e-6f2d37bba843",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "www.icloud.com",
-      "flow": "",
-      "client-fingerprint": "qq",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "yourServiceName",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-25",
-      "type": "vless",
       "server": "151.115.164.36",
       "port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
@@ -570,7 +549,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-26",
+      "name": "ALRZ☃️-25",
       "type": "vless",
       "server": "sca14.myfymain.com",
       "port": 8880,
@@ -591,9 +570,9 @@
       }
     },
     {
-      "name": "ALRZ☃️-27",
+      "name": "ALRZ☃️-26",
       "type": "vless",
-      "server": "151.115.166.233",
+      "server": "151.115.164.134",
       "port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "network": "grpc",
@@ -652,8 +631,7 @@
         "ALRZ☃️-23",
         "ALRZ☃️-24",
         "ALRZ☃️-25",
-        "ALRZ☃️-26",
-        "ALRZ☃️-27"
+        "ALRZ☃️-26"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -690,8 +668,7 @@
         "ALRZ☃️-23",
         "ALRZ☃️-24",
         "ALRZ☃️-25",
-        "ALRZ☃️-26",
-        "ALRZ☃️-27"
+        "ALRZ☃️-26"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -727,8 +704,7 @@
         "ALRZ☃️-23",
         "ALRZ☃️-24",
         "ALRZ☃️-25",
-        "ALRZ☃️-26",
-        "ALRZ☃️-27"
+        "ALRZ☃️-26"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
