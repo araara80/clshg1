@@ -44,27 +44,6 @@
     {
       "name": "ALRZ☃️-1",
       "type": "vless",
-      "server": "92.53.64.241",
-      "port": 443,
-      "uuid": "e5f35d44-87d6-483b-9626-934c42ed5b35",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "ru.vostokhub.com",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-2",
-      "type": "vless",
       "server": "209.38.222.192",
       "port": 2096,
       "uuid": "dfee545b-6087-4f13-b2a3-41cc9642d583",
@@ -84,7 +63,49 @@
       }
     },
     {
+      "name": "ALRZ☃️-2",
+      "type": "vless",
+      "server": "sca34.mysilipdir.com",
+      "port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
       "name": "ALRZ☃️-3",
+      "type": "vless",
+      "server": "195.216.168.140",
+      "port": 443,
+      "uuid": "36ca976b-042a-4d24-b249-694620114a4a",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "play.google.com",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "Tel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAY",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-4",
       "type": "vless",
       "server": "sca29.speedmeter.shop",
       "port": 8880,
@@ -105,7 +126,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-4",
+      "name": "ALRZ☃️-5",
       "type": "vless",
       "server": "hub.oneoknews.com",
       "port": 443,
@@ -126,7 +147,28 @@
       }
     },
     {
-      "name": "ALRZ☃️-5",
+      "name": "ALRZ☃️-6",
+      "type": "vless",
+      "server": "hub.oneoknews.com",
+      "port": 443,
+      "uuid": "729a43e6-6926-4c27-92f6-b70a67471afc",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "hub.oneoknews.com",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "api.v1.StreamService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-7",
       "type": "vless",
       "server": "45.89.60.64",
       "port": 443,
@@ -147,7 +189,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-6",
+      "name": "ALRZ☃️-8",
       "type": "vless",
       "server": "45.89.60.64",
       "port": 8443,
@@ -164,48 +206,6 @@
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-7",
-      "type": "vless",
-      "server": "hub.oneoknews.com",
-      "port": 443,
-      "uuid": "729a43e6-6926-4c27-92f6-b70a67471afc",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "hub.oneoknews.com",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "api.v1.StreamService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-8",
-      "type": "vless",
-      "server": "l4.l-itx.info",
-      "port": 7443,
-      "uuid": "5da05cf7-9913-45a9-a7c6-71a41b1cd713",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "colorlib.com",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "xyz",
         "grpc-mode": "gun"
       }
     },
@@ -233,6 +233,27 @@
     {
       "name": "ALRZ☃️-10",
       "type": "vless",
+      "server": "l4.l-itx.info",
+      "port": 7443,
+      "uuid": "5da05cf7-9913-45a9-a7c6-71a41b1cd713",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "colorlib.com",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "xyz",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-11",
+      "type": "vless",
       "server": "45.86.159.142",
       "port": 2085,
       "uuid": "1ea1b30b-4114-4a5c-bd3a-9637bdae1948",
@@ -252,44 +273,23 @@
       }
     },
     {
-      "name": "ALRZ☃️-11",
-      "type": "vless",
-      "server": "45.86.228.237",
-      "port": 443,
-      "uuid": "56fde86d-7985-4385-bc75-276b29a70e44",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "xyz",
-        "grpc-mode": "gun"
-      }
-    },
-    {
       "name": "ALRZ☃️-12",
       "type": "vless",
-      "server": "179.237.75.21",
+      "server": "hub.oneoknews.com",
       "port": 443,
-      "uuid": "56fde86d-7985-4385-bc75-276b29a70e44",
+      "uuid": "729a43e6-6926-4c27-92f6-b70a67471afc",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "yahoo.com",
+      "servername": "hub.oneoknews.com",
       "flow": "",
-      "client-fingerprint": "chrome",
+      "client-fingerprint": "firefox",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "xyz",
+        "grpc-service-name": "api.v1.StreamService",
         "grpc-mode": "gun"
       }
     },
@@ -383,30 +383,9 @@
     {
       "name": "ALRZ☃️-17",
       "type": "vless",
-      "server": "hub.oneoknews.com",
+      "server": "x4g-production-b1ec.up.railway.app",
       "port": 443,
-      "uuid": "729a43e6-6926-4c27-92f6-b70a67471afc",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "hub.oneoknews.com",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "api.v1.StreamService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-18",
-      "type": "vless",
-      "server": "sca34.mysilipdir.com",
-      "port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "uuid": "1fa0027e-941c-42d7-e5e5-bbb7262ee988",
       "network": "grpc",
       "tls": false,
       "udp": true,
@@ -423,7 +402,49 @@
       }
     },
     {
+      "name": "ALRZ☃️-18",
+      "type": "vless",
+      "server": "57.131.19.38",
+      "port": 58846,
+      "uuid": "c24b01cb-233c-44c4-b39c-5571a4c55264",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "play.google.com",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
       "name": "ALRZ☃️-19",
+      "type": "vless",
+      "server": "151.115.166.129",
+      "port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "sca30.mysilipdir.com",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-20",
       "type": "vless",
       "server": "91.107.179.99",
       "port": 443,
@@ -444,7 +465,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-20",
+      "name": "ALRZ☃️-21",
       "type": "vless",
       "server": "91.107.179.99",
       "port": 443,
@@ -499,7 +520,8 @@
         "ALRZ☃️-17",
         "ALRZ☃️-18",
         "ALRZ☃️-19",
-        "ALRZ☃️-20"
+        "ALRZ☃️-20",
+        "ALRZ☃️-21"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -530,7 +552,8 @@
         "ALRZ☃️-17",
         "ALRZ☃️-18",
         "ALRZ☃️-19",
-        "ALRZ☃️-20"
+        "ALRZ☃️-20",
+        "ALRZ☃️-21"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -560,7 +583,8 @@
         "ALRZ☃️-17",
         "ALRZ☃️-18",
         "ALRZ☃️-19",
-        "ALRZ☃️-20"
+        "ALRZ☃️-20",
+        "ALRZ☃️-21"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
