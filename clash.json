@@ -484,6 +484,48 @@
         "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
+    },
+    {
+      "name": "ALRZ☃️-22",
+      "type": "vless",
+      "server": "S1.LoadBalance.LAT",
+      "port": 9090,
+      "uuid": "6fcb287e-1b92-4c03-b5ca-aa668dad2f51",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "refersion.com",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "mgrpcm",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-23",
+      "type": "vless",
+      "server": "hub.oneoknews.com",
+      "port": 443,
+      "uuid": "729a43e6-6926-4c27-92f6-b70a67471afc",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "hub.oneoknews.com",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "api.v1.StreamService",
+        "grpc-mode": "gun"
+      }
     }
   ],
   "proxy-groups": [
@@ -521,7 +563,9 @@
         "ALRZ☃️-18",
         "ALRZ☃️-19",
         "ALRZ☃️-20",
-        "ALRZ☃️-21"
+        "ALRZ☃️-21",
+        "ALRZ☃️-22",
+        "ALRZ☃️-23"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -553,7 +597,9 @@
         "ALRZ☃️-18",
         "ALRZ☃️-19",
         "ALRZ☃️-20",
-        "ALRZ☃️-21"
+        "ALRZ☃️-21",
+        "ALRZ☃️-22",
+        "ALRZ☃️-23"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -584,7 +630,9 @@
         "ALRZ☃️-18",
         "ALRZ☃️-19",
         "ALRZ☃️-20",
-        "ALRZ☃️-21"
+        "ALRZ☃️-21",
+        "ALRZ☃️-22",
+        "ALRZ☃️-23"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
