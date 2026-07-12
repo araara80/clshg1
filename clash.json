@@ -408,9 +408,9 @@
     {
       "name": "ALRZ☃️-18",
       "type": "vless",
-      "server": "gr.teraideri.sbs",
-      "port": 38733,
-      "uuid": "384a72e6-8a10-4695-9ee5-c93728ef7e2a",
+      "server": "org.virgooli.site",
+      "port": 443,
+      "uuid": "e5d83f7b-51fb-4506-ab58-8c913c8a8016",
       "network": "grpc",
       "tls": true,
       "udp": true,
