@@ -44,9 +44,9 @@
     {
       "name": "ALRZ☃️-1",
       "type": "vless",
-      "server": "578c5bde54f0050f.mechanicir.ir",
+      "server": "8b7e03244bf12600.monopolitass.ir",
       "port": 56625,
-      "uuid": "9a794b73-d16d-4d20-8dfa-14985c8b97be",
+      "uuid": "2849db41-a5fe-49a1-95c5-fc2241110676",
       "network": "grpc",
       "tls": true,
       "udp": true,
@@ -55,7 +55,7 @@
       "fast-open": true,
       "servername": "icloud.com",
       "flow": "",
-      "client-fingerprint": "firefox",
+      "client-fingerprint": "ios",
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "GunService",
@@ -408,42 +408,21 @@
     {
       "name": "ALRZ☃️-18",
       "type": "vless",
-      "server": "am1.foot8all.ir",
-      "port": 56625,
-      "uuid": "d7955f3f-dfa3-45a0-a3ef-9693df439a0f",
+      "server": "gr.teraideri.sbs",
+      "port": 38733,
+      "uuid": "384a72e6-8a10-4695-9ee5-c93728ef7e2a",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "icloud.com",
-      "flow": "",
-      "client-fingerprint": "qq",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-19",
-      "type": "vless",
-      "server": "pub2.legendaryking.link",
-      "port": 443,
-      "uuid": "ItsLegendaryking",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "fortune.com",
+      "servername": "play.google.com",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
+        "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
     }
@@ -480,8 +459,7 @@
         "ALRZ☃️-15",
         "ALRZ☃️-16",
         "ALRZ☃️-17",
-        "ALRZ☃️-18",
-        "ALRZ☃️-19"
+        "ALRZ☃️-18"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -510,8 +488,7 @@
         "ALRZ☃️-15",
         "ALRZ☃️-16",
         "ALRZ☃️-17",
-        "ALRZ☃️-18",
-        "ALRZ☃️-19"
+        "ALRZ☃️-18"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -539,8 +516,7 @@
         "ALRZ☃️-15",
         "ALRZ☃️-16",
         "ALRZ☃️-17",
-        "ALRZ☃️-18",
-        "ALRZ☃️-19"
+        "ALRZ☃️-18"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
