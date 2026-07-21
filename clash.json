@@ -65,21 +65,21 @@
     {
       "name": "ALRZ☃️-2",
       "type": "vless",
-      "server": "stream.noneok.com",
-      "port": 443,
-      "uuid": "8673cea6-211f-45cf-88e7-09d61a98e33f",
+      "server": "fr.sorat-fazaei.ir",
+      "port": 2092,
+      "uuid": "44aed101-147c-4f97-bd46-7e4c301595fa",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "stream.noneok.com",
+      "servername": "status.play.google.com",
       "flow": "",
-      "client-fingerprint": "chrome",
+      "client-fingerprint": "firefox",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "api.v1.StreamService",
+        "grpc-service-name": "AI-CH",
         "grpc-mode": "gun"
       }
     },
@@ -107,27 +107,6 @@
     {
       "name": "ALRZ☃️-4",
       "type": "vless",
-      "server": "2.26.82.237",
-      "port": 443,
-      "uuid": "906be882-7f16-47c3-8702-59db2ada9688",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "speed.cloudflare.com",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "grpc",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-5",
-      "type": "vless",
       "server": "static.oneoneok.com",
       "port": 443,
       "uuid": "86208db7-8bbc-42c2-9eb2-ffe5675502c3",
@@ -147,7 +126,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-6",
+      "name": "ALRZ☃️-5",
       "type": "vless",
       "server": "link.oneokgames.com",
       "port": 443,
@@ -168,7 +147,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-7",
+      "name": "ALRZ☃️-6",
       "type": "vless",
       "server": "45.89.60.64",
       "port": 443,
@@ -189,7 +168,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-8",
+      "name": "ALRZ☃️-7",
       "type": "vless",
       "server": "45.89.60.64",
       "port": 8443,
@@ -203,6 +182,27 @@
       "servername": "ads.x5.ru",
       "flow": "",
       "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-8",
+      "type": "vless",
+      "server": "531f38f34b1b1689.mbcloudy.ir",
+      "port": 56625,
+      "uuid": "cf049295-3b7c-4777-afd7-f57f25a7c76e",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "icloud.com",
+      "flow": "",
+      "client-fingerprint": "ios",
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "GunService",
@@ -341,21 +341,21 @@
     {
       "name": "ALRZ☃️-15",
       "type": "vless",
-      "server": "grid.onetimeok.com",
-      "port": 443,
-      "uuid": "86208db7-8bbc-42c2-9eb2-ffe5675502c3",
+      "server": "fr.sorat-fazaei.ir",
+      "port": 2092,
+      "uuid": "44aed101-147c-4f97-bd46-7e4c301595fa",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "grid.onetimeok.com",
+      "servername": "status.play.google.com",
       "flow": "",
       "client-fingerprint": "firefox",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "gw.v1.MetricsService",
+        "grpc-service-name": "AI-CH",
         "grpc-mode": "gun"
       }
     },
@@ -509,21 +509,42 @@
     {
       "name": "ALRZ☃️-23",
       "type": "vless",
-      "server": "stream.noneok.com",
+      "server": "grid.onetimeok.com",
       "port": 443,
-      "uuid": "8673cea6-211f-45cf-88e7-09d61a98e33f",
+      "uuid": "86208db7-8bbc-42c2-9eb2-ffe5675502c3",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "stream.noneok.com",
+      "servername": "grid.onetimeok.com",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "gw.v1.MetricsService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-24",
+      "type": "vless",
+      "server": "f1.high-net.ir",
+      "port": 61443,
+      "uuid": "44aed101-147c-4f97-bd46-7e4c301595fa",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "status.play.google.com",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "api.v1.StreamService",
+        "grpc-service-name": "game",
         "grpc-mode": "gun"
       }
     }
@@ -565,7 +586,8 @@
         "ALRZ☃️-20",
         "ALRZ☃️-21",
         "ALRZ☃️-22",
-        "ALRZ☃️-23"
+        "ALRZ☃️-23",
+        "ALRZ☃️-24"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -599,7 +621,8 @@
         "ALRZ☃️-20",
         "ALRZ☃️-21",
         "ALRZ☃️-22",
-        "ALRZ☃️-23"
+        "ALRZ☃️-23",
+        "ALRZ☃️-24"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -632,7 +655,8 @@
         "ALRZ☃️-20",
         "ALRZ☃️-21",
         "ALRZ☃️-22",
-        "ALRZ☃️-23"
+        "ALRZ☃️-23",
+        "ALRZ☃️-24"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
