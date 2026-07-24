@@ -233,21 +233,21 @@
     {
       "name": "ALRZ☃️-10",
       "type": "vless",
-      "server": "185.204.170.115",
-      "port": 8443,
-      "uuid": "3081d715-3c99-4f46-a8aa-42113608a626",
+      "server": "65.109.187.194",
+      "port": 8888,
+      "uuid": "d233e659-98c9-445d-9a77-b9391f5e1f01",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "play.google.com",
+      "servername": "hosieei.dearhossein-taktaz.ir",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "GunService",
+        "grpc-service-name": "grpc",
         "grpc-mode": "gun"
       }
     },
@@ -320,6 +320,27 @@
     {
       "name": "ALRZ☃️-14",
       "type": "vless",
+      "server": "core.noneok.com",
+      "port": 443,
+      "uuid": "340e4de3-144b-49c4-ad72-b49b35713728",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "core.noneok.com",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "api.v1.StreamService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-15",
+      "type": "vless",
       "server": "sca16.myfymain.com",
       "port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
@@ -339,7 +360,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-15",
+      "name": "ALRZ☃️-16",
       "type": "vless",
       "server": "104.18.24.41",
       "port": 8443,
@@ -360,7 +381,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-16",
+      "name": "ALRZ☃️-17",
       "type": "vless",
       "server": "loriex1.ojcenter.com",
       "port": 28144,
@@ -381,7 +402,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-17",
+      "name": "ALRZ☃️-18",
       "type": "vless",
       "server": "core.noneok.com",
       "port": 443,
@@ -398,27 +419,6 @@
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "api.v1.StreamService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-18",
-      "type": "vless",
-      "server": "91.107.179.99",
-      "port": 443,
-      "uuid": "97899a35-53a2-42b0-bc47-587d220772a1",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "greenpepper.ir",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
     },
@@ -446,42 +446,42 @@
     {
       "name": "ALRZ☃️-20",
       "type": "vless",
-      "server": "91.99.195.6",
-      "port": 80,
-      "uuid": "91a5d5b3-4b88-4359-aeec-e1532f535fd6",
+      "server": "91.107.179.99",
+      "port": 443,
+      "uuid": "97899a35-53a2-42b0-bc47-587d220772a1",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "refersion.com",
+      "servername": "greenpepper.ir",
       "flow": "",
-      "client-fingerprint": "chrome",
+      "client-fingerprint": "firefox",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "refersion.com",
+        "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
     },
     {
       "name": "ALRZ☃️-21",
       "type": "vless",
-      "server": "core.noneok.com",
-      "port": 443,
-      "uuid": "340e4de3-144b-49c4-ad72-b49b35713728",
+      "server": "using.neobo-tooth.ru",
+      "port": 2083,
+      "uuid": "0c6b632a-cd96-4b74-9b51-151e3b5697db",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "core.noneok.com",
+      "servername": "",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "api.v1.StreamService",
+        "grpc-service-name": "grpc",
         "grpc-mode": "gun"
       }
     }
