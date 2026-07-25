@@ -320,9 +320,9 @@
     {
       "name": "ALRZ☃️-14",
       "type": "vless",
-      "server": "104.18.24.41",
-      "port": 8443,
-      "uuid": "88360a6d-0fd7-49ef-ad06-6397fc7a80e5",
+      "server": "loriex1.ojcenter.com",
+      "port": 28144,
+      "uuid": "f4b08984-797f-a3f3-95e1-38acc2748a19",
       "network": "grpc",
       "tls": false,
       "udp": true,
@@ -334,7 +334,7 @@
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,",
+        "grpc-service-name": "@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,",
         "grpc-mode": "gun"
       }
     },
