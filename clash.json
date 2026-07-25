@@ -320,9 +320,9 @@
     {
       "name": "ALRZ☃️-14",
       "type": "vless",
-      "server": "marzban-node-production-1a4b.up.railway.app",
-      "port": 443,
-      "uuid": "ecf3048a-39d1-426f-82c1-46cdcc177da6",
+      "server": "104.18.24.41",
+      "port": 8443,
+      "uuid": "88360a6d-0fd7-49ef-ad06-6397fc7a80e5",
       "network": "grpc",
       "tls": false,
       "udp": true,
@@ -334,16 +334,16 @@
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "GunService",
+        "grpc-service-name": "@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,",
         "grpc-mode": "gun"
       }
     },
     {
       "name": "ALRZ☃️-15",
       "type": "vless",
-      "server": "marzban-node-production-1a4b.up.railway.app",
-      "port": 443,
-      "uuid": "ecf3048a-39d1-426f-82c1-46cdcc177da6",
+      "server": "loriex1.ojcenter.com",
+      "port": 28144,
+      "uuid": "f4b08984-797f-a3f3-95e1-38acc2748a19",
       "network": "grpc",
       "tls": false,
       "udp": true,
@@ -404,21 +404,21 @@
     {
       "name": "ALRZ☃️-18",
       "type": "vless",
-      "server": "using.neobo-tooth.ru",
-      "port": 2083,
-      "uuid": "0c6b632a-cd96-4b74-9b51-151e3b5697db",
+      "server": "135.125.185.225",
+      "port": 2053,
+      "uuid": "70f28a55-1e6c-4082-aef4-2dc2cfa78fca",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "play.google.com",
       "flow": "",
-      "client-fingerprint": "chrome",
+      "client-fingerprint": "firefox",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "grpc",
+        "grpc-service-name": "api.v1.data",
         "grpc-mode": "gun"
       }
     }
