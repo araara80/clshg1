@@ -44,27 +44,6 @@
     {
       "name": "ALRZ☃️-1",
       "type": "vless",
-      "server": "31.77.131.97",
-      "port": 8444,
-      "uuid": "b05346a9-4d13-41a4-8d2a-6b7b64e73ffc",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "cloudflare.com",
-      "flow": "",
-      "client-fingerprint": "qq",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "auragrpc",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-2",
-      "type": "vless",
       "server": "209.38.222.192",
       "port": 2096,
       "uuid": "dfee545b-6087-4f13-b2a3-41cc9642d583",
@@ -84,7 +63,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-3",
+      "name": "ALRZ☃️-2",
       "type": "vless",
       "server": "www.speedtest.net",
       "port": 2053,
@@ -101,6 +80,27 @@
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "StableInternet",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-3",
+      "type": "vless",
+      "server": "nl2.vrsvpn.com",
+      "port": 444,
+      "uuid": "0b9bcbc1-b289-4a64-86fa-a5b731b65384",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "web.max.ru",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "web.max.ru",
         "grpc-mode": "gun"
       }
     },
@@ -170,6 +170,27 @@
     {
       "name": "ALRZ☃️-7",
       "type": "vless",
+      "server": "geo-1.biscuitnazari.ir",
+      "port": 9443,
+      "uuid": "a52b446a-2bb2-477f-bf45-2bac6d5b686b",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "play.google.com",
+      "flow": "",
+      "client-fingerprint": "edge",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-8",
+      "type": "vless",
       "server": "l4.l-itx.info",
       "port": 7443,
       "uuid": "5da05cf7-9913-45a9-a7c6-71a41b1cd713",
@@ -185,27 +206,6 @@
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "xyz",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-8",
-      "type": "vless",
-      "server": "ab.gfdcty.ir",
-      "port": 443,
-      "uuid": "eeb75ded-02ad-4e8f-9bb1-ccc5cd96e7cc",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "ab.gfdcty.ir",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "graphql-grpc-t7XyZ",
         "grpc-mode": "gun"
       }
     },
@@ -362,21 +362,21 @@
     {
       "name": "ALRZ☃️-16",
       "type": "vless",
-      "server": "31.77.131.97",
-      "port": 8444,
-      "uuid": "b05346a9-4d13-41a4-8d2a-6b7b64e73ffc",
+      "server": "51.68.166.178",
+      "port": 2053,
+      "uuid": "70f28a55-1e6c-4082-aef4-2dc2cfa78fca",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "cloudflare.com",
+      "servername": "play.google.com",
       "flow": "",
-      "client-fingerprint": "qq",
+      "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "auragrpc",
+        "grpc-service-name": "api.v1.data",
         "grpc-mode": "gun"
       }
     },
@@ -421,27 +421,6 @@
         "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
-    },
-    {
-      "name": "ALRZ☃️-19",
-      "type": "vless",
-      "server": "135.125.185.225",
-      "port": 2053,
-      "uuid": "70f28a55-1e6c-4082-aef4-2dc2cfa78fca",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "play.google.com",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "api.v1.data",
-        "grpc-mode": "gun"
-      }
     }
   ],
   "proxy-groups": [
@@ -476,8 +455,7 @@
         "ALRZ☃️-15",
         "ALRZ☃️-16",
         "ALRZ☃️-17",
-        "ALRZ☃️-18",
-        "ALRZ☃️-19"
+        "ALRZ☃️-18"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -506,8 +484,7 @@
         "ALRZ☃️-15",
         "ALRZ☃️-16",
         "ALRZ☃️-17",
-        "ALRZ☃️-18",
-        "ALRZ☃️-19"
+        "ALRZ☃️-18"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -535,8 +512,7 @@
         "ALRZ☃️-15",
         "ALRZ☃️-16",
         "ALRZ☃️-17",
-        "ALRZ☃️-18",
-        "ALRZ☃️-19"
+        "ALRZ☃️-18"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
