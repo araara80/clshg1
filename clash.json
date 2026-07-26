@@ -341,9 +341,9 @@
     {
       "name": "ALRZ☃️-15",
       "type": "vless",
-      "server": "loriex1.ojcenter.com",
-      "port": 28144,
-      "uuid": "f4b08984-797f-a3f3-95e1-38acc2748a19",
+      "server": "104.18.24.41",
+      "port": 8443,
+      "uuid": "88360a6d-0fd7-49ef-ad06-6397fc7a80e5",
       "network": "grpc",
       "tls": false,
       "udp": true,
@@ -355,7 +355,7 @@
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,",
+        "grpc-service-name": "@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,",
         "grpc-mode": "gun"
       }
     },
@@ -446,42 +446,21 @@
     {
       "name": "ALRZ☃️-20",
       "type": "vless",
-      "server": "85.133.202.219",
-      "port": 2626,
-      "uuid": "8755c911-f14a-4d4e-b933-882b4acb0bed",
+      "server": "51.89.226.11",
+      "port": 2053,
+      "uuid": "70f28a55-1e6c-4082-aef4-2dc2cfa78fca",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "www.speedtest.net",
+      "servername": "play.google.com",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-21",
-      "type": "vless",
-      "server": "103.27.156.63",
-      "port": 443,
-      "uuid": "2d7c8eef-49c0-4d89-a74f-591ea805274d",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "yahoo.com",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
+        "grpc-service-name": "api.v1.data",
         "grpc-mode": "gun"
       }
     }
@@ -520,8 +499,7 @@
         "ALRZ☃️-17",
         "ALRZ☃️-18",
         "ALRZ☃️-19",
-        "ALRZ☃️-20",
-        "ALRZ☃️-21"
+        "ALRZ☃️-20"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -552,8 +530,7 @@
         "ALRZ☃️-17",
         "ALRZ☃️-18",
         "ALRZ☃️-19",
-        "ALRZ☃️-20",
-        "ALRZ☃️-21"
+        "ALRZ☃️-20"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -583,8 +560,7 @@
         "ALRZ☃️-17",
         "ALRZ☃️-18",
         "ALRZ☃️-19",
-        "ALRZ☃️-20",
-        "ALRZ☃️-21"
+        "ALRZ☃️-20"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
