@@ -212,21 +212,21 @@
     {
       "name": "ALRZ☃️-9",
       "type": "vless",
-      "server": "144.31.129.42",
+      "server": "91.107.179.99",
       "port": 443,
-      "uuid": "7b81d175-d180-4ec8-bbc5-dfe80e8d3b68",
+      "uuid": "97899a35-53a2-42b0-bc47-587d220772a1",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "morphbinerkkw.ru",
+      "servername": "greenpepper.ir",
       "flow": "",
-      "client-fingerprint": "chrome",
+      "client-fingerprint": "firefox",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "nexusGrpc",
+        "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
     },
@@ -253,27 +253,6 @@
     },
     {
       "name": "ALRZ☃️-11",
-      "type": "vless",
-      "server": "91.107.179.99",
-      "port": 443,
-      "uuid": "97899a35-53a2-42b0-bc47-587d220772a1",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "greenpepper.ir",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-12",
       "type": "vless",
       "server": "170.168.97.3",
       "port": 8443,
@@ -319,8 +298,7 @@
         "ALRZ☃️-8",
         "ALRZ☃️-9",
         "ALRZ☃️-10",
-        "ALRZ☃️-11",
-        "ALRZ☃️-12"
+        "ALRZ☃️-11"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -342,8 +320,7 @@
         "ALRZ☃️-8",
         "ALRZ☃️-9",
         "ALRZ☃️-10",
-        "ALRZ☃️-11",
-        "ALRZ☃️-12"
+        "ALRZ☃️-11"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -364,8 +341,7 @@
         "ALRZ☃️-8",
         "ALRZ☃️-9",
         "ALRZ☃️-10",
-        "ALRZ☃️-11",
-        "ALRZ☃️-12"
+        "ALRZ☃️-11"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
