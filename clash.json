@@ -212,9 +212,9 @@
     {
       "name": "ALRZ☃️-9",
       "type": "vless",
-      "server": "[2a01",
-      "port": 4,
-      "uuid": "e7b4c8e5-e714-419f-9181-2ee94d55f846",
+      "server": "loriex1.ojcenter.com",
+      "port": 28144,
+      "uuid": "f4b08984-797f-a3f3-95e1-38acc2748a19",
       "network": "grpc",
       "tls": false,
       "udp": true,
@@ -233,9 +233,9 @@
     {
       "name": "ALRZ☃️-10",
       "type": "vless",
-      "server": "[2a01",
-      "port": 4,
-      "uuid": "e7b4c8e5-e714-419f-9181-2ee94d55f846",
+      "server": "172.64.145.202",
+      "port": 2095,
+      "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
       "network": "grpc",
       "tls": false,
       "udp": true,
@@ -317,21 +317,21 @@
     {
       "name": "ALRZ☃️-14",
       "type": "vless",
-      "server": "84.32.101.93",
-      "port": 443,
-      "uuid": "telegram-id-ArV2ray3",
+      "server": "sca20.exodnsdir.xyz",
+      "port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "network": "grpc",
-      "tls": true,
+      "tls": false,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "ftp.debian.org",
+      "servername": "",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+        "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
     }
