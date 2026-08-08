@@ -65,26 +65,47 @@
     {
       "name": "ALRZ☃️-2",
       "type": "vless",
-      "server": "95.85.251.116",
-      "port": 59631,
-      "uuid": "22448df3-17f8-40a6-9199-babaca108b46",
+      "server": "193.151.108.156",
+      "port": 443,
+      "uuid": "f692629b-3557-488a-9c9b-60775331e423",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "google.com",
+      "servername": "fi1-cosmostechnology.ru",
       "flow": "",
-      "client-fingerprint": "firefox",
+      "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "GunService",
+        "grpc-service-name": "fi1cosmos",
         "grpc-mode": "gun"
       }
     },
     {
       "name": "ALRZ☃️-3",
+      "type": "vless",
+      "server": "144.31.243.105",
+      "port": 443,
+      "uuid": "f692629b-3557-488a-9c9b-60775331e423",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "fi1-cosmostechnology.ru",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "fi1cosmos",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-4",
       "type": "vless",
       "server": "170.168.97.5",
       "port": 8443,
@@ -101,27 +122,6 @@
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "TunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-4",
-      "type": "vless",
-      "server": "95.85.233.181",
-      "port": 443,
-      "uuid": "e0bb3250-1873-4b9d-b9b5-7aa6c863885f",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "c.primarymaster.online",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
     },
@@ -355,48 +355,6 @@
         "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
-    },
-    {
-      "name": "ALRZ☃️-16",
-      "type": "vless",
-      "server": "13.250.26.252",
-      "port": 10038,
-      "uuid": "7651FEC2-07B1-4904-8985-8EAAA1B781F3",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "d1.awsstatic.com",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "update",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-17",
-      "type": "vless",
-      "server": "88.216.220.88",
-      "port": 443,
-      "uuid": "a8e3155b-ceb1-4fcb-bc0c-2e77ec005401",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "files.noneok.com",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "api.v1.StreamService",
-        "grpc-mode": "gun"
-      }
     }
   ],
   "proxy-groups": [
@@ -428,9 +386,7 @@
         "ALRZ☃️-12",
         "ALRZ☃️-13",
         "ALRZ☃️-14",
-        "ALRZ☃️-15",
-        "ALRZ☃️-16",
-        "ALRZ☃️-17"
+        "ALRZ☃️-15"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -456,9 +412,7 @@
         "ALRZ☃️-12",
         "ALRZ☃️-13",
         "ALRZ☃️-14",
-        "ALRZ☃️-15",
-        "ALRZ☃️-16",
-        "ALRZ☃️-17"
+        "ALRZ☃️-15"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -483,9 +437,7 @@
         "ALRZ☃️-12",
         "ALRZ☃️-13",
         "ALRZ☃️-14",
-        "ALRZ☃️-15",
-        "ALRZ☃️-16",
-        "ALRZ☃️-17"
+        "ALRZ☃️-15"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
