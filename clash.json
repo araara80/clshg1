@@ -128,21 +128,21 @@
     {
       "name": "ALRZ☃️-5",
       "type": "vless",
-      "server": "95.85.233.181",
-      "port": 443,
-      "uuid": "e0bb3250-1873-4b9d-b9b5-7aa6c863885f",
+      "server": "170.168.97.5",
+      "port": 8443,
+      "uuid": "c6f220ed-41f2-21ba-438c-80f05ebbf92a",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "c.primarymaster.online",
+      "servername": "download.nvidia.com",
       "flow": "",
-      "client-fingerprint": "firefox",
+      "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "GunService",
+        "grpc-service-name": "TunService",
         "grpc-mode": "gun"
       }
     },
@@ -313,27 +313,6 @@
         "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
-    },
-    {
-      "name": "ALRZ☃️-14",
-      "type": "vless",
-      "server": "209.38.202.192",
-      "port": 42030,
-      "uuid": "f6bd0b57-1e1c-4dd1-8f1c-939cb96bdb0a",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "journalofbigdata.springeropen.com",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
     }
   ],
   "proxy-groups": [
@@ -363,8 +342,7 @@
         "ALRZ☃️-10",
         "ALRZ☃️-11",
         "ALRZ☃️-12",
-        "ALRZ☃️-13",
-        "ALRZ☃️-14"
+        "ALRZ☃️-13"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -388,8 +366,7 @@
         "ALRZ☃️-10",
         "ALRZ☃️-11",
         "ALRZ☃️-12",
-        "ALRZ☃️-13",
-        "ALRZ☃️-14"
+        "ALRZ☃️-13"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -412,8 +389,7 @@
         "ALRZ☃️-10",
         "ALRZ☃️-11",
         "ALRZ☃️-12",
-        "ALRZ☃️-13",
-        "ALRZ☃️-14"
+        "ALRZ☃️-13"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
