@@ -233,21 +233,21 @@
     {
       "name": "ALRZ☃️-10",
       "type": "vless",
-      "server": "84.32.102.152",
-      "port": 443,
-      "uuid": "telegram-id-ArV2ray",
+      "server": "209.38.243.0",
+      "port": 2025,
+      "uuid": "be91a34d-6faf-43b6-a70b-14e12e5cf973",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "ftp.debian.org",
+      "servername": "journalofbigdata.springeropen.com",
       "flow": "",
-      "client-fingerprint": "chrome",
+      "client-fingerprint": "random",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+        "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
     }
