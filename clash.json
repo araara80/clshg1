@@ -44,27 +44,6 @@
     {
       "name": "ALRZ☃️-1",
       "type": "vless",
-      "server": "mtnx.ircf.space",
-      "port": 8443,
-      "uuid": "eca9ff44-edfa-4071-cadb-6c4b51e776fc",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-2",
-      "type": "vless",
       "server": "209.38.222.192",
       "port": 2096,
       "uuid": "dfee545b-6087-4f13-b2a3-41cc9642d583",
@@ -84,7 +63,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-3",
+      "name": "ALRZ☃️-2",
       "type": "vless",
       "server": "531f38f34b1b1689.mbcloudy.ir",
       "port": 56625,
@@ -105,7 +84,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-4",
+      "name": "ALRZ☃️-3",
       "type": "vless",
       "server": "l4.l-itx.info",
       "port": 7443,
@@ -126,7 +105,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-5",
+      "name": "ALRZ☃️-4",
       "type": "vless",
       "server": "31.57.250.65",
       "port": 443,
@@ -147,23 +126,44 @@
       }
     },
     {
-      "name": "ALRZ☃️-6",
+      "name": "ALRZ☃️-5",
       "type": "vless",
-      "server": "95.85.233.181",
+      "server": "164.37.100.59",
       "port": 443,
-      "uuid": "e0bb3250-1873-4b9d-b9b5-7aa6c863885f",
+      "uuid": "dcdf114b-e2db-4cc1-bfa4-f30a0a47da7a",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "c.primarymaster.online",
+      "servername": "edge1.numberoneok.com",
       "flow": "",
       "client-fingerprint": "firefox",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "GunService",
+        "grpc-service-name": "rpc.v1.SyncService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-6",
+      "type": "vless",
+      "server": "193.233.244.15",
+      "port": 8443,
+      "uuid": "3aabd489-04af-42fb-87e2-363d1b83d335",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "maps.apple.com",
+      "flow": "",
+      "client-fingerprint": "qq",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "your-custom-path",
         "grpc-mode": "gun"
       }
     },
@@ -193,7 +193,7 @@
       "type": "vless",
       "server": "[2a01",
       "port": 4,
-      "uuid": "5a90f6da-b7fb-40ab-9e45-2cc8d8b0655d",
+      "uuid": "4f474306-c206-4eae-a2fb-464b466f83ab",
       "network": "grpc",
       "tls": false,
       "udp": true,
@@ -214,7 +214,7 @@
       "type": "vless",
       "server": "[2a01",
       "port": 4,
-      "uuid": "d010ea3f-6e96-42f5-9398-f091c3d66ecd",
+      "uuid": "4f474306-c206-4eae-a2fb-464b466f83ab",
       "network": "grpc",
       "tls": false,
       "udp": true,
