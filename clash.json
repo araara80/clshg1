@@ -65,27 +65,6 @@
     {
       "name": "ALRZ☃️-2",
       "type": "vless",
-      "server": "205.172.59.52",
-      "port": 33843,
-      "uuid": "139aa859-0297-4235-82fb-41678653978e",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "timeline.www.cloudflare.com",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "grpc",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-3",
-      "type": "vless",
       "server": "531f38f34b1b1689.mbcloudy.ir",
       "port": 56625,
       "uuid": "cf049295-3b7c-4777-afd7-f57f25a7c76e",
@@ -105,7 +84,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-4",
+      "name": "ALRZ☃️-3",
       "type": "vless",
       "server": "l4.l-itx.info",
       "port": 7443,
@@ -126,7 +105,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-5",
+      "name": "ALRZ☃️-4",
       "type": "vless",
       "server": "31.57.250.65",
       "port": 443,
@@ -147,49 +126,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-6",
-      "type": "vless",
-      "server": "138.124.33.169",
-      "port": 443,
-      "uuid": "62a08ea5-0564-47b4-a92c-25be07ad6358",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "360.yandex.ru",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "grpc",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-7",
-      "type": "vless",
-      "server": "205.172.59.52",
-      "port": 33843,
-      "uuid": "139aa859-0297-4235-82fb-41678653978e",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "timeline.www.cloudflare.com",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "grpc",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-8",
+      "name": "ALRZ☃️-5",
       "type": "vless",
       "server": "sca16.myfymain.com",
       "port": 8880,
@@ -210,7 +147,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-9",
+      "name": "ALRZ☃️-6",
       "type": "vless",
       "server": "[2a01",
       "port": 4,
@@ -231,7 +168,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-10",
+      "name": "ALRZ☃️-7",
       "type": "vless",
       "server": "[2a01",
       "port": 4,
@@ -252,7 +189,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-11",
+      "name": "ALRZ☃️-8",
       "type": "vless",
       "server": "91.107.179.99",
       "port": 443,
@@ -273,7 +210,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-12",
+      "name": "ALRZ☃️-9",
       "type": "vless",
       "server": "91.107.179.99",
       "port": 443,
@@ -294,7 +231,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-13",
+      "name": "ALRZ☃️-10",
       "type": "vless",
       "server": "adgof.mgodping12.xyz",
       "port": 2086,
@@ -344,10 +281,7 @@
         "ALRZ☃️-7",
         "ALRZ☃️-8",
         "ALRZ☃️-9",
-        "ALRZ☃️-10",
-        "ALRZ☃️-11",
-        "ALRZ☃️-12",
-        "ALRZ☃️-13"
+        "ALRZ☃️-10"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -368,10 +302,7 @@
         "ALRZ☃️-7",
         "ALRZ☃️-8",
         "ALRZ☃️-9",
-        "ALRZ☃️-10",
-        "ALRZ☃️-11",
-        "ALRZ☃️-12",
-        "ALRZ☃️-13"
+        "ALRZ☃️-10"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -391,10 +322,7 @@
         "ALRZ☃️-7",
         "ALRZ☃️-8",
         "ALRZ☃️-9",
-        "ALRZ☃️-10",
-        "ALRZ☃️-11",
-        "ALRZ☃️-12",
-        "ALRZ☃️-13"
+        "ALRZ☃️-10"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
