@@ -149,21 +149,21 @@
     {
       "name": "ALRZ☃️-6",
       "type": "vless",
-      "server": "91.224.86.107",
-      "port": 9830,
-      "uuid": "fd94a343-cb11-45e6-9882-72352d0a2b8f",
+      "server": "193.233.246.82",
+      "port": 8443,
+      "uuid": "41da9cd0-b02c-427a-b74e-7e402c610ae4",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "dl.google.com",
+      "servername": "ads.x5.ru",
       "flow": "",
-      "client-fingerprint": "qq",
+      "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "grpc-tunnel",
+        "grpc-service-name": "grpc-yandex",
         "grpc-mode": "gun"
       }
     },
@@ -193,7 +193,7 @@
       "type": "vless",
       "server": "[2a01",
       "port": 4,
-      "uuid": "2f267809-4ee9-4762-ab36-359abd77cbdc",
+      "uuid": "5a90f6da-b7fb-40ab-9e45-2cc8d8b0655d",
       "network": "grpc",
       "tls": false,
       "udp": true,
@@ -275,47 +275,26 @@
     {
       "name": "ALRZ☃️-12",
       "type": "vless",
-      "server": "pub2.legendaryking.link",
-      "port": 443,
-      "uuid": "ItsLegendaryking",
+      "server": "151.115.164.110",
+      "port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "network": "grpc",
-      "tls": true,
+      "tls": false,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "fortune.com",
+      "servername": "",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
+        "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
     },
     {
       "name": "ALRZ☃️-13",
-      "type": "vless",
-      "server": "84.32.101.93",
-      "port": 443,
-      "uuid": "telegram-id-ArV2ray3",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "ftp.debian.org",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-14",
       "type": "vless",
       "server": "adgof.mgodping12.xyz",
       "port": 2086,
@@ -368,8 +347,7 @@
         "ALRZ☃️-10",
         "ALRZ☃️-11",
         "ALRZ☃️-12",
-        "ALRZ☃️-13",
-        "ALRZ☃️-14"
+        "ALRZ☃️-13"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -393,8 +371,7 @@
         "ALRZ☃️-10",
         "ALRZ☃️-11",
         "ALRZ☃️-12",
-        "ALRZ☃️-13",
-        "ALRZ☃️-14"
+        "ALRZ☃️-13"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -417,8 +394,7 @@
         "ALRZ☃️-10",
         "ALRZ☃️-11",
         "ALRZ☃️-12",
-        "ALRZ☃️-13",
-        "ALRZ☃️-14"
+        "ALRZ☃️-13"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
