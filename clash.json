@@ -170,9 +170,9 @@
     {
       "name": "ALRZ☃️-7",
       "type": "vless",
-      "server": "199.232.78.160",
-      "port": 443,
-      "uuid": "910d7c76-8158-415e-903a-a4f36d955b06",
+      "server": "[2a01",
+      "port": 4,
+      "uuid": "5a90f6da-b7fb-40ab-9e45-2cc8d8b0655d",
       "network": "grpc",
       "tls": false,
       "udp": true,
