@@ -86,27 +86,6 @@
     {
       "name": "ALRZ☃️-3",
       "type": "vless",
-      "server": "www.parsvds.ir",
-      "port": 8080,
-      "uuid": "VPNCUSTOMIZE",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "Telegram",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-4",
-      "type": "vless",
       "server": "l4.l-itx.info",
       "port": 7443,
       "uuid": "5da05cf7-9913-45a9-a7c6-71a41b1cd713",
@@ -126,7 +105,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-5",
+      "name": "ALRZ☃️-4",
       "type": "vless",
       "server": "31.57.250.65",
       "port": 443,
@@ -147,7 +126,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-6",
+      "name": "ALRZ☃️-5",
       "type": "vless",
       "server": "217.69.167.135",
       "port": 15392,
@@ -164,6 +143,27 @@
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "grpc",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-6",
+      "type": "vless",
+      "server": "rs1.univesalsrv.com",
+      "port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "rs1.univesalsrv.com",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "node.v2.ObjectService",
         "grpc-mode": "gun"
       }
     },
@@ -191,9 +191,9 @@
     {
       "name": "ALRZ☃️-8",
       "type": "vless",
-      "server": "[2a01",
-      "port": 4,
-      "uuid": "5a90f6da-b7fb-40ab-9e45-2cc8d8b0655d",
+      "server": "199.232.78.160",
+      "port": 443,
+      "uuid": "6e3703e9-f5ed-4cc5-8921-174559b36229",
       "network": "grpc",
       "tls": false,
       "udp": true,
@@ -214,7 +214,7 @@
       "type": "vless",
       "server": "199.232.78.160",
       "port": 443,
-      "uuid": "910d7c76-8158-415e-903a-a4f36d955b06",
+      "uuid": "6e3703e9-f5ed-4cc5-8921-174559b36229",
       "network": "grpc",
       "tls": false,
       "udp": true,
