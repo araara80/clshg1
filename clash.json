@@ -65,7 +65,7 @@
     {
       "name": "ALRZ☃️-2",
       "type": "vless",
-      "server": "89.35.14.31",
+      "server": "bg5.univesalsrv.com",
       "port": 443,
       "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
       "network": "grpc",
@@ -74,17 +74,80 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "md2.univesalsrv.com",
+      "servername": "bg5.univesalsrv.com",
       "flow": "",
       "client-fingerprint": "firefox",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "hub.v1.SyncService",
+        "grpc-service-name": "gw.v2.RelayService",
         "grpc-mode": "gun"
       }
     },
     {
       "name": "ALRZ☃️-3",
+      "type": "vless",
+      "server": "152.53.64.139",
+      "port": 8443,
+      "uuid": "84a794a5-2420-4ca7-8e08-8d21571f36f3",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "avstri.plus-hit.ru",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-4",
+      "type": "vless",
+      "server": "ja10.levikogjgfdd.ir",
+      "port": 2087,
+      "uuid": "309b0ce3-09a8-4883-bfe4-bd56e215be44",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "ads.x5.ru",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "grpc",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-5",
+      "type": "vless",
+      "server": "89.35.14.30",
+      "port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "md1.univesalsrv.com",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "hub.v1.RelayService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-6",
       "type": "vless",
       "server": "531f38f34b1b1689.mbcloudy.ir",
       "port": 56625,
@@ -105,7 +168,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-4",
+      "name": "ALRZ☃️-7",
       "type": "vless",
       "server": "l4.l-itx.info",
       "port": 7443,
@@ -126,7 +189,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-5",
+      "name": "ALRZ☃️-8",
       "type": "vless",
       "server": "31.57.250.65",
       "port": 443,
@@ -147,86 +210,23 @@
       }
     },
     {
-      "name": "ALRZ☃️-6",
-      "type": "vless",
-      "server": "89.35.14.31",
-      "port": 443,
-      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "md2.univesalsrv.com",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "hub.v1.SyncService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-7",
-      "type": "vless",
-      "server": "89.35.14.31",
-      "port": 443,
-      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "md2.univesalsrv.com",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "hub.v1.SyncService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-8",
-      "type": "vless",
-      "server": "31.77.170.30",
-      "port": 443,
-      "uuid": "00506574-3b10-4f7d-9b2f-8afdc5919b93",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "stackoverflow.com",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "grpc",
-        "grpc-mode": "gun"
-      }
-    },
-    {
       "name": "ALRZ☃️-9",
       "type": "vless",
-      "server": "91.224.86.107",
-      "port": 9830,
-      "uuid": "064a967e-0862-4cea-bdbd-9458cb7b6070",
+      "server": "89.35.14.30",
+      "port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "dl.google.com",
+      "servername": "md1.univesalsrv.com",
       "flow": "",
-      "client-fingerprint": "qq",
+      "client-fingerprint": "firefox",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "grpc-tunnel",
+        "grpc-service-name": "hub.v1.RelayService",
         "grpc-mode": "gun"
       }
     },
@@ -359,21 +359,21 @@
     {
       "name": "ALRZ☃️-16",
       "type": "vless",
-      "server": "91.99.195.6",
-      "port": 80,
-      "uuid": "91a5d5b3-4b88-4359-aeec-e1532f535fd6",
+      "server": "89.35.14.31",
+      "port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "refersion.com",
+      "servername": "md2.univesalsrv.com",
       "flow": "",
-      "client-fingerprint": "chrome",
+      "client-fingerprint": "firefox",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "refersion.com",
+        "grpc-service-name": "hub.v1.SyncService",
         "grpc-mode": "gun"
       }
     },
