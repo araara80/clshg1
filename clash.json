@@ -65,27 +65,6 @@
     {
       "name": "ALRZ☃️-2",
       "type": "vless",
-      "server": "45.88.13.5",
-      "port": 8443,
-      "uuid": "2bb8b13c-b3f0-2552-da05-d0929bfb36db",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "download.nvidia.com",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "TunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-3",
-      "type": "vless",
       "server": "132.243.223.227",
       "port": 2101,
       "uuid": "2edfd299-fd54-4056-9d79-3c99f19bdae1",
@@ -101,6 +80,27 @@
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "fi-grpc-test",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-3",
+      "type": "vless",
+      "server": "150.40.126.22",
+      "port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "rs4.univesalsrv.com",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "media.v1.StreamService",
         "grpc-mode": "gun"
       }
     },
@@ -160,7 +160,7 @@
       "fast-open": true,
       "servername": "files.noneok.com",
       "flow": "",
-      "client-fingerprint": "firefox",
+      "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "api.v1.StreamService",
@@ -193,7 +193,7 @@
       "type": "vless",
       "server": "167.82.76.31",
       "port": 443,
-      "uuid": "b13013fa-3e31-47f9-a754-af9629ca4d15",
+      "uuid": "8cbbca66-4d7c-4c47-9e2f-2b927a7c2748",
       "network": "grpc",
       "tls": false,
       "udp": true,
@@ -214,7 +214,7 @@
       "type": "vless",
       "server": "167.82.76.31",
       "port": 443,
-      "uuid": "b13013fa-3e31-47f9-a754-af9629ca4d15",
+      "uuid": "8cbbca66-4d7c-4c47-9e2f-2b927a7c2748",
       "network": "grpc",
       "tls": false,
       "udp": true,
@@ -313,27 +313,6 @@
         "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
-    },
-    {
-      "name": "ALRZ☃️-14",
-      "type": "vless",
-      "server": "2.27.17.229",
-      "port": 46341,
-      "uuid": "cfe85028-dde5-4a3d-890e-f43696a2b5f3",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "www.sony-europe.com",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "grpc_common2",
-        "grpc-mode": "gun"
-      }
     }
   ],
   "proxy-groups": [
@@ -363,8 +342,7 @@
         "ALRZ☃️-10",
         "ALRZ☃️-11",
         "ALRZ☃️-12",
-        "ALRZ☃️-13",
-        "ALRZ☃️-14"
+        "ALRZ☃️-13"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -388,8 +366,7 @@
         "ALRZ☃️-10",
         "ALRZ☃️-11",
         "ALRZ☃️-12",
-        "ALRZ☃️-13",
-        "ALRZ☃️-14"
+        "ALRZ☃️-13"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -412,8 +389,7 @@
         "ALRZ☃️-10",
         "ALRZ☃️-11",
         "ALRZ☃️-12",
-        "ALRZ☃️-13",
-        "ALRZ☃️-14"
+        "ALRZ☃️-13"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
