@@ -44,6 +44,27 @@
     {
       "name": "ALRZ☃️-1",
       "type": "vless",
+      "server": "171.22.129.3",
+      "port": 2053,
+      "uuid": "5413edfb-08d6-4fba-b51c-809c04feb127",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "www.tagesschau.de",
+      "flow": "",
+      "client-fingerprint": "qq",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "de2262268grpc",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-2",
+      "type": "vless",
       "server": "209.38.222.192",
       "port": 2096,
       "uuid": "dfee545b-6087-4f13-b2a3-41cc9642d583",
@@ -63,7 +84,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-2",
+      "name": "ALRZ☃️-3",
       "type": "vless",
       "server": "132.243.223.227",
       "port": 2101,
@@ -84,28 +105,28 @@
       }
     },
     {
-      "name": "ALRZ☃️-3",
+      "name": "ALRZ☃️-4",
       "type": "vless",
-      "server": "185.255.179.11",
-      "port": 9443,
-      "uuid": "d9d0f208-d582-41d5-bb7b-742671402810",
+      "server": "150.40.126.22",
+      "port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "hub-nl-03.hanvpn.cc",
+      "servername": "rs4.univesalsrv.com",
       "flow": "",
-      "client-fingerprint": "chrome",
+      "client-fingerprint": "firefox",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "nl03-grpc-8e47a",
+        "grpc-service-name": "media.v1.StreamService",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-4",
+      "name": "ALRZ☃️-5",
       "type": "vless",
       "server": "531f38f34b1b1689.mbcloudy.ir",
       "port": 56625,
@@ -126,7 +147,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-5",
+      "name": "ALRZ☃️-6",
       "type": "vless",
       "server": "l4.l-itx.info",
       "port": 7443,
@@ -147,7 +168,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-6",
+      "name": "ALRZ☃️-7",
       "type": "vless",
       "server": "88.216.220.88",
       "port": 443,
@@ -168,28 +189,28 @@
       }
     },
     {
-      "name": "ALRZ☃️-7",
+      "name": "ALRZ☃️-8",
       "type": "vless",
-      "server": "94.183.170.147",
-      "port": 8443,
-      "uuid": "66ac188b-bd8d-4218-b9ba-0bad0e152cd0",
+      "server": "194.238.57.23",
+      "port": 443,
+      "uuid": "303c2140-19ff-4eea-b1b1-865d4160d261",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "www.cloudflare.com",
+      "servername": "ai.android",
       "flow": "",
-      "client-fingerprint": "firefox",
+      "client-fingerprint": "safari",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "9d30d49278",
+        "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-8",
+      "name": "ALRZ☃️-9",
       "type": "vless",
       "server": "sca16.myfymain.com",
       "port": 8880,
@@ -210,32 +231,11 @@
       }
     },
     {
-      "name": "ALRZ☃️-9",
-      "type": "vless",
-      "server": "167.82.76.31",
-      "port": 443,
-      "uuid": "8cbbca66-4d7c-4c47-9e2f-2b927a7c2748",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,",
-        "grpc-mode": "gun"
-      }
-    },
-    {
       "name": "ALRZ☃️-10",
       "type": "vless",
-      "server": "167.82.76.31",
+      "server": "199.232.78.160",
       "port": 443,
-      "uuid": "8cbbca66-4d7c-4c47-9e2f-2b927a7c2748",
+      "uuid": "a2f4e5bc-5857-46c7-8008-453c26823e27",
       "network": "grpc",
       "tls": false,
       "udp": true,
@@ -254,6 +254,27 @@
     {
       "name": "ALRZ☃️-11",
       "type": "vless",
+      "server": "199.232.78.160",
+      "port": 443,
+      "uuid": "a2f4e5bc-5857-46c7-8008-453c26823e27",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-12",
+      "type": "vless",
       "server": "144.31.1.201",
       "port": 8090,
       "uuid": "5f829d2f-2f13-450c-81ac-e9832b8e47ec",
@@ -269,27 +290,6 @@
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "grpc",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-12",
-      "type": "vless",
-      "server": "89.35.14.33",
-      "port": 443,
-      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "md4.univesalsrv.com",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "hub.v1.ApiService",
         "grpc-mode": "gun"
       }
     },
@@ -334,6 +334,48 @@
         "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
+    },
+    {
+      "name": "ALRZ☃️-15",
+      "type": "vless",
+      "server": "api.noneok.com",
+      "port": 443,
+      "uuid": "a8e3155b-ceb1-4fcb-bc0c-2e77ec005401",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "api.noneok.com",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "api.v1.StreamService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-16",
+      "type": "vless",
+      "server": "171.22.129.3",
+      "port": 2053,
+      "uuid": "5413edfb-08d6-4fba-b51c-809c04feb127",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "www.tagesschau.de",
+      "flow": "",
+      "client-fingerprint": "qq",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "de2262268grpc",
+        "grpc-mode": "gun"
+      }
     }
   ],
   "proxy-groups": [
@@ -364,7 +406,9 @@
         "ALRZ☃️-11",
         "ALRZ☃️-12",
         "ALRZ☃️-13",
-        "ALRZ☃️-14"
+        "ALRZ☃️-14",
+        "ALRZ☃️-15",
+        "ALRZ☃️-16"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -389,7 +433,9 @@
         "ALRZ☃️-11",
         "ALRZ☃️-12",
         "ALRZ☃️-13",
-        "ALRZ☃️-14"
+        "ALRZ☃️-14",
+        "ALRZ☃️-15",
+        "ALRZ☃️-16"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -413,7 +459,9 @@
         "ALRZ☃️-11",
         "ALRZ☃️-12",
         "ALRZ☃️-13",
-        "ALRZ☃️-14"
+        "ALRZ☃️-14",
+        "ALRZ☃️-15",
+        "ALRZ☃️-16"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
