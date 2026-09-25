@@ -149,6 +149,27 @@
     {
       "name": "ALRZ☃️-6",
       "type": "vless",
+      "server": "152.228.139.33",
+      "port": 51671,
+      "uuid": "75cc7568-abb0-46a8-88be-8137d3c647d4",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "www.sony.com",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "grpc_common3",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-7",
+      "type": "vless",
       "server": "sca16.myfymain.com",
       "port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
@@ -168,32 +189,11 @@
       }
     },
     {
-      "name": "ALRZ☃️-7",
-      "type": "vless",
-      "server": "199.232.78.160",
-      "port": 443,
-      "uuid": "5d1b1ddb-6eb6-412b-b686-d63a714eac6b",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,",
-        "grpc-mode": "gun"
-      }
-    },
-    {
       "name": "ALRZ☃️-8",
       "type": "vless",
       "server": "199.232.78.160",
-      "port": 443,
-      "uuid": "5d1b1ddb-6eb6-412b-b686-d63a714eac6b",
+      "port": 80,
+      "uuid": "4ad2297d-3596-4df2-a24b-abf947cf9aae",
       "network": "grpc",
       "tls": false,
       "udp": true,
@@ -212,6 +212,27 @@
     {
       "name": "ALRZ☃️-9",
       "type": "vless",
+      "server": "199.232.78.160",
+      "port": 80,
+      "uuid": "4ad2297d-3596-4df2-a24b-abf947cf9aae",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-10",
+      "type": "vless",
       "server": "144.31.1.201",
       "port": 8090,
       "uuid": "5f829d2f-2f13-450c-81ac-e9832b8e47ec",
@@ -227,27 +248,6 @@
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "grpc",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-10",
-      "type": "vless",
-      "server": "176.109.106.182",
-      "port": 9881,
-      "uuid": "5d16ac22-6eea-426f-b778-6f4c2961faef",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "dl.google.com",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "grpc-tunnel",
         "grpc-mode": "gun"
       }
     },
@@ -296,28 +296,28 @@
     {
       "name": "ALRZ☃️-13",
       "type": "vless",
-      "server": "md2.univesalsrv.com",
-      "port": 443,
-      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "server": "lovefishingfishes.kuckenpq.ir",
+      "port": 32135,
+      "uuid": "c8b6a94f-eb38-4b68-9ae7-fadc7d690e16",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "md2.univesalsrv.com",
+      "servername": "journalofbigdata.springeropen.com",
       "flow": "",
-      "client-fingerprint": "firefox",
+      "client-fingerprint": "randomized",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "hub.v1.SyncService",
+        "grpc-service-name": "32135vless",
         "grpc-mode": "gun"
       }
     },
     {
       "name": "ALRZ☃️-14",
       "type": "vless",
-      "server": "bg3.univesalsrv.com",
+      "server": "45.9.156.42",
       "port": 443,
       "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
       "network": "grpc",
@@ -326,12 +326,12 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "bg3.univesalsrv.com",
+      "servername": "bg5.univesalsrv.com",
       "flow": "",
       "client-fingerprint": "firefox",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "home.v1.ApiService",
+        "grpc-service-name": "gw.v2.RelayService",
         "grpc-mode": "gun"
       }
     }
