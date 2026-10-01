@@ -65,27 +65,6 @@
     {
       "name": "ALRZ☃️-2",
       "type": "vless",
-      "server": "176.109.111.7",
-      "port": 9881,
-      "uuid": "5d16ac22-6eea-426f-b778-6f4c2961faef",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "dl.google.com",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "grpc-tunnel",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-3",
-      "type": "vless",
       "server": "files.noneok.com",
       "port": 443,
       "uuid": "a8e3155b-ceb1-4fcb-bc0c-2e77ec005401",
@@ -105,7 +84,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-4",
+      "name": "ALRZ☃️-3",
       "type": "vless",
       "server": "132.243.223.227",
       "port": 2101,
@@ -126,7 +105,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-5",
+      "name": "ALRZ☃️-4",
       "type": "vless",
       "server": "531f38f34b1b1689.mbcloudy.ir",
       "port": 56625,
@@ -147,7 +126,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-6",
+      "name": "ALRZ☃️-5",
       "type": "vless",
       "server": "l4.l-itx.info",
       "port": 7443,
@@ -164,6 +143,27 @@
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "xyz",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-6",
+      "type": "vless",
+      "server": "66.90.105.211",
+      "port": 2083,
+      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+      "network": "grpc",
+      "tls": false,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "vless",
         "grpc-mode": "gun"
       }
     },
@@ -256,7 +256,7 @@
       "type": "vless",
       "server": "167.82.76.31",
       "port": 80,
-      "uuid": "8e3d87fa-89b0-4316-adc5-92f21f138889",
+      "uuid": "24d3a92a-f554-4f65-95ba-bd2276a6f4b2",
       "network": "grpc",
       "tls": false,
       "udp": true,
@@ -277,7 +277,7 @@
       "type": "vless",
       "server": "167.82.76.31",
       "port": 80,
-      "uuid": "8e3d87fa-89b0-4316-adc5-92f21f138889",
+      "uuid": "24d3a92a-f554-4f65-95ba-bd2276a6f4b2",
       "network": "grpc",
       "tls": false,
       "udp": true,
