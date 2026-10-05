@@ -65,27 +65,6 @@
     {
       "name": "ALRZ☃️-2",
       "type": "vless",
-      "server": "84.32.71.124",
-      "port": 443,
-      "uuid": "e90759b7-6454-4b3a-8453-279e6f496f3a",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "us1.jetservaki.fit",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "grpc",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-3",
-      "type": "vless",
       "server": "132.243.223.227",
       "port": 2101,
       "uuid": "2edfd299-fd54-4056-9d79-3c99f19bdae1",
@@ -101,6 +80,27 @@
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "fi-grpc-test",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-3",
+      "type": "vless",
+      "server": "150.40.126.24",
+      "port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "rs5.univesalsrv.com",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "gw.v1.ObjectService",
         "grpc-mode": "gun"
       }
     },
@@ -170,21 +170,21 @@
     {
       "name": "ALRZ☃️-7",
       "type": "vless",
-      "server": "lbeiggdz.smart-cats.ru",
-      "port": 443,
-      "uuid": "8325bd97-b77c-4917-acaa-2446e9e8cc03",
+      "server": "122.8.45.4",
+      "port": 8443,
+      "uuid": "2d24e797-ec6c-0808-dd31-9cd22b5dfdc7",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "vk.com",
+      "servername": "download.nvidia.com",
       "flow": "",
-      "client-fingerprint": "firefox",
+      "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "haknewhpjmv",
+        "grpc-service-name": "TunService",
         "grpc-mode": "gun"
       }
     },
@@ -355,27 +355,6 @@
         "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
-    },
-    {
-      "name": "ALRZ☃️-16",
-      "type": "vless",
-      "server": "45.9.156.42",
-      "port": 443,
-      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "bg5.univesalsrv.com",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "gw.v2.RelayService",
-        "grpc-mode": "gun"
-      }
     }
   ],
   "proxy-groups": [
@@ -407,8 +386,7 @@
         "ALRZ☃️-12",
         "ALRZ☃️-13",
         "ALRZ☃️-14",
-        "ALRZ☃️-15",
-        "ALRZ☃️-16"
+        "ALRZ☃️-15"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -434,8 +412,7 @@
         "ALRZ☃️-12",
         "ALRZ☃️-13",
         "ALRZ☃️-14",
-        "ALRZ☃️-15",
-        "ALRZ☃️-16"
+        "ALRZ☃️-15"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -460,8 +437,7 @@
         "ALRZ☃️-12",
         "ALRZ☃️-13",
         "ALRZ☃️-14",
-        "ALRZ☃️-15",
-        "ALRZ☃️-16"
+        "ALRZ☃️-15"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
