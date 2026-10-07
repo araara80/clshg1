@@ -149,6 +149,27 @@
     {
       "name": "ALRZ☃️-6",
       "type": "vless",
+      "server": "152.228.139.33",
+      "port": 51671,
+      "uuid": "75cc7568-abb0-46a8-88be-8137d3c647d4",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "www.sony.com",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "grpc_common3",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-7",
+      "type": "vless",
       "server": "87.239.135.112",
       "port": 443,
       "uuid": "d18c7dfb-94c9-4caa-9d0d-da0e563a71ea",
@@ -164,27 +185,6 @@
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-7",
-      "type": "vless",
-      "server": "87.58.201.211",
-      "port": 443,
-      "uuid": "87fd990d-ca93-440a-bbd4-e8281c4a0910",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "d3-nl1.cloud-cdn.xyz",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "vlgrpc",
         "grpc-mode": "gun"
       }
     },
@@ -317,21 +317,21 @@
     {
       "name": "ALRZ☃️-14",
       "type": "vless",
-      "server": "91.107.179.99",
+      "server": "163.245.43.50",
       "port": 443,
-      "uuid": "97899a35-53a2-42b0-bc47-587d220772a1",
+      "uuid": "203d434a-2a92-45df-8973-ca80434ecf73",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "greenpepper.ir",
+      "servername": "se-twitch.global-cdn.org",
       "flow": "",
-      "client-fingerprint": "firefox",
+      "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "GunService",
+        "grpc-service-name": "content.v1.Feed",
         "grpc-mode": "gun"
       }
     },
@@ -359,23 +359,48 @@
     {
       "name": "ALRZ☃️-16",
       "type": "vless",
-      "server": "rs1.univesalsrv.com",
+      "server": "91.107.179.99",
       "port": 443,
-      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "uuid": "97899a35-53a2-42b0-bc47-587d220772a1",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "",
+      "servername": "greenpepper.ir",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-17",
+      "type": "vless",
+      "server": "27.50.48.155",
+      "port": 443,
+      "uuid": "ab321a49-bc9c-4bb6-915b-a1fcbc7de49c",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "vbox1.ping-box.com",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "node.v2.ObjectService",
+        "grpc-service-name": "GunService",
         "grpc-mode": "gun"
-      }
+      },
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
     }
   ],
   "proxy-groups": [
@@ -408,7 +433,8 @@
         "ALRZ☃️-13",
         "ALRZ☃️-14",
         "ALRZ☃️-15",
-        "ALRZ☃️-16"
+        "ALRZ☃️-16",
+        "ALRZ☃️-17"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -435,7 +461,8 @@
         "ALRZ☃️-13",
         "ALRZ☃️-14",
         "ALRZ☃️-15",
-        "ALRZ☃️-16"
+        "ALRZ☃️-16",
+        "ALRZ☃️-17"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -461,7 +488,8 @@
         "ALRZ☃️-13",
         "ALRZ☃️-14",
         "ALRZ☃️-15",
-        "ALRZ☃️-16"
+        "ALRZ☃️-16",
+        "ALRZ☃️-17"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
