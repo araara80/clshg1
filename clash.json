@@ -65,6 +65,27 @@
     {
       "name": "ALRZ☃️-2",
       "type": "vless",
+      "server": "w907rj.orbitacorp.dev",
+      "port": 443,
+      "uuid": "e75ad2eb-6c1f-45ce-8023-f5f10875df66",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "fi9.eu-cdn294.com",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "1f251e273f",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-3",
+      "type": "vless",
       "server": "132.243.223.227",
       "port": 2101,
       "uuid": "2edfd299-fd54-4056-9d79-3c99f19bdae1",
@@ -84,7 +105,28 @@
       }
     },
     {
-      "name": "ALRZ☃️-3",
+      "name": "ALRZ☃️-4",
+      "type": "vless",
+      "server": "152.228.139.33",
+      "port": 35108,
+      "uuid": "81dc0b61-f9fe-4ad6-8b4e-b8c067b73712",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "www.nvidia.com",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "grpc-common3",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-5",
       "type": "vless",
       "server": "531f38f34b1b1689.mbcloudy.ir",
       "port": 56625,
@@ -105,7 +147,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-4",
+      "name": "ALRZ☃️-6",
       "type": "vless",
       "server": "l4.l-itx.info",
       "port": 7443,
@@ -126,28 +168,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-5",
-      "type": "vless",
-      "server": "109.120.152.26",
-      "port": 443,
-      "uuid": "95621b8e-5cf7-4123-9df4-38d903054a1b",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "dl.google.com",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-6",
+      "name": "ALRZ☃️-7",
       "type": "vless",
       "server": "87.239.135.112",
       "port": 443,
@@ -168,7 +189,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-7",
+      "name": "ALRZ☃️-8",
       "type": "vless",
       "server": "152.228.139.33",
       "port": 51671,
@@ -189,7 +210,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-8",
+      "name": "ALRZ☃️-9",
       "type": "vless",
       "server": "122.8.45.3",
       "port": 8443,
@@ -206,27 +227,6 @@
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "TunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-9",
-      "type": "vless",
-      "server": "109.120.152.26",
-      "port": 443,
-      "uuid": "95621b8e-5cf7-4123-9df4-38d903054a1b",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "dl.google.com",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
     },
