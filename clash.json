@@ -237,30 +237,6 @@
     {
       "name": "ALRZ☃️-10",
       "type": "vless",
-      "server": "31.207.7.117",
-      "port": 443,
-      "uuid": "524dd22d-9f8c-4cc4-9e12-f427f497dff4",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "se-twitch.global-cdn.org",
-      "flow": "",
-      "client-fingerprint": "edge",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "content.v1.Feed",
-        "grpc-mode": "gun"
-      },
-      "alpn": [
-        "h2"
-      ]
-    },
-    {
-      "name": "ALRZ☃️-11",
-      "type": "vless",
       "server": "122.8.45.3",
       "port": 8443,
       "uuid": "3ae00194-1bc0-0bf4-9564-3c55b1c6d485",
@@ -276,6 +252,27 @@
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "TunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-11",
+      "type": "vless",
+      "server": "66.151.40.60",
+      "port": 8444,
+      "uuid": "a346c521-7a7f-452b-9356-a4893feb5982",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "github.com",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
     },
@@ -326,7 +323,7 @@
       "type": "vless",
       "server": "199.232.78.159",
       "port": 443,
-      "uuid": "d397f25a-111f-414d-9216-23d5758da252",
+      "uuid": "703a921a-f11c-4a90-87c4-2126ca58c344",
       "network": "grpc",
       "tls": true,
       "udp": true,
@@ -387,7 +384,7 @@
     {
       "name": "ALRZ☃️-17",
       "type": "vless",
-      "server": "md2.univesalsrv.com",
+      "server": "bg3.univesalsrv.com",
       "port": 443,
       "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
       "network": "grpc",
@@ -396,12 +393,12 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "md2.univesalsrv.com",
+      "servername": "bg3.univesalsrv.com",
       "flow": "",
       "client-fingerprint": "firefox",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "hub.v1.SyncService",
+        "grpc-service-name": "home.v1.ApiService",
         "grpc-mode": "gun"
       }
     }
