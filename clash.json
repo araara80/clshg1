@@ -128,21 +128,21 @@
     {
       "name": "ALRZ☃️-5",
       "type": "vless",
-      "server": "45.91.248.127",
-      "port": 8443,
-      "uuid": "81a227e3-cb97-40fe-b7b6-45a60ed065cf",
+      "server": "193.233.253.180",
+      "port": 8444,
+      "uuid": "f55e9aba-7b14-4f6f-b59a-d5b3d45c9309",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "node.nodebrcsp.ru",
+      "servername": "github.com",
       "flow": "",
-      "client-fingerprint": "random",
+      "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "grpc-api-v2",
+        "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
     },
