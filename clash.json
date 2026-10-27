@@ -86,27 +86,6 @@
     {
       "name": "ALRZ☃️-3",
       "type": "vless",
-      "server": "150.40.126.21",
-      "port": 443,
-      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "rs3.univesalsrv.com",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "edge.v2.FeedService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-4",
-      "type": "vless",
       "server": "150.40.126.22",
       "port": 443,
       "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
@@ -122,6 +101,27 @@
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "media.v1.StreamService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-4",
+      "type": "vless",
+      "server": "md1.univesalsrv.com",
+      "port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "md1.univesalsrv.com",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "hub.v1.RelayService",
         "grpc-mode": "gun"
       }
     },
@@ -170,21 +170,21 @@
     {
       "name": "ALRZ☃️-7",
       "type": "vless",
-      "server": "46.28.71.135",
-      "port": 443,
-      "uuid": "7f6adf9d-42f1-4fec-ab22-fb7f66bf3adc",
+      "server": "152.228.139.33",
+      "port": 35108,
+      "uuid": "81dc0b61-f9fe-4ad6-8b4e-b8c067b73712",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "l97bke0sf1.hat.onl",
+      "servername": "www.nvidia.com",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "v1.segment.UWfv4bkH4bz1Hs3u.ts",
+        "grpc-service-name": "grpc-common3",
         "grpc-mode": "gun"
       }
     },
@@ -317,21 +317,21 @@
     {
       "name": "ALRZ☃️-14",
       "type": "vless",
-      "server": "209.38.243.0",
-      "port": 2025,
-      "uuid": "be91a34d-6faf-43b6-a70b-14e12e5cf973",
+      "server": "S1.LoadBalance.LAT",
+      "port": 9090,
+      "uuid": "6fcb287e-1b92-4c03-b5ca-aa668dad2f51",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "journalofbigdata.springeropen.com",
+      "servername": "refersion.com",
       "flow": "",
-      "client-fingerprint": "random",
+      "client-fingerprint": "firefox",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "GunService",
+        "grpc-service-name": "mgrpcm",
         "grpc-mode": "gun"
       }
     }
