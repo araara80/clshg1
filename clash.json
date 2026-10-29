@@ -107,6 +107,27 @@
     {
       "name": "ALRZ☃️-4",
       "type": "vless",
+      "server": "193.233.253.180",
+      "port": 8444,
+      "uuid": "a346c521-7a7f-452b-9356-a4893feb5982",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "github.com",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-5",
+      "type": "vless",
       "server": "122.8.45.3",
       "port": 8443,
       "uuid": "3ae00194-1bc0-0bf4-9564-3c55b1c6d485",
@@ -126,7 +147,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-5",
+      "name": "ALRZ☃️-6",
       "type": "vless",
       "server": "sca16.myfymain.com",
       "port": 8880,
@@ -147,7 +168,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-6",
+      "name": "ALRZ☃️-7",
       "type": "vless",
       "server": "199.232.78.159",
       "port": 443,
@@ -168,11 +189,11 @@
       }
     },
     {
-      "name": "ALRZ☃️-7",
+      "name": "ALRZ☃️-8",
       "type": "vless",
       "server": "199.232.78.159",
       "port": 443,
-      "uuid": "3faf91f7-9f36-4a9e-aabc-5479455be013",
+      "uuid": "8fc1d153-a17b-45c8-97f3-e3a38a66f451",
       "network": "grpc",
       "tls": true,
       "udp": true,
@@ -189,7 +210,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-8",
+      "name": "ALRZ☃️-9",
       "type": "vless",
       "server": "91.107.179.99",
       "port": 443,
@@ -210,7 +231,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-9",
+      "name": "ALRZ☃️-10",
       "type": "vless",
       "server": "91.107.179.99",
       "port": 443,
@@ -254,7 +275,8 @@
         "ALRZ☃️-6",
         "ALRZ☃️-7",
         "ALRZ☃️-8",
-        "ALRZ☃️-9"
+        "ALRZ☃️-9",
+        "ALRZ☃️-10"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -274,7 +296,8 @@
         "ALRZ☃️-6",
         "ALRZ☃️-7",
         "ALRZ☃️-8",
-        "ALRZ☃️-9"
+        "ALRZ☃️-9",
+        "ALRZ☃️-10"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -293,7 +316,8 @@
         "ALRZ☃️-6",
         "ALRZ☃️-7",
         "ALRZ☃️-8",
-        "ALRZ☃️-9"
+        "ALRZ☃️-9",
+        "ALRZ☃️-10"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
