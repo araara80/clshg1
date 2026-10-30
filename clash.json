@@ -107,6 +107,27 @@
     {
       "name": "ALRZ☃️-4",
       "type": "vless",
+      "server": "13.143.176.83",
+      "port": 443,
+      "uuid": "7b22dce8-7ebd-425b-8ca4-7b6190321985",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "a.es-1.bnc-gt-r1.co.uk",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "grpc",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-5",
+      "type": "vless",
       "server": "122.8.45.3",
       "port": 8443,
       "uuid": "3ae00194-1bc0-0bf4-9564-3c55b1c6d485",
@@ -126,7 +147,28 @@
       }
     },
     {
-      "name": "ALRZ☃️-5",
+      "name": "ALRZ☃️-6",
+      "type": "vless",
+      "server": "152.228.139.33",
+      "port": 51671,
+      "uuid": "75cc7568-abb0-46a8-88be-8137d3c647d4",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "www.sony.com",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "grpc_common3",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-7",
       "type": "vless",
       "server": "sca16.myfymain.com",
       "port": 8880,
@@ -147,7 +189,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-6",
+      "name": "ALRZ☃️-8",
       "type": "vless",
       "server": "199.232.78.159",
       "port": 443,
@@ -168,11 +210,11 @@
       }
     },
     {
-      "name": "ALRZ☃️-7",
+      "name": "ALRZ☃️-9",
       "type": "vless",
       "server": "199.232.78.159",
       "port": 443,
-      "uuid": "8fc1d153-a17b-45c8-97f3-e3a38a66f451",
+      "uuid": "75e237ad-c195-43d1-a871-33ecca2411ea",
       "network": "grpc",
       "tls": true,
       "udp": true,
@@ -189,7 +231,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-8",
+      "name": "ALRZ☃️-10",
       "type": "vless",
       "server": "91.107.179.99",
       "port": 443,
@@ -210,7 +252,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-9",
+      "name": "ALRZ☃️-11",
       "type": "vless",
       "server": "91.107.179.99",
       "port": 443,
@@ -254,7 +296,9 @@
         "ALRZ☃️-6",
         "ALRZ☃️-7",
         "ALRZ☃️-8",
-        "ALRZ☃️-9"
+        "ALRZ☃️-9",
+        "ALRZ☃️-10",
+        "ALRZ☃️-11"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -274,7 +318,9 @@
         "ALRZ☃️-6",
         "ALRZ☃️-7",
         "ALRZ☃️-8",
-        "ALRZ☃️-9"
+        "ALRZ☃️-9",
+        "ALRZ☃️-10",
+        "ALRZ☃️-11"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -293,7 +339,9 @@
         "ALRZ☃️-6",
         "ALRZ☃️-7",
         "ALRZ☃️-8",
-        "ALRZ☃️-9"
+        "ALRZ☃️-9",
+        "ALRZ☃️-10",
+        "ALRZ☃️-11"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
