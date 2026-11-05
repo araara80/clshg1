@@ -44,6 +44,48 @@
     {
       "name": "ALRZ☃️-1",
       "type": "vless",
+      "server": "5.149.248.151",
+      "port": 443,
+      "uuid": "72992f3d-875e-496d-a410-372317076427",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "nla.kosmosapp.net",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "neurex",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-2",
+      "type": "vless",
+      "server": "79.141.164.125",
+      "port": 443,
+      "uuid": "747e42df-2590-4894-8653-c99e358c7852",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "nla.kosmosapp.net",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "neurex",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-3",
+      "type": "vless",
       "server": "93.190.9.2",
       "port": 3090,
       "uuid": "9992be65-f201-44ca-a177-2ca95aaa7ad4",
@@ -63,7 +105,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-2",
+      "name": "ALRZ☃️-4",
       "type": "vless",
       "server": "209.38.222.192",
       "port": 2096,
@@ -84,28 +126,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-3",
-      "type": "vless",
-      "server": "book.jarbook.net",
-      "port": 443,
-      "uuid": "95d0e214-eab0-4701-93ed-fea4f1b56062",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "reg.jarbook.net",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "BookCatalog",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-4",
+      "name": "ALRZ☃️-5",
       "type": "vless",
       "server": "531f38f34b1b1689.mbcloudy.ir",
       "port": 56625,
@@ -122,27 +143,6 @@
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-5",
-      "type": "vless",
-      "server": "book.jarbook.net",
-      "port": 443,
-      "uuid": "95d0e214-eab0-4701-93ed-fea4f1b56062",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "reg.jarbook.net",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "BookCatalog",
         "grpc-mode": "gun"
       }
     },
@@ -170,90 +170,6 @@
     {
       "name": "ALRZ☃️-7",
       "type": "vless",
-      "server": "93.190.9.2",
-      "port": 3090,
-      "uuid": "9992be65-f201-44ca-a177-2ca95aaa7ad4",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "vless",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-8",
-      "type": "vless",
-      "server": "book.jarbook.net",
-      "port": 443,
-      "uuid": "95d0e214-eab0-4701-93ed-fea4f1b56062",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "reg.jarbook.net",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "BookCatalog",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-9",
-      "type": "vless",
-      "server": "book.jarbook.net",
-      "port": 443,
-      "uuid": "95d0e214-eab0-4701-93ed-fea4f1b56062",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "reg.jarbook.net",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "BookCatalog",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-10",
-      "type": "vless",
-      "server": "book.jarbook.net",
-      "port": 443,
-      "uuid": "95d0e214-eab0-4701-93ed-fea4f1b56062",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "reg.jarbook.net",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "BookCatalog",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-11",
-      "type": "vless",
       "server": "sca16.myfymain.com",
       "port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
@@ -273,11 +189,11 @@
       }
     },
     {
-      "name": "ALRZ☃️-12",
+      "name": "ALRZ☃️-8",
       "type": "vless",
       "server": "199.232.78.159",
       "port": 443,
-      "uuid": "ab65d884-67f8-4ea7-bf04-4c2d4fc9d913",
+      "uuid": "77a24c25-7850-4b55-bb4f-f08fff80edd9",
       "network": "grpc",
       "tls": true,
       "udp": true,
@@ -294,28 +210,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-13",
-      "type": "vless",
-      "server": "79.141.164.81",
-      "port": 443,
-      "uuid": "754aa943-ab43-41ec-9791-c0e77d9fbfef",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "nla.kosmosapp.net",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "neurex",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-14",
+      "name": "ALRZ☃️-9",
       "type": "vless",
       "server": "91.107.179.99",
       "port": 443,
@@ -336,7 +231,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-15",
+      "name": "ALRZ☃️-10",
       "type": "vless",
       "server": "91.107.179.99",
       "port": 443,
@@ -353,27 +248,6 @@
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "GunService",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-16",
-      "type": "vless",
-      "server": "5.149.248.151",
-      "port": 443,
-      "uuid": "8b3241d8-0d8e-4f8b-a43a-052a80957840",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "nla.kosmosapp.net",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "neurex",
         "grpc-mode": "gun"
       }
     }
@@ -402,13 +276,7 @@
         "ALRZ☃️-7",
         "ALRZ☃️-8",
         "ALRZ☃️-9",
-        "ALRZ☃️-10",
-        "ALRZ☃️-11",
-        "ALRZ☃️-12",
-        "ALRZ☃️-13",
-        "ALRZ☃️-14",
-        "ALRZ☃️-15",
-        "ALRZ☃️-16"
+        "ALRZ☃️-10"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -429,13 +297,7 @@
         "ALRZ☃️-7",
         "ALRZ☃️-8",
         "ALRZ☃️-9",
-        "ALRZ☃️-10",
-        "ALRZ☃️-11",
-        "ALRZ☃️-12",
-        "ALRZ☃️-13",
-        "ALRZ☃️-14",
-        "ALRZ☃️-15",
-        "ALRZ☃️-16"
+        "ALRZ☃️-10"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -455,13 +317,7 @@
         "ALRZ☃️-7",
         "ALRZ☃️-8",
         "ALRZ☃️-9",
-        "ALRZ☃️-10",
-        "ALRZ☃️-11",
-        "ALRZ☃️-12",
-        "ALRZ☃️-13",
-        "ALRZ☃️-14",
-        "ALRZ☃️-15",
-        "ALRZ☃️-16"
+        "ALRZ☃️-10"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
