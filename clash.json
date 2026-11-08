@@ -65,7 +65,7 @@
     {
       "name": "ALRZ☃️-2",
       "type": "vless",
-      "server": "150.40.126.19",
+      "server": "150.40.126.24",
       "port": 443,
       "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
       "network": "grpc",
@@ -74,17 +74,38 @@
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "rs2.univesalsrv.com",
+      "servername": "rs5.univesalsrv.com",
       "flow": "",
       "client-fingerprint": "firefox",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "media.v1.ObjectService",
+        "grpc-service-name": "gw.v1.ObjectService",
         "grpc-mode": "gun"
       }
     },
     {
       "name": "ALRZ☃️-3",
+      "type": "vless",
+      "server": "89.35.14.30",
+      "port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "md1.univesalsrv.com",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "hub.v1.RelayService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-4",
       "type": "vless",
       "server": "531f38f34b1b1689.mbcloudy.ir",
       "port": 56625,
@@ -105,7 +126,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-4",
+      "name": "ALRZ☃️-5",
       "type": "vless",
       "server": "l4.l-itx.info",
       "port": 7443,
@@ -126,7 +147,28 @@
       }
     },
     {
-      "name": "ALRZ☃️-5",
+      "name": "ALRZ☃️-6",
+      "type": "vless",
+      "server": "89.35.14.30",
+      "port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "md1.univesalsrv.com",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "hub.v1.RelayService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-7",
       "type": "vless",
       "server": "5.149.248.151",
       "port": 443,
@@ -147,7 +189,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-6",
+      "name": "ALRZ☃️-8",
       "type": "vless",
       "server": "sca16.myfymain.com",
       "port": 8880,
@@ -168,7 +210,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-7",
+      "name": "ALRZ☃️-9",
       "type": "vless",
       "server": "91.107.179.99",
       "port": 443,
@@ -189,7 +231,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-8",
+      "name": "ALRZ☃️-10",
       "type": "vless",
       "server": "91.107.179.99",
       "port": 443,
@@ -232,7 +274,9 @@
         "ALRZ☃️-5",
         "ALRZ☃️-6",
         "ALRZ☃️-7",
-        "ALRZ☃️-8"
+        "ALRZ☃️-8",
+        "ALRZ☃️-9",
+        "ALRZ☃️-10"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -251,7 +295,9 @@
         "ALRZ☃️-5",
         "ALRZ☃️-6",
         "ALRZ☃️-7",
-        "ALRZ☃️-8"
+        "ALRZ☃️-8",
+        "ALRZ☃️-9",
+        "ALRZ☃️-10"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -269,7 +315,9 @@
         "ALRZ☃️-5",
         "ALRZ☃️-6",
         "ALRZ☃️-7",
-        "ALRZ☃️-8"
+        "ALRZ☃️-8",
+        "ALRZ☃️-9",
+        "ALRZ☃️-10"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
