@@ -128,6 +128,27 @@
     {
       "name": "ALRZ☃️-5",
       "type": "vless",
+      "server": "185.117.89.74",
+      "port": 443,
+      "uuid": "f8cb3c89-32af-4255-bebc-d90aad175069",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "seb.kosmosapp.net",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "neurex",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-6",
+      "type": "vless",
       "server": "l4.l-itx.info",
       "port": 7443,
       "uuid": "5da05cf7-9913-45a9-a7c6-71a41b1cd713",
@@ -147,7 +168,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-6",
+      "name": "ALRZ☃️-7",
       "type": "vless",
       "server": "sca16.myfymain.com",
       "port": 8880,
@@ -168,11 +189,11 @@
       }
     },
     {
-      "name": "ALRZ☃️-7",
+      "name": "ALRZ☃️-8",
       "type": "vless",
       "server": "www.pexqelo.ir",
       "port": 443,
-      "uuid": "3bf3c4de-5151-46f4-8d93-100ba7334f6a",
+      "uuid": "e3f8d22a-83bd-4566-ae6f-aaa37afa2fa7",
       "network": "grpc",
       "tls": true,
       "udp": true,
@@ -187,30 +208,6 @@
         "grpc-service-name": "@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,",
         "grpc-mode": "gun"
       }
-    },
-    {
-      "name": "ALRZ☃️-8",
-      "type": "vless",
-      "server": "88.80.150.15",
-      "port": 443,
-      "uuid": "1d46250c-f015-439d-a7fd-c4d9e2a4c63d",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "bg2.oncloudvpn.com",
-      "flow": "",
-      "client-fingerprint": "edge",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "grpc",
-        "grpc-mode": "gun"
-      },
-      "alpn": [
-        "h2"
-      ]
     },
     {
       "name": "ALRZ☃️-9",
