@@ -107,6 +107,27 @@
     {
       "name": "ALRZ☃️-4",
       "type": "vless",
+      "server": "edge.mediacorphub.org",
+      "port": 443,
+      "uuid": "1653818d-532e-46be-b825-384107fb7c3a",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "edge.mediacorphub.org",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "hub.v1.ObjectService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-5",
+      "type": "vless",
       "server": "sca16.myfymain.com",
       "port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
@@ -126,11 +147,11 @@
       }
     },
     {
-      "name": "ALRZ☃️-5",
+      "name": "ALRZ☃️-6",
       "type": "vless",
       "server": "www.pexqelo.ir",
       "port": 443,
-      "uuid": "da6bf21f-29e5-4e47-8c59-2fcf64732881",
+      "uuid": "e4dd2767-fbb6-4e9a-b8f4-2dda663d5995",
       "network": "grpc",
       "tls": true,
       "udp": true,
@@ -143,27 +164,6 @@
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,@V2RAYNGRAISI,",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-6",
-      "type": "vless",
-      "server": "91.107.179.99",
-      "port": 443,
-      "uuid": "97899a35-53a2-42b0-bc47-587d220772a1",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "greenpepper.ir",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "GunService",
         "grpc-mode": "gun"
       }
     },
@@ -185,6 +185,90 @@
       "packet-encoding": "xudp",
       "grpc-opts": {
         "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-8",
+      "type": "vless",
+      "server": "91.107.179.99",
+      "port": 443,
+      "uuid": "97899a35-53a2-42b0-bc47-587d220772a1",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "greenpepper.ir",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "GunService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-9",
+      "type": "vless",
+      "server": "89.222.123.211",
+      "port": 16923,
+      "uuid": "c065e1bb-cb56-41e5-b043-9dfd15b67565",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "api-maps.yandex.ru",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "neurex",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-10",
+      "type": "vless",
+      "server": "www.skelmoridianservice.com",
+      "port": 443,
+      "uuid": "ba86b5dd-76c5-4155-be30-dbf0ca09e849",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "velunatrixes.com",
+      "flow": "",
+      "client-fingerprint": "firefox",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "moktana.net.v1.StreamService",
+        "grpc-mode": "gun"
+      }
+    },
+    {
+      "name": "ALRZ☃️-11",
+      "type": "vless",
+      "server": "196.196.148.63",
+      "port": 443,
+      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "skip-cert-verify": false,
+      "tcp-fast-open": true,
+      "fast-open": true,
+      "servername": "717252g.nl8.h1clayd.click",
+      "flow": "",
+      "client-fingerprint": "chrome",
+      "packet-encoding": "xudp",
+      "grpc-opts": {
+        "grpc-service-name": "204adda7e3da",
         "grpc-mode": "gun"
       }
     }
@@ -210,7 +294,11 @@
         "ALRZ☃️-4",
         "ALRZ☃️-5",
         "ALRZ☃️-6",
-        "ALRZ☃️-7"
+        "ALRZ☃️-7",
+        "ALRZ☃️-8",
+        "ALRZ☃️-9",
+        "ALRZ☃️-10",
+        "ALRZ☃️-11"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -228,7 +316,11 @@
         "ALRZ☃️-4",
         "ALRZ☃️-5",
         "ALRZ☃️-6",
-        "ALRZ☃️-7"
+        "ALRZ☃️-7",
+        "ALRZ☃️-8",
+        "ALRZ☃️-9",
+        "ALRZ☃️-10",
+        "ALRZ☃️-11"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -245,7 +337,11 @@
         "ALRZ☃️-4",
         "ALRZ☃️-5",
         "ALRZ☃️-6",
-        "ALRZ☃️-7"
+        "ALRZ☃️-7",
+        "ALRZ☃️-8",
+        "ALRZ☃️-9",
+        "ALRZ☃️-10",
+        "ALRZ☃️-11"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
