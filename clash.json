@@ -44,48 +44,6 @@
     {
       "name": "ALRZ☃️-1",
       "type": "vless",
-      "server": "152.228.139.33",
-      "port": 51671,
-      "uuid": "75cc7568-abb0-46a8-88be-8137d3c647d4",
-      "network": "grpc",
-      "tls": true,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "www.sony.com",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "grpc_common3",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-2",
-      "type": "vless",
-      "server": "213.182.201.57",
-      "port": 3090,
-      "uuid": "83182e55-2298-405d-b4f8-797e47b50174",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
-      "flow": "",
-      "client-fingerprint": "chrome",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "vless",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-3",
-      "type": "vless",
       "server": "209.38.222.192",
       "port": 2096,
       "uuid": "dfee545b-6087-4f13-b2a3-41cc9642d583",
@@ -105,7 +63,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-4",
+      "name": "ALRZ☃️-2",
       "type": "vless",
       "server": "531f38f34b1b1689.mbcloudy.ir",
       "port": 56625,
@@ -126,7 +84,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-5",
+      "name": "ALRZ☃️-3",
       "type": "vless",
       "server": "l4.l-itx.info",
       "port": 7443,
@@ -147,49 +105,28 @@
       }
     },
     {
-      "name": "ALRZ☃️-6",
+      "name": "ALRZ☃️-4",
       "type": "vless",
-      "server": "84.23.52.104",
-      "port": 9118,
-      "uuid": "d81db550-4787-467e-b98a-579ee9d41999",
+      "server": "164.37.224.246",
+      "port": 443,
+      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
       "network": "grpc",
       "tls": true,
       "udp": true,
       "skip-cert-verify": false,
       "tcp-fast-open": true,
       "fast-open": true,
-      "servername": "www.cloudflare.com",
-      "flow": "",
-      "client-fingerprint": "firefox",
-      "packet-encoding": "xudp",
-      "grpc-opts": {
-        "grpc-service-name": "inetgrpc",
-        "grpc-mode": "gun"
-      }
-    },
-    {
-      "name": "ALRZ☃️-7",
-      "type": "vless",
-      "server": "213.182.201.57",
-      "port": 3090,
-      "uuid": "83182e55-2298-405d-b4f8-797e47b50174",
-      "network": "grpc",
-      "tls": false,
-      "udp": true,
-      "skip-cert-verify": false,
-      "tcp-fast-open": true,
-      "fast-open": true,
-      "servername": "",
+      "servername": "717252g.nl8.h1clayd.click",
       "flow": "",
       "client-fingerprint": "chrome",
       "packet-encoding": "xudp",
       "grpc-opts": {
-        "grpc-service-name": "vless",
+        "grpc-service-name": "204adda7e3da",
         "grpc-mode": "gun"
       }
     },
     {
-      "name": "ALRZ☃️-8",
+      "name": "ALRZ☃️-5",
       "type": "vless",
       "server": "sca16.myfymain.com",
       "port": 8880,
@@ -210,11 +147,11 @@
       }
     },
     {
-      "name": "ALRZ☃️-9",
+      "name": "ALRZ☃️-6",
       "type": "vless",
       "server": "www.pexqelo.ir",
       "port": 443,
-      "uuid": "4be6a7bb-116b-4131-9903-51a60a621f53",
+      "uuid": "83aed2c7-a78a-463d-b27b-783400f6f047",
       "network": "grpc",
       "tls": true,
       "udp": true,
@@ -231,7 +168,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-10",
+      "name": "ALRZ☃️-7",
       "type": "vless",
       "server": "91.107.179.99",
       "port": 443,
@@ -252,7 +189,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-11",
+      "name": "ALRZ☃️-8",
       "type": "vless",
       "server": "91.107.179.99",
       "port": 443,
@@ -273,7 +210,7 @@
       }
     },
     {
-      "name": "ALRZ☃️-12",
+      "name": "ALRZ☃️-9",
       "type": "vless",
       "server": "189.30.65.203",
       "port": 2083,
@@ -317,10 +254,7 @@
         "ALRZ☃️-6",
         "ALRZ☃️-7",
         "ALRZ☃️-8",
-        "ALRZ☃️-9",
-        "ALRZ☃️-10",
-        "ALRZ☃️-11",
-        "ALRZ☃️-12"
+        "ALRZ☃️-9"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -340,10 +274,7 @@
         "ALRZ☃️-6",
         "ALRZ☃️-7",
         "ALRZ☃️-8",
-        "ALRZ☃️-9",
-        "ALRZ☃️-10",
-        "ALRZ☃️-11",
-        "ALRZ☃️-12"
+        "ALRZ☃️-9"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 120,
@@ -362,10 +293,7 @@
         "ALRZ☃️-6",
         "ALRZ☃️-7",
         "ALRZ☃️-8",
-        "ALRZ☃️-9",
-        "ALRZ☃️-10",
-        "ALRZ☃️-11",
-        "ALRZ☃️-12"
+        "ALRZ☃️-9"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": 300,
